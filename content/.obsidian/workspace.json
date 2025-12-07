@@ -1,41 +1,70 @@
 {
   "main": {
-    "id": "7c45d6dd8596b119",
+    "id": "f1416fdb28c65082",
     "type": "split",
     "children": [
       {
-        "id": "d7f331adcd27925f",
+        "id": "b7373c62a4826514",
         "type": "tabs",
         "children": [
           {
-            "id": "d6cb8240b3e85df4",
+            "id": "099d6d87c8d732d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-jukebox/alb-2/index.md",
-                "mode": "preview",
+                "file": "cmdp-index.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "cmdp-index"
+            }
+          },
+          {
+            "id": "353971126ff5a347",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "memos/10.1.3-cmdp-coord.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10.1.3-cmdp-coord"
+            }
+          },
+          {
+            "id": "30220611f1fad5d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "memos/10.16.1-cbrn-officer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10.16.1-cbrn-officer"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b17956cf6ddf7be1",
+    "id": "39f9e0152237acfd",
     "type": "split",
     "children": [
       {
-        "id": "216b6d35d494e580",
+        "id": "3dadb87b34d27d4f",
         "type": "tabs",
         "children": [
           {
-            "id": "56b90a32006be259",
+            "id": "88ecab6d8fd8fa24",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +77,12 @@
             }
           },
           {
-            "id": "668d53f242ad0eb4",
+            "id": "5b8d063ee5e382ed",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:workbook-v3-2",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +94,7 @@
             }
           },
           {
-            "id": "fad2892c1f542ada",
+            "id": "3df6a521b9cea23b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +110,20 @@
     "width": 300
   },
   "right": {
-    "id": "cdb7b6ac80b5e510",
+    "id": "5052c2954ae7da08",
     "type": "split",
     "children": [
       {
-        "id": "ac24d6db480e3867",
+        "id": "fd2a49abe23aaf56",
         "type": "tabs",
         "children": [
           {
-            "id": "963f03e0b549a771",
+            "id": "4a7256c97fbf8e94",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-jukebox/alb-1/index.md",
+                "file": "cmdp-memos-fy24-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +133,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for cmdp-memos-fy24-24"
             }
           },
           {
-            "id": "3371c1118a5fc4f3",
+            "id": "4bcf5dc737d2b114",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-jukebox/alb-1/index.md",
+                "file": "cmdp-memos-fy24-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from cmdp-memos-fy24-24"
             }
           },
           {
-            "id": "daea5dc99e7b6afd",
+            "id": "2c68ec7b73213c48",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +166,18 @@
             }
           },
           {
-            "id": "af64afe630fcc3d4",
+            "id": "b8225983c4f495c0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-jukebox/alb-1/index.md",
+                "file": "cmdp-memos-fy24-24.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of cmdp-memos-fy24-24"
             }
           }
         ]
@@ -169,44 +198,42 @@
       "bases:Create new base": false
     }
   },
-  "active": "d6cb8240b3e85df4",
+  "active": "30220611f1fad5d4",
   "lastOpenFiles": [
-    "10-jukebox/alb-1/README.md",
-    "10-jukebox/alb-1/index.md",
-    "05-category-5/index.md",
-    "05-category-5/content-page-2.md",
-    "05-category-5/content-page-1.md",
-    "04-category-4/content-page-2.md",
-    "04-category-4/content-page-1.md",
-    "03-category-3/index.md",
-    "03-category-3/content-page-2.md",
-    "03-category-3/content-page-1.md",
-    "02-category-2/index.md",
-    "02-category-2/content-page-2.md",
-    "02-category-2/content-page-1.md",
-    "01-category-1/index.md",
-    "01-category-1/content-page-2.md",
-    "01-category-1/content-page-1.md",
-    "00-welcome/2-content-page-2.md",
-    "00-welcome/1-content-page-1.md",
-    "00-welcome/index.md",
-    "index.md",
-    "10-jukebox/index.md",
-    "10-jukebox/alb-2/index.md",
-    "10-jukebox/alb-2/README.md",
-    "10-jukebox/alb-2/alb2-ca/alb2-ca.jpg",
-    "10-jukebox/alb-2/alb2-ca/alb1-ca 1.jpg",
-    "10-jukebox/alb-2/alb2-ca/alb2-s10-ca.jpg",
-    "10-jukebox/alb-2/alb2-ca/alb2-s9-ca.jpg",
-    "10-jukebox/alb-2/alb2-ca/alb2-s8-ca.jpg",
-    "10-jukebox/alb-2/alb2-ca/alb2-s7-ca.jpg",
-    "10-jukebox/alb-2/alb2-ca/alb2-s6-ca.jpg",
-    "10-jukebox/alb-2/alb2-ca/alb2-s5-ca.jpg",
-    "10-jukebox/alb-2/alb2-ca/alb2-s4-ca.jpg",
-    "10-jukebox/alb-2/alb2-ca/alb2-s3-ca.jpg",
-    "04-category-4/index.md",
-    "10-jukebox/alb-1/alb1-song/alb1-song1.mp3",
-    "01-category-1/README.md",
-    "00-welcome/README.md"
+    "cmdp-index.md",
+    "memos/downloads/~$016.1-cbrn-officer-appointment-memo.docx",
+    "memos/downloads/~WRL0367.tmp",
+    "memos/downloads/~WRD0352.tmp",
+    "memos/downloads/1.016.1-cbrn-officer-appointment-memo.docx",
+    "memos/10.16.1-cbrn-asst.md",
+    "memos/downloads/~WRL1705.tmp",
+    "memos/downloads/~WRD1698.tmp",
+    "memos/downloads/~$.16-1.cbrn-assistant-appointment-memo.docx",
+    "memos/downloads/~WRL0637.tmp",
+    "memos/downloads/~WRD0617.tmp",
+    "memos/downloads/10.16-1.cbrn-assistant-appointment-memo.docx",
+    "memos/10.16.1-cbrn-primary.md",
+    "memos/10.16.1-rad-safe-officer.md",
+    "memos/10.15.12-arms-room-officer.md",
+    "memos/10.15.12-assistant-armorer.md",
+    "memos/10.15.12-unit-armorer.md",
+    "memos/10.14.2-battery-operator.md",
+    "memos/10.14.1-battery-program.md",
+    "memos/00.0-example-memo.md",
+    "memos/10.12.1-key-custodian.md",
+    "memos/10.10.5-license-instructor.md",
+    "memos/10.1.3-cmdp-coord.md",
+    "sops/sop-arms-room.md",
+    "memos/10.11.2-tool-room-cust.md",
+    "memos/10.10.7-nvd-instructor.md",
+    "memos/10.10.6-license-examiner.md",
+    "memos/10.10.4-master-driver.md",
+    "memos/10.4.2-environmental-officer.md",
+    "memos/10.1.34-records-coord.md",
+    "memos/10.5.2-aoap-monitor.md",
+    "memos/10.1.23-safety-officer.md",
+    "memos/downloads/memo-aoap-monitor.md",
+    "memos/memo-maint-officer.md",
+    "memos/10.16.1-cbrn-officer.md"
   ]
 }
