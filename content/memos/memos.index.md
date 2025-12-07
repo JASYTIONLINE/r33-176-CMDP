@@ -146,7 +146,7 @@ Each memo listed here corresponds directly to a checklist line that explicitly s
 ---
 
 # A. General Operations
-- [[memos/memo-maint-officer|Maintenance Officer Appointment Memo]]
+- [[10.1.1-maint-officer|Maintenance Officer Appointment Memo]]
 - [[10.1.3-cmdp-coord|CMDP Coordinator Appointment Memo]]
 - [[10.1.23-safety-officer|Safety Officer Appointment Memo]]
 - [[10.1.34-records-coord|Unit Records Coordinator Appointment Memo]]

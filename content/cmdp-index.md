@@ -18,7 +18,7 @@ Select the appropriate memorandum when building your CMDP document packet.
 ---
 
 ## A. General Operations
-- [[memos/memo-maint-officer.md|Maintenance Officer Appointment Memo — **Ref: 10(1)-1**]]
+- [[10.1.1-maint-officer|Maintenance Officer Appointment Memo — **Ref: 10(1)-1**]]
 - [[memos/10.1.3-cmdp-coord.md|CMDP Coordinator Appointment Memo — **Ref: 10(1)-3**]]
 - [[10.1.23-safety-officer|Safety Officer Appointment Memo — **Ref: 10(1)-23**]]
 - [[10.1.34-records-coord|Unit Records Coordinator Appointment Memo — **Ref: 10(1)-34**]]
@@ -73,31 +73,31 @@ If these SOPs are missing, the unit receives a **NO-GO** for the referenced line
 
 ---
 
-## Maintenance SOP
+## [[content/sops/10.1.6.7.8-sop-maintenance.md|Maintenance SOP]]
 - **Ref: 10(1)-6, 10(1)-7, 10(1)-8**
 
-## Driver Training SOP
+## [[content/sops/101.10.1-sop-driver-training.md|Driver Training SOP]]
 - **Ref: 10(10)-1**
 
-## Environmental / HAZMAT SOP
+## [[content/sops/10.4.3-sop-environmental.md|Environmental / HAZMAT SOP]]
 - **Ref: 10(4)-3**
 
-## Battery Maintenance SOP
+## [[content/sops/10.14.3-sop-battery-program.md|Battery Maintenance SOP]]
 - **Ref: 10(14)-3**
 
-## Arms Room / Weapons Maintenance SOP
+## [[content/sops/10.15.1-sop-arms-room.md|Arms Room / Weapons Maintenance SOP]]
 - **Ref: 10(15)-1**
 
-## CBRN Operations SOP
+## [[content/sops/10.16.2-sop-cbrn.md|CBRN Operations SOP]]
 - **Ref: 10(16)-2**
 
-## Publications SOP
+## [[content/sops/10.18.1-sop-publications.md|Publications SOP]]
 - **Ref: 10(18)-1**
 
-## Tool Room SOP
+## [[content/sops/10.11.1-sop-tool-room.md|Tool Room SOP]]
 - **Ref: 10(11)-1**
 
-## Dispatch SOP
+## [[content/sops/10.2.2-sop-dispatch.md|Dispatch SOP]]
 - **Ref: 10(2)-2**
 
 ---

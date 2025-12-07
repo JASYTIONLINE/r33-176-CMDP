@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "c6ef474cc4993e33",
+    "type": "split",
+    "children": [
+      {
+        "id": "d19b52da47c0a814",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "094cde45ef84f6c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/sops/sops.index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "sops.index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aad7462b0a8ec5c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "c32f6cf8d6fc36ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b91386a48dd0230",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "aa16f4811b6e55ac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9bdf51dadb6eb0f3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "52c062667da4feab",
+    "type": "split",
+    "children": [
+      {
+        "id": "15b1fb221f79b101",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2564250be5fb0ae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/sops/sops.index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for sops.index"
+            }
+          },
+          {
+            "id": "8faa98dc3e32c71b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/sops/sops.index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from sops.index"
+            }
+          },
+          {
+            "id": "a960c43716a2d1ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "719809a5667f0a46",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2b0ff304c8331b10",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/sops/sops.index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of sops.index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "094cde45ef84f6c0",
+  "lastOpenFiles": [
+    "content/cmdp-index.md",
+    "content/sops/sops.index.md",
+    "content/sops/10.18.1-sop-publications.md",
+    "content/sops/10.4.3-sop-environmental.md",
+    "content/memos/10.16.1-cbrn-officer.md",
+    "content/memos/downloads/~WRL0005.tmp",
+    "content/memos/downloads/~WRD0004.tmp",
+    "content/memos/downloads/~$.16.1-cbrn-officer-appointment-memo.docx",
+    "content/memos/downloads/~WRL0001.tmp",
+    "content/memos/downloads/~WRD0000.tmp",
+    "content/memos/downloads/10.16.1-cbrn-officer-appointment-memo.docx"
+  ]
+}
