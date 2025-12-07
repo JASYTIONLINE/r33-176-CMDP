@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "ggamel.github.io/template-knowledge-base-docs/",
+    baseUrl: "JASYTIONLINE.github.io/r33-176-CMDP/",
     ignorePatterns: ["private", "_templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
