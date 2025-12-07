@@ -1,4 +1,4 @@
-<span id="top"></span>  
+ 
 CMDP Compliance Index (FY24–25)
 ## Introduction
 The Command Maintenance Discipline Program (CMDP) establishes the minimum inspection requirements that all units must meet in order to maintain Army-standard maintenance discipline. This document serves as the **index page** for Project: CMDP Preparation 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/sops/sops.index.md",
+                "file": "content/memos/memos.index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sops.index"
+              "title": "memos.index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/sops/sops.index.md",
+                "file": "content/memos/memos.index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for sops.index"
+              "title": "Backlinks for memos.index"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/sops/sops.index.md",
+                "file": "content/memos/memos.index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from sops.index"
+              "title": "Outgoing links from memos.index"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/sops/sops.index.md",
+                "file": "content/memos/memos.index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sops.index"
+              "title": "Outline of memos.index"
             }
           }
         ]
@@ -185,11 +185,11 @@
   },
   "active": "094cde45ef84f6c0",
   "lastOpenFiles": [
+    "content/cmdp-index.md",
+    "content/sops/sops.index.md",
     "assets/screeenshot.png",
     "assets",
     "New folder",
-    "content/cmdp-index.md",
-    "content/sops/sops.index.md",
     "content/sops/10.18.1-sop-publications.md",
     "content/sops/10.4.3-sop-environmental.md",
     "content/memos/10.16.1-cbrn-officer.md",
