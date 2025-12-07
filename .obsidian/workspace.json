@@ -185,6 +185,8 @@
   },
   "active": "094cde45ef84f6c0",
   "lastOpenFiles": [
+    "RECOVERY_GUIDE.md",
+    "BLOAT_ANALYSIS.md",
     "content/memos/downloads/10.5.2-aoap-monitor-appointment-memo.docx",
     "content/memos/downloads/10.4.2-environmental-officer-appointment-memo.docx",
     "content/memos/downloads/10.16.1-radiation-safety-officer-appointment-memo.docx",
@@ -195,7 +197,6 @@
     "content/memos/downloads/10.15.12-assistant-armorer-appointment-memo.docx",
     "content/memos/downloads/10.14.2-battery-maintenance-operator-appointment.docx",
     "content/memos/downloads/10.14.1-battery-program-memorandum.docx",
-    "content/memos/downloads/10.12.1-key-custodian-pointment-memo.docx",
     "content/memos/memos.index.md",
     "content/memos/10.5.2-aoap-monitor.md",
     "content/memos/10.4.2-environmental-officer.md",
@@ -220,7 +221,6 @@
     "content/memos/10.1.1-maint-officer.md",
     "content/memos/00.0-example-memo.md",
     "memos/memos.index.md",
-    "memos/10.5.2-aoap-monitor.md",
     "assets/screeenshot.png"
   ]
 }
