@@ -102,7 +102,7 @@ If these SOPs are missing, the unit receives a **NO-GO** for the referenced line
 
 ---
 
-# Navigation
+# Navigation.
 Use the links below to move between memorandums, SOPs, and templates.
 
 - [[cmdp-index|Home]]
