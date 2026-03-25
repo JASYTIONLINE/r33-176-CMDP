@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>10.1.6.7.8 - Ground Maintenance SOP (Draft)</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <style>
+    .sop-shell { max-width: 900px; margin: 0 auto; background: #fff; border: 1px solid #d9d9d9; box-shadow: 0 2px 10px rgba(0,0,0,.08); padding: 2rem; font-family: Arial, sans-serif; font-size: 12pt; line-height: 1.15; }
+    .sop-meta { margin-bottom: 1rem; color: #4a4a4a; }
+    .sop-actions { display:flex; flex-wrap:wrap; justify-content: center; gap:.75rem; margin: 1rem 0 1.5rem; }
+    .sop-actions button { border: 0; cursor: pointer; }
+    .sop-actions a { border: 0; }
+    .draft-banner { background:#fff4d6; border:1px solid #e5c878; border-left:6px solid #c99700; border-radius:4px; padding:1rem; margin:0 0 1rem; }
+    .draft-banner p { margin:.25rem 0; }
+    .sop-body h2.chapter { margin-top:2rem; border-top:2px solid #ddd; padding-top:1rem; }
+    .sop-body h3 { margin-top:1.35rem; }
+    .sop-body p, .sop-body li { color:#222; margin: 0 0 12pt 0; }
+    .ar2550-note { margin: 0 0 12pt; padding: .75rem; background: #f4f7fb; border-left: 4px solid #0065a4; }
+    .sop-start-divider { border: none; border-top: 3px solid #000; margin: 2rem 0 1.25rem; }
+    .cover-block { margin: 0 0 1.75rem; }
+    .cover-block p { margin: 0 0 0.65rem; }
+    .cover-center { text-align: center; }
+    .cover-right { text-align: right; }
+    .cover-left { text-align: left; }
+    .back-to-top-float {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      z-index: 1000;
+      display: inline-block;
+      padding: 0.8rem 1rem;
+      border-radius: 4px;
+    }
+    @media (max-width: 768px) { .sop-shell { padding: 1rem; } }
+    @media print {
+      /* Force 1-inch content margins via padding (browser @page handling varies). */
+      @page { size: auto; margin: 0; }
+      html, body { margin: 0 !important; padding: 0 !important; }
+      body { background:#fff !important; padding: 1in !important; }
+      header, nav, footer, .sop-actions { display:none !important; }
+      main { max-width:none; margin:0; padding:0; box-shadow:none; min-height:auto; }
+      .sop-shell { border:none; box-shadow:none; padding:0; max-width:none; margin: 0 !important; }
+      .draft-banner { display:none !important; }
+      a[href]:after { content: ""; }
+      /* Force all printed text to black (covers blue heading styles from global CSS). */
+      html, body, .sop-shell * { color:#000 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      h1, h2, h3, h4, p, li, strong { color:#000 !important; }
+      .sop-start-divider { border-top-color: #000 !important; }
+      .back-to-top-float { display: none !important; }
+      .sop-body h2.chapter, .sop-body h3 { break-after: avoid; }
+      .sop-body p, .sop-body li { orphans:3; widows:3; }
+    }
+  </style>
+</head>
+<body id="page-top">
+  <header><h1>CMDP Compliance Documents</h1></header>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../memos/index.html">Memos</a></li>
+      <li><a href="index.html">SOPs</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="sop-shell">
+      <!-- DRAFT BLOCK START: remove this section when approved -->
+      <section id="draft-banner" class="draft-banner">
+        <h2>Draft Notice</h2>
+        <p><strong>Status:</strong> Draft for review and coordination.</p>
+        <p>Delete this entire block on approval to publish as final.</p>
+      </section>
+      
+      <div class="sop-actions">
+        <button type="button" class="download-btn" onclick="window.print()">Download PDF</button>
+        <button type="button" class="download-btn" onclick="window.print()">Print SOP</button>
+        <a class="download-btn" href="176th-en-bde-maint-%20sop-fdv-1-2026-03-25.docx" download>Download Word</a>
+      </div>
+      <hr class="sop-start-divider" />
+      <article class="sop-body">
+        <div class="cover-block">
+          <p class="cover-left">TEXAS MILITARY DEPARTMENT</p>
+          <p class="cover-left">TEXAS ARMY NATIONAL GUARD (TXARNG)</p>
+          <p class="cover-left">P.O. BOX 5218<br/>AUSTIN, TX 78763-5218<br/>[INSERT DATE]</p>
+          <p class="cover-center">176TH EN BDE GROUND MAINTENANCE STANDARD OPERATING PROCEDURES</p>
+          <p class="cover-center">176TH EN BDE GROUND MAINTENANCE SOP<br/>By Order of the Commander, 176th Engineer Brigade(TXARNG)</p>
+          </br>
+          <p class="cover-right">DRAFT-For Reference Only</p>
+          </br>
+          <p class="cover-right">OFFICIAL:<br/>Zebediah E. Miller<br/>COL, TXARNG<br/>Commander</p>
+          <p class="cover-left">Summary: This SOP establishes standards, policies, and procedures for the execution of maintenance operations within the 176th EN BDE. It provides guidance for maintenance management, operator training, dispatching, safety, and documentation in accordance with AR 750-1, DA PAM 750-8, AR 385-10, and applicable TXARNG policies. When used in conjunction with applicable regulations and technical manuals, this SOP establishes the maintenance program for the 176th EN BDE.</p>
+          <p class="cover-left">Commanders Review: Maintenance Responsibilities Chapter 4; TAMMS and Records Chapter 5; GCSS-Army Chapter 6; CMDP Chapter 7; Dispatching Chapter 8; Operator Training Chapter 9; Safety Chapter 10</p>
+          <p class="cover-left">Applicability: This SOP applies to all units and personnel assigned or attached to the 176th EN BDE who operate, maintain, supervise, or manage equipment. Personnel operating vehicles or equipment must meet all training, qualification, and licensing requirements in accordance with applicable Army regulations and unit SOPs.</p>
+          <p class="cover-left">Supplementation: Supplementation of this SOP is authorized at the unit level. Subordinate unit SOPs will not conflict with this SOP or higher-level regulations and will be approved by the unit commander.</p>
+          <p class="cover-left">Suggested Improvements: The proponent for this SOP is the 176th EN BDE S4. Users are encouraged to submit recommended changes or improvements through their chain of command to the Brigade S4.</p>
+          <p class="cover-left">Distribution. A</p>
+          <p class="cover-center">A</p>
+        </div>
+        <h2>SUMMARY of CHANGE</h2>
+<p>176th EN BDE Ground Maintenance SOP</p>
+<p>This administrative revision, dated 25 March 2026</p>
+<p>Expands and clarifies unit-level commander responsibilities for maintenance management, to include oversight of Global Combat Support System-Army (GCSS-Army), preventive maintenance checks and services (PMCS), and Command Maintenance Discipline Program (CMDP) execution.</p>
+<p>Incorporates GCSS-Army processes and requirements, to include fault entry timelines, work order management, role assignment, and certification requirements for maintenance personnel.</p>
+<p>Establishes specific timelines and standards for maintenance actions, including fault identification, entry, tracking, and equipment mileage updates, to improve accountability and readiness.</p>
+<p>Formalizes CMDP implementation at the unit level, including responsibilities for supervision, enforcement, and integration into training and maintenance operations.</p>
+<p>Updates and expands procedures for PMCS, dispatching, scheduled services, and maintenance workflows to align with current Army maintenance systems and best practices.</p>
+<p>Adds detailed training requirements for maintenance personnel, including Master Drivers, licensing officials, and GCSS-Army role-based training and certification.</p>
+<p>Improves organization, clarity, and enforceability of maintenance policies and procedures to support standardized execution across subordinate units.</p>
+<h2 class="chapter">Chapter 1 – General</h2>
+<h2>1-1. Purpose</h2>
+<p>This SOP establishes policies, responsibilities, and procedures for the execution of maintenance operations within the 176th EN BDE. It provides standardized guidance for the management of maintenance operations using Global Combat Support System–Army (GCSS-Army) and The Army Maintenance Management System (TAMMS) to achieve and sustain maximum equipment readiness.</p>
+<p>This SOP reinforces maintenance policies established in AR 750-1, TXARNG maintenance policy, and applicable state-level guidance. It provides direction for the care, maintenance, and accountability of tactical vehicles, engineer equipment, ground support equipment, and non-tactical equipment assigned to subordinate units.</p>
+<p>This SOP establishes GCSS-Army as the system of record and execution for all maintenance actions and serves as the primary reference for brigade maintenance operations, or directs users to the appropriate governing regulation when required. All maintenance operations will be performed in accordance with AR 750-1 and DA PAM 750-8 standards. Maintenance actions, records, and reporting will comply with TAMMS requirements and are subject to validation and enforcement through the Command Maintenance Discipline Program (CMDP). Commanders at all levels will ensure maintenance is executed to standard, properly documented, and continuously assessed for compliance and readiness.</p>
+<h3>1-2. Scope</h3>
+<p>This SOP applies to all units and personnel assigned or attached to the 176th EN BDE who operate, maintain, supervise, or manage equipment.</p>
+<p>This SOP is applicable to all levels of maintenance within the brigade and will be used in conjunction with AR 750-1, DA PAM 750-8, DA PAM 750-3, TXARNG maintenance policy, and other applicable maintenance publications. It establishes standardized procedures for maintenance management, documentation, and reporting, ensuring all actions are traceable, auditable, and compliant with TAMMS and GCSS-Army requirements. It serves as a single reference for brigade maintenance operations or directs users to the appropriate governing regulation.</p>
+<h3>1-3. Objective</h3>
+<p>The objective of this SOP is to achieve and maintain 90 percent or higher operational readiness by ensuring early detection and correction of equipment faults at the lowest practical level.</p>
+<p>This objective is supported by:</p>
+<p>Enforcing disciplined PMCS execution in accordance with applicable technical manuals</p>
+<p>Ensuring accurate and timely fault identification, recording, and correction</p>
+<p>Maintaining complete and auditable maintenance records within TAMMS and GCSS-Army</p>
+<p>Ensuring maintenance actions are properly documented, tracked, and closed out</p>
+<p>Identifying systemic maintenance issues and elevating them through the chain of command for resolution</p>
+<h3>1-4. References</h3>
+<p>The following publications govern maintenance operations and are the primary references for this SOP:</p>
+<p>AR 750-1, Army Materiel Maintenance Policy</p>
+<p>DA PAM 750-8, TAMMS Users Manual</p>
+<p>DA PAM 750-3</p>
+<p>AR 710-2, Supply Policy Below the National Level</p>
+<p>Applicable TM -10/-20 series manuals</p>
+<p>TXARNG maintenance policy and state guidance as applicable</p>
+<h3>1-5. Proponent and Exception Authority</h3>
+<p>The proponent of this SOP is the 176th EN BDE. The Brigade Commander is the approval authority for this SOP and has the authority to approve exceptions or waivers that are consistent with governing regulations.</p>
+<p>Requests for exception or waiver will:</p>
+<p>Include justification and impact analysis</p>
+<p>Be endorsed by the requesting commander</p>
+<p>Be routed through the appropriate chain of command</p>
+<h3>1-6. Suggested Improvements</h3>
+<p>Users are encouraged to submit recommendations for improvement to the Brigade S4. Recommendations should clearly identify the proposed change and justification.</p>
+<h3>1-7. Revisions</h3>
+<p>The Brigade S4 has staff responsibility for the continuous review and update of this SOP. This SOP will be reviewed annually or as required based on changes to regulations, systems, or operational requirements</p>
+<h3>1-8. Unit Maintenance SOP Requirement</h3>
+<p>All subordinate units performing maintenance will maintain a commander-approved maintenance SOP.</p>
+<p>Unit SOPs will:</p>
+<p>Align with this SOP and higher-level regulations</p>
+<p>Be signed by the unit commander</p>
+<p>Be used in conjunction with applicable Army maintenance publications</p>
+<p>Not contradict brigade-level guidance</p>
+<p>Units may adopt this SOP in full or use it as the baseline for their internal SOP</p>
+<h2 class="chapter">Chapter 2</h2>
+<h2>Organization For Maintenance</h2>
+<h3>2-1. General Maintenance is a continuous process conducted in both garrison and field environments and is a command responsibility at all levels. Maintenance operations will be planned, scheduled, supervised, and evaluated to ensure maximum equipment readiness.</h3>
+<p>Maintenance requirements will be integrated into unit training plans and reflected on training schedules. Units will allocate sufficient time and resources to conduct maintenance operations in accordance with AR 750-1.</p>
+<p>The chain of command exercises control over maintenance activities. Commanders will establish a maintenance structure that clearly defines responsibilities and ensures effective execution of maintenance operations. Maintenance organization and responsibilities are based on unit MTOE and guided by applicable Army Maintenance Execution Guidance (AMEG) and TXARNG maintenance policy.</p>
+<p>Maintenance managers are defined in Chapter 4 and are responsible for planning, organizing, directing, coordinating, and controlling maintenance operations.</p>
+<h3>2-2. Maintenance Structure The Army maintenance system consists of two levels:</h3>
+<p>Field Maintenance Field Maintenance includes operator/crew, unit, and direct support maintenance tasks. These functions are performed by unit personnel and supporting maintenance organizations. Field maintenance is the primary means of sustaining equipment readiness at the lowest level.</p>
+<p>Sustainment Maintenance Sustainment Maintenance consists of maintenance tasks above field-level capability and is performed by external maintenance organizations. Units will evacuate equipment to supporting maintenance activities when repairs exceed field maintenance capability.</p>
+<h3>2-3. Maintenance Operations Framework Maintenance operations within the brigade will be executed through a structured framework consisting of:</h3>
+<p>Preventive Maintenance Checks and Services (PMCS)</p>
+<p>Fault identification, reporting, and correction</p>
+<p>Work order management through GCSS-Army</p>
+<p>Scheduled services and maintenance planning</p>
+<p>Coordination with supporting maintenance activities</p>
+<p>All maintenance actions will be documented and tracked in GCSS-Army to ensure visibility, accountability, and compliance with TAMMS requirements.</p>
+<h3>2-4. Command and Staff Relationships Maintenance operations are executed through coordination between command teams, staff officers, and maintenance personnel.</h3>
+<p>Commanders retain overall responsibility for maintenance</p>
+<p>Executive Officers manage and synchronize maintenance operations</p>
+<p>Maintenance Officers provide technical oversight and guidance</p>
+<p>Motor Sergeants supervise execution at the company level</p>
+<p>Maintenance managers are defined in Chapter 4</p>
+<p>Commanders and leaders at all levels will continuously supervise and evaluate maintenance operations to ensure compliance with established standards.</p>
+<h3>2-5. Maintenance Support Relationships Battalions and companies receive maintenance support from designated maintenance organizations, including:</h3>
+<p>Field Maintenance Shops (FMS)</p>
+<p>Unit Training Equipment Sites (UTES)</p>
+<p>Maneuver Area Training Equipment Sites (MATES)</p>
+<p>Field Maintenance Teams (FMT)</p>
+<p>Forward Support Companies (FSC)</p>
+<p>Units will coordinate with assigned and supporting maintenance organizations to ensure timely repair, evacuation, and return of equipment. Supporting maintenance relationships are established based on unit alignment and support agreements.</p>
+<h3>2-6. Maintenance Planning and Integration Maintenance operations will be integrated into all training and operational planning.</h3>
+<p>Maintenance periods will be scheduled on unit training calendars</p>
+<p>Commanders will ensure PMCS is conducted during each training cycle</p>
+<p>Maintenance priorities will be aligned with mission requirements</p>
+<p>Resources will be allocated to support maintenance execution</p>
+<p>Maintenance planning will ensure equipment readiness is sustained to support operational requirements.</p>
+<h3>2-7. Maintenance Responsibility and Accountability Maintenance is a command responsibility. Commanders at all levels will:</h3>
+<p>Ensure equipment is properly maintained and accounted for</p>
+<p>Enforce maintenance standards and discipline</p>
+<p>Ensure maintenance actions are documented and tracked in GCSS-Army</p>
+<p>Allocate time, personnel, and resources for maintenance operations</p>
+<p>Conduct inspections and enforce corrective actions through CMDP</p>
+<p>All maintenance actions must be properly recorded, verified, and auditable in accordance with TAMMS and GCSS-Army requirements.</p>
+<h2 class="chapter">Chapter 3</h2>
+<h2>Maintenance Policies, Operations, And Management</h2>
+<h3>3-1. General (-10/-20 Standards) All equipment will be maintained to the applicable -10/-20 standards in accordance with AR 750-1 and applicable technical manuals. Maintenance will be performed at the lowest level capable of completing the repair.</h3>
+<p>Operators and crews are responsible for identifying faults and performing operator-level maintenance. Faults identified during PMCS will be corrected immediately at the operator level when parts, tools, and time are available.</p>
+<p>Leaders at all levels will ensure maintenance is properly supervised, documented, and enforced.</p>
+<h3>3-2. Command Maintenance Discipline Program (CMDP) CMDP is the commander’s primary tool to enforce maintenance standards and ensure compliance with Army maintenance policy.</h3>
+<p>Commanders will—</p>
+<p>Establish and maintain an effective CMDP</p>
+<p>Conduct scheduled and unscheduled inspections</p>
+<p>Ensure deficiencies are corrected and tracked to completion</p>
+<p>Validate maintenance operations, documentation, and readiness reporting</p>
+<p>CMDP inspections will evaluate PMCS execution, GCSS-Army accuracy, maintenance documentation, equipment readiness, and compliance with established timelines.</p>
+<h3>3-3. PMCS (Preventive Maintenance Checks and Services) PMCS will be performed in accordance with applicable TM -10/-20 series manuals.</h3>
+<p>PMCS will be conducted weekly or during each IDT period</p>
+<p>At least 25 percent of available training time will be dedicated to maintenance</p>
+<p>All faults will be identified and recorded at the time of inspection</p>
+<p>Leaders will inspect and validate PMCS execution</p>
+<p>Faults identified during PMCS will be entered into GCSS-Army within 3 days and tracked to completion. Commanders and leaders will enforce compliance with this requirement and take corrective action for failures to meet timelines.</p>
+<h3>3-4. Fault Reporting and Work Order Management All faults will be documented, evaluated, and processed in accordance with DA PAM 750-8.</h3>
+<p>Faults will be recorded on DA Form 5988-E or directly in GCSS-Army</p>
+<p>Supervisors will validate all faults prior to submission</p>
+<p>Work orders will be created and routed to the appropriate maintenance activity</p>
+<p>All work orders will be tracked to completion and properly closed</p>
+<p>Equipment status will be maintained accurately in GCSS-Army at all times and will reflect the current operational condition of the equipment.</p>
+<h3>3-5. GCSS-Army Maintenance Management GCSS-Army is the system of record for all maintenance operations.</h3>
+<p>Commanders will ensure—</p>
+<p>All faults are entered into GCSS-Army</p>
+<p>All reportable equipment has an established maintenance plan in GCSS-Army</p>
+<p>Maintenance plans are maintained and updated as required</p>
+<p>Equipment mileage and usage data are updated monthly</p>
+<p>Work order status codes (R, U, S, T, Y, Z) are actively managed</p>
+<p>All open work orders will be reviewed and resolved prior to monthly readiness reporting timelines.</p>
+<p>Personnel assigned GCSS-Army roles must—</p>
+<p>Be properly appointed in writing</p>
+<p>Have a current DA Form 2875 on file</p>
+<p>Complete required training within prescribed timelines</p>
+<h3>3-6. Maintenance Support and Evacuation Units will coordinate with supporting maintenance activities (FMS, UTES, MATES, FSC, FMT) for maintenance beyond unit capability.</h3>
+<p>Equipment exceeding field maintenance capability will be evacuated</p>
+<p>Units will track all evacuated equipment through GCSS-Army</p>
+<p>Units will maintain visibility of repair status through coordination with supporting maintenance activities</p>
+<p>Company XOs and Motor Sergeants will maintain liaison with supporting maintenance activities to track all evacuated work orders</p>
+<p>Evacuation timelines and priorities will be managed to support readiness</p>
+<h3>3-7. Scheduled Services and Maintenance Planning Scheduled services will be conducted in accordance with technical manuals and maintenance plans.</h3>
+<p>Services will be forecasted and scheduled in advance</p>
+<p>Required parts will be ordered prior to service execution</p>
+<p>Units will coordinate with supporting maintenance activities for services exceeding organic capability</p>
+<h3>3-8. Class IX Repair Parts Management Repair parts will be managed in accordance with AR 710-2 and applicable supply policies.</h3>
+<p>Units will request parts through GCSS-Army</p>
+<p>Commanders will ensure proper stockage and accountability of repair parts</p>
+<p>Parts will be ordered in support of valid maintenance requirements</p>
+<p>Excess and unserviceable parts will be processed in accordance with supply regulations</p>
+<h3>3-9. Warranty Program Units will comply with all warranty requirements for applicable equipment.</h3>
+<p>Warranty procedures will be followed prior to conducting repairs</p>
+<p>Warranty actions will be documented in GCSS-Army</p>
+<p>Units will coordinate with appropriate agencies for warranty support</p>
+<h3>3-10. Shop Stock List (SSL) and Prescribed Load List (PLL) Units will maintain authorized stockage in accordance with applicable regulations.</h3>
+<p>PLL/SSL will be managed to support maintenance operations</p>
+<p>Stockage levels will be reviewed and adjusted based on demand</p>
+<p>Inventory accountability will be maintained at all times</p>
+<h3>3-11. Controlled Exchange and Cannibalization Controlled exchange and cannibalization will be conducted only when authorized and in accordance with AR 750-1.</h3>
+<p>Actions must be approved by appropriate authority</p>
+<p>All actions will be documented in GCSS-Army</p>
+<p>Cannibalization will be used as a last resort to maintain readiness</p>
+<h3>3-12. Dispatching Procedures All equipment dispatching will be conducted in accordance with DA PAM 750-8.</h3>
+<p>Equipment will not be dispatched without a valid dispatch</p>
+<p>PMCS must be completed prior to dispatch</p>
+<p>Operators must be properly licensed</p>
+<p>Dispatch records will be maintained and audited</p>
+<h3>3-13. Maintenance Records and Historical Documentation All maintenance actions will be documented to ensure an auditable maintenance history.</h3>
+<p>Equipment records will be maintained in TAMMS/GCSS-Army</p>
+<p>Maintenance actions will be properly recorded and retained</p>
+<p>Records will remain with the equipment</p>
+<h3>3-14. Maintenance Meetings and Reporting Units will conduct routine maintenance synchronization to ensure visibility and accountability.</h3>
+<p>Commanders and leaders will review maintenance status on a recurring basis</p>
+<p>Maintenance issues, trends, and priorities will be identified and addressed</p>
+<p>Maintenance actions will be linked to readiness reporting and operational requirements</p>
+<h3>3-15. Safety and Environmental Considerations Maintenance operations will be conducted in accordance with safety and environmental regulations.</h3>
+<p>Personnel will use required PPE</p>
+<p>Hazardous materials will be handled and disposed of properly</p>
+<p>Unsafe conditions will be reported immediately</p>
+<h3>3-16. Maintenance Services and External Programs Units will comply with applicable maintenance programs and services, including:</h3>
+<p>Equipment Service Optimization Program (ESOP)</p>
+<p>Army Award for Maintenance Excellence (AAME)</p>
+<p>Other applicable Army and state maintenance initiatives</p>
+<h2 class="chapter">Chapter 4 Responsibilities</h2>
+<h3>4-1. General Maintenance is a command responsibility executed through clearly defined roles at every level. Leaders and personnel will perform duties in accordance with AR 750-1, DA PAM 750-8, and applicable state maintenance policy. Responsibilities outlined in this chapter establish accountability for maintenance execution, documentation, and readiness.</h3>
+<h3>4-2. Brigade Commander The Brigade Commander will:</h3>
+<p>Enforce maintenance discipline across all subordinate units</p>
+<p>Establish maintenance readiness priorities and allocate resources</p>
+<p>Ensure the Command Maintenance Discipline Program (CMDP) is implemented, enforced, and effective</p>
+<p>Review maintenance readiness reports and ensure accuracy of reporting</p>
+<p>Provide command emphasis on maintenance, safety, and readiness</p>
+<p>Ensure sufficient resources are allocated to maintenance operations</p>
+<p>Conduct command inspections and staff visits to assess maintenance effectiveness</p>
+<h3>4-3. Battalion Commander The Battalion Commander will:</h3>
+<p>Enforce maintenance discipline within subordinate companies</p>
+<p>Ensure CMDP inspections are conducted and corrective actions are tracked to completion</p>
+<p>Allocate time and resources for maintenance operations and PMCS</p>
+<p>Review battalion maintenance readiness and ensure accuracy of reports</p>
+<p>Review maintenance status and trends through recurring maintenance updates</p>
+<p>Ensure maintenance programs are executed in accordance with AR 750-1 and DA PAM 750-8</p>
+<p>Ensure maintenance training programs are implemented and effective</p>
+<p>Ensure equipment is properly accounted for and maintained</p>
+<h3>4-4. Company Commander The Company Commander will:</h3>
+<p>Enforce PMCS standards and ensure maintenance is performed at the operator and unit level</p>
+<p>Ensure all faults are identified, validated, and entered into GCSS-Army within required timelines</p>
+<p>Appoint maintenance personnel in writing and maintain required appointment orders</p>
+<p>Ensure GCSS-Army roles are assigned to qualified personnel with completed training and current DA Form 2875</p>
+<p>Allocate time for maintenance operations and ensure a minimum of 25 percent of training is dedicated to PMCS</p>
+<p>Ensure scheduled services are conducted and maintenance plans are maintained in GCSS-Army</p>
+<p>Ensure all reportable equipment has an established and maintained maintenance plan in GCSS-Army</p>
+<p>Ensure work order status codes R, U, S, T, Y, Z are managed and resolved prior to monthly readiness reporting</p>
+<p>Conduct maintenance inspections and ensure deficiencies are corrected</p>
+<p>Ensure operator licensing programs are established and maintained</p>
+<p>Ensure equipment mileage is updated monthly in GCSS-Army</p>
+<p>Establish and enforce dispatch procedures and controls in accordance with DA PAM 750-8</p>
+<h3>4-5. Battalion Executive Officer The Battalion Executive Officer will:</h3>
+<p>Serve as the primary staff officer for maintenance management within the battalion</p>
+<p>Synchronize maintenance operations with training and operational requirements</p>
+<p>Monitor maintenance readiness across subordinate companies</p>
+<p>Ensure maintenance programs, including CMDP, are executed and tracked</p>
+<p>Supervise battalion maintenance operations and enforce standards</p>
+<p>Assist the commander in managing maintenance resources and priorities</p>
+<h3>4-6. Senior Ordnance Ground Maintenance Officer The Senior Ordnance Ground Maintenance Officer will:</h3>
+<p>Serve as the principal advisor to the Brigade Commander on all ground maintenance matters</p>
+<p>Develop, implement, and assess brigade maintenance policies and programs</p>
+<p>Synchronize maintenance operations across all battalions</p>
+<p>Monitor equipment readiness trends and identify systemic issues</p>
+<p>Oversee CMDP execution and ensure standardization across subordinate units</p>
+<p>Provide technical guidance and oversight to subordinate maintenance personnel</p>
+<h3>4-7. Senior Maintenance Supervisor The Senior Maintenance Supervisor will:</h3>
+<p>Serve as the senior enlisted advisor on maintenance operations</p>
+<p>Enforce maintenance standards and discipline across subordinate units</p>
+<p>Monitor maintenance execution and provide technical guidance</p>
+<p>Assist in planning, coordinating, and assessing CMDP inspections</p>
+<p>Track maintenance trends and assist in identifying systemic readiness issues</p>
+<p>Provide mentorship and oversight to battalion and company maintenance personnel</p>
+<h3>4-8. Battalion Maintenance Officer The Battalion Maintenance Officer will:</h3>
+<p>Advise the Battalion Commander and Executive Officer on all maintenance matters</p>
+<p>Plan, coordinate, and supervise battalion maintenance operations</p>
+<p>Provide technical oversight to Company Executive Officers and Motor Sergeants</p>
+<p>Monitor equipment readiness and maintenance trends across companies</p>
+<p>Ensure GCSS-Army data is accurate and maintenance actions are tracked to completion</p>
+<p>Ensure maintenance plans are established and maintained for all reportable equipment</p>
+<p>Monitor and enforce maintenance plan compliance and work order status management across subordinate companies</p>
+<p>Assist in execution and enforcement of CMDP inspections</p>
+<h3>4-9. Company Executive Officer The Company Executive Officer will:</h3>
+<p>Serve as the primary maintenance manager at the company level</p>
+<p>Supervise and integrate maintenance operations between the Battalion Maintenance Officer and Motor Sergeant</p>
+<p>Track all equipment status, faults, and work orders in GCSS-Army</p>
+<p>Ensure faults are submitted, tracked, and completed within required timelines</p>
+<p>Monitor and manage work order status codes and ensure timely closeout of maintenance actions</p>
+<p>Coordinate with supporting maintenance elements FMS, UTES, MATES, FSC, and FMT</p>
+<p>Liaise with supporting maintenance facilities to maintain visibility of all evacuated work orders</p>
+<p>Maintain maintenance records and ensure documentation is complete and accurate</p>
+<p>Ensure maintenance plans are maintained and services are scheduled</p>
+<p>Ensure dispatching operations are conducted in accordance with regulations</p>
+<h3>4-10. Motor Sergeant The Motor Sergeant will:</h3>
+<p>Serve as the primary maintenance supervisor at the company level</p>
+<p>Execute maintenance operations in accordance with guidance from the Company Executive Officer</p>
+<p>Supervise PMCS and ensure it is performed to standard and properly documented</p>
+<p>Identify, validate, and report faults to the Company Executive Officer</p>
+<p>Ensure all faults are accurately entered into GCSS-Army and tracked to completion</p>
+<p>Maintain equipment status and provide updates to the Company Executive Officer</p>
+<p>Track and update work order status and assist in managing status codes to ensure accuracy of equipment readiness</p>
+<p>Liaise with supporting State FMS and maintenance facilities to maintain awareness of all evacuated work orders</p>
+<p>Manage maintenance personnel, schedules, and task assignments</p>
+<p>Ensure maintenance records and documentation are complete and accurate</p>
+<h3>4-11. Platoon Maintenance Coordinator The Platoon Maintenance Coordinator will:</h3>
+<p>Coordinate and manage PMCS execution within the platoon</p>
+<p>Inspect and validate PMCS performed by platoon personnel</p>
+<p>Train platoon members on PMCS procedures and licensing requirements</p>
+<p>Assist with driver and operator licensing training for platoon equipment</p>
+<p>Be licensed on all equipment within the platoon</p>
+<p>Identify and report maintenance issues to the Motor Sergeant</p>
+<p>Maintain visibility of platoon equipment status and readiness</p>
+<p>Provide a monthly maintenance status report to the Motor Sergeant</p>
+<h3>4-12. Section Maintenance Representative The Section Maintenance Representative will:</h3>
+<p>Coordinate and manage PMCS execution within the section</p>
+<p>Inspect and validate PMCS performed by section personnel</p>
+<p>Train section members on PMCS procedures and licensing requirements</p>
+<p>Assist with driver and operator licensing training for section equipment</p>
+<p>Be licensed on all equipment within the section</p>
+<p>Identify and report maintenance issues to the Platoon Maintenance Coordinator</p>
+<p>Maintain visibility of section equipment status and readiness</p>
+<p>Provide maintenance updates to the Platoon Maintenance Coordinator</p>
+<h3>4-13. Operators and Crew Operators and crew will:</h3>
+<p>Perform PMCS before, during, and after operation in accordance with applicable TM 10 and 20 level manuals</p>
+<p>Identify and report all faults immediately through the chain of command</p>
+<p>Accurately document faults on DA Form 5988-E or in GCSS-Army</p>
+<p>Maintain operator level equipment records and dispatch documentation</p>
+<p>Maintain cleanliness and proper care of assigned equipment</p>
+<p>Ensure they are properly licensed on assigned equipment prior to operation</p>
+<p>Correct operator level faults when parts, tools, and time are available</p>
+<p>Do not operate equipment that is unsafe or non-mission capable</p>
+<h2 class="chapter">Chapter 5 Tamms And Records</h2>
+<h3>5-1. General The Army Maintenance Management System (TAMMS) provides the policies and procedures for managing maintenance operations, documentation, and equipment records in accordance with DA PAM 750-8. All maintenance actions will be documented to ensure accountability, traceability, and auditability.</h3>
+<p>Global Combat Support System Army (GCSS-Army) is the system of record for all maintenance actions and will be used to manage maintenance operations, records, and reporting.</p>
+<p>Maintenance records will support readiness reporting, command decision making, and Command Maintenance Discipline Program (CMDP) inspections. All records will be accurate, complete, and maintained in accordance with applicable regulations.</p>
+<h3>5-2. TAMMS Records Structure Units will maintain a complete TAMMS records system for all assigned equipment.</h3>
+<p>The TAMMS records system consists of:</p>
+<p>Equipment Record Folder</p>
+<p>Maintenance Control File</p>
+<p>Maintenance Request Register</p>
+<p>Dispatch records</p>
+<p>Historical maintenance records</p>
+<p>Records will be maintained electronically in GCSS-Army when applicable or in authorized manual systems when required.</p>
+<h3>5-3. Equipment Record Folder An Equipment Record Folder will be maintained for all reportable equipment.</h3>
+<p>The Equipment Record Folder will include:</p>
+<p>Equipment identification data</p>
+<p>Maintenance history and service records</p>
+<p>Modification records</p>
+<p>Applicable inspection and maintenance documents</p>
+<p>Records will remain with the equipment or be accessible in GCSS-Army and will transfer with the equipment upon reassignment.</p>
+<h3>5-4. Maintenance Control File Units will maintain a Maintenance Control File to manage and track maintenance operations.</h3>
+<p>The Maintenance Control File will:</p>
+<p>Track open and completed maintenance actions</p>
+<p>Maintain visibility of work orders and services</p>
+<p>Support maintenance planning and supervision</p>
+<p>This file will be maintained electronically within GCSS-Army or through authorized manual systems when required.</p>
+<h3>5-5. Maintenance Request Register Units will maintain a Maintenance Request Register to track all maintenance requests.</h3>
+<p>The Maintenance Request Register will:</p>
+<p>Record all maintenance requests submitted</p>
+<p>Track the status of each request</p>
+<p>Ensure all work orders are followed through to completion</p>
+<h3>5-6. Required Forms and Records The following forms and records will be used as applicable:</h3>
+<p>DA Form 5988-E, Equipment Inspection and Maintenance Worksheet</p>
+<p>DA Form 2404, Equipment Inspection and Maintenance Worksheet</p>
+<p>DA Form 2407 or DA Form 2407-1, Maintenance Request</p>
+<p>DA Form 5990-E, Maintenance Request</p>
+<p>DA Form 2405, Equipment Modification Record</p>
+<p>DD Form 314, Preventive Maintenance Schedule and Record</p>
+<p>Dispatch records generated through GCSS-Army or DA Form 5987-E or DA Form 1970</p>
+<p>All forms will be completed accurately and maintained in accordance with DA PAM 750-8.</p>
+<h3>5-7. Documentation of Maintenance Actions All maintenance actions will be documented from fault identification through completion.</h3>
+<p>Faults identified during PMCS will be recorded immediately</p>
+<p>Faults will be entered into GCSS-Army within required timelines</p>
+<p>Work orders will be created, updated, and closed upon completion</p>
+<p>All maintenance actions will be traceable within GCSS-Army</p>
+<h3>5-8. Equipment Records and History Units will maintain complete equipment history records.</h3>
+<p>Records will document all maintenance actions, services, faults, and modifications</p>
+<p>Historical data will be retained and used to identify trends</p>
+<p>Records will remain associated with the equipment throughout its lifecycle</p>
+<h3>5-9. GCSS-Army Record Management GCSS-Army will be used to manage all maintenance records and data.</h3>
+<p>All faults, work orders, and maintenance actions will be recorded in GCSS-Army</p>
+<p>Equipment status will be accurately reflected at all times</p>
+<p>Maintenance plans will be established and maintained for all reportable equipment</p>
+<p>Equipment usage and mileage will be updated monthly</p>
+<p>Work order status codes will be actively managed</p>
+<p>GCSS-Army data will be accurate and current to support readiness reporting and command decisions.</p>
+<h3>5-10. Maintenance Plan Requirements All reportable equipment will have an established maintenance plan in GCSS-Army.</h3>
+<p>Maintenance plans will be created, updated, and maintained in accordance with DA PAM 750-8</p>
+<p>Scheduled services will be forecasted and tracked through maintenance plans</p>
+<p>Services will be completed within prescribed intervals</p>
+<p>Maintenance plans will be reviewed regularly for accuracy</p>
+<h3>5-11. Dispatch Records Dispatch records will be maintained to control equipment usage.</h3>
+<p>Equipment will not be operated without a valid dispatch</p>
+<p>Dispatch records will be completed prior to operation</p>
+<p>Dispatch records will be retained in accordance with regulatory requirements</p>
+<p>Dispatch procedures will be enforced at all levels</p>
+<h3>5-12. Audit and Inspection Requirements Maintenance records will be subject to inspection and validation.</h3>
+<p>Records will support CMDP inspections and readiness assessments</p>
+<p>Commanders and leaders will ensure records are accurate, complete, and available</p>
+<p>Discrepancies identified during inspections will be corrected immediately</p>
+<p>Records will support verification of compliance with AR 750-1 and DA PAM 750-8</p>
+<h3>5-13. Records Retention and Disposition Maintenance records will be retained and disposed of in accordance with Army Records Information Management System requirements.</h3>
+<p>Records will be managed in accordance with ARIMS and the Records Retention Schedule Army</p>
+<p>Records will be retained for required periods and properly disposed of when authorized</p>
+<p>Units will ensure records are properly stored, protected, and accessible</p>
+<h2 class="chapter">Chapter 6 Gcss-Army</h2>
+<h3>6-1. General Global Combat Support System Army (GCSS-Army) is the Army system of record for maintenance, supply, and property accountability. GCSS-Army will be used to execute, manage, and document all maintenance operations in accordance with AR 750-1, DA PAM 750-8, and applicable Army and state maintenance policies.</h3>
+<p>GCSS-Army will be used to execute and preserve all required TAMMS maintenance processes, records, and documentation, to include fault identification, maintenance requests, work order management, dispatch operations, maintenance plans, and equipment history records.</p>
+<p>All maintenance actions, records, and reporting will be performed in GCSS-Army to ensure visibility, accountability, accuracy, and auditability of equipment readiness.</p>
+<h3>6-2. Command Responsibility Commanders at all levels are responsible for ensuring proper use of GCSS-Army.</h3>
+<p>Commanders will:</p>
+<p>Ensure all maintenance operations are executed in GCSS-Army</p>
+<p>Ensure all reportable equipment is properly managed within GCSS-Army</p>
+<p>Ensure all reportable equipment has an established and maintained maintenance plan in GCSS-Army</p>
+<p>Ensure personnel are properly appointed, trained, and qualified to perform GCSS-Army functions</p>
+<p>Ensure accuracy of data used for readiness reporting</p>
+<p>Enforce compliance with GCSS-Army procedures through CMDP inspections</p>
+<h3>6-3. User Roles and Access Personnel assigned GCSS-Army responsibilities will be properly appointed and trained.</h3>
+<p>Users will be appointed in writing prior to being granted access</p>
+<p>Users will have a current DA Form 2875 on file</p>
+<p>Users will complete required GCSS-Army training prior to assignment or within required timelines</p>
+<p>User roles and permissions will align with assigned duties</p>
+<p>Personnel will not be assigned GCSS-Army roles without proper appointment and required documentation.</p>
+<h3>6-4. Maintenance Execution in GCSS-Army All maintenance operations will be executed in GCSS-Army in accordance with DA PAM 750-8.</h3>
+<p>Faults will be entered into GCSS-Army upon identification</p>
+<p>Faults identified during PMCS will be recorded using DA Form 5988-E or equivalent GCSS-Army processes</p>
+<p>Maintenance requests will be processed using DA Form 5990-E or equivalent GCSS-Army transactions</p>
+<p>Work orders will be created, routed, updated, and closed within the system</p>
+<p>Maintenance actions will be documented from initiation through completion</p>
+<p>All maintenance data will be current and reflect actual equipment conditions.</p>
+<h3>6-5. Maintenance Plans Maintenance plans will be established and maintained for all reportable equipment.</h3>
+<p>Maintenance plans will be created in GCSS-Army for all reportable equipment</p>
+<p>Scheduled services will be forecasted and tracked through maintenance plans</p>
+<p>Maintenance plans will be reviewed and updated regularly</p>
+<p>Commanders and leaders will ensure compliance with maintenance plan requirements</p>
+<p>Maintenance plans will be used to support maintenance planning, execution, and readiness reporting.</p>
+<h3>6-6. Equipment Status and Readiness Equipment status will be managed in GCSS-Army and will support readiness reporting.</h3>
+<p>Work order status codes R, U, S, T, Y, Z will be accurately maintained</p>
+<p>Equipment status will reflect the current operational condition</p>
+<p>All open work orders will be reviewed and actively managed</p>
+<p>Work orders will be resolved prior to monthly readiness reporting timelines</p>
+<p>GCSS-Army data will be used to support materiel status reporting and readiness assessments in accordance with AR 750-1.</p>
+<h3>6-7. Data Accuracy and Management All data entered into GCSS-Army will be accurate, complete, and timely.</h3>
+<p>Equipment data will be maintained and updated</p>
+<p>Faults and work orders will reflect actual equipment conditions</p>
+<p>Duplicate or incorrect entries will be corrected immediately</p>
+<p>Data will be validated through CMDP inspections</p>
+<p>Accurate data is essential for maintenance management, readiness reporting, and command decision-making.</p>
+<h3>6-8. Equipment Usage and Mileage Equipment usage data will be maintained in GCSS-Army.</h3>
+<p>Mileage and usage will be updated monthly</p>
+<p>Mileage and usage data will accurately reflect actual equipment usage</p>
+<p>Units will maintain mileage and usage data within a 10 percent variance unless otherwise directed by higher headquarters</p>
+<p>Section maintenance representatives will verify mileage and usage during each drill as part of PMCS. Variances exceeding 10 percent will be investigated, corrected, and annotated as required.</p>
+<p>Data will be used to support maintenance planning, maintenance plans, and readiness reporting</p>
+<h3>6-9. Work Order Management Work orders will be managed from creation to completion in GCSS-Army.</h3>
+<p>Work orders will be tracked and monitored continuously</p>
+<p>Status updates will be entered as maintenance progresses</p>
+<p>Completed work orders will be closed in the system</p>
+<p>Units will maintain visibility of all open work orders</p>
+<h3>6-10. Coordination with Supporting Maintenance Activities Units will coordinate maintenance actions with supporting activities through GCSS-Army and direct communication.</h3>
+<p>Work orders will be routed to appropriate maintenance activities</p>
+<p>Units will track the status of evacuated equipment</p>
+<p>Company Executive Officers and Motor Sergeants will maintain visibility of external maintenance actions</p>
+<p>Coordination will ensure timely repair and return of equipment</p>
+<h3>6-11. Records Management and Retention GCSS-Army maintenance records and supporting documentation will be maintained in accordance with Army records management requirements.</h3>
+<p>Maintenance records will be maintained in accordance with ARIMS and the Records Retention Schedule Army</p>
+<p>Records will be accurate, complete, and accessible</p>
+<p>Records will be retained for required periods and properly disposed of when authorized</p>
+<h3>6-12. Audits and Inspections GCSS-Army data and usage will be subject to inspection and validation.</h3>
+<p>CMDP inspections will validate GCSS-Army usage, accuracy, and compliance</p>
+<p>Commanders and leaders will review GCSS-Army data regularly</p>
+<p>Discrepancies will be corrected immediately</p>
+<p>GCSS-Army will be used to verify maintenance compliance with AR 750-1 and DA PAM 750-8</p>
+<h3>6-13. System Discipline All personnel will maintain discipline in the use of GCSS-Army.</h3>
+<p>Entries will be accurate and timely</p>
+<p>Unauthorized changes will not be made</p>
+<p>System misuse will be corrected through training or administrative action</p>
+<h2 class="chapter">Chapter 7 Command Maintenance Discipline Program (Cmdp)</h2>
+<h3>7-1. General The Command Maintenance Discipline Program (CMDP) is the commander’s primary tool to ensure maintenance operations are performed to standard in accordance with AR 750-1, DA PAM 750-1 Chapter 10, DA PAM 750-8, and applicable TXARNG CMDP policy and letters of instruction.</h3>
+<p>CMDP establishes a systematic method to evaluate maintenance operations, enforce standards, identify deficiencies, and implement corrective actions. CMDP applies to all units and personnel involved in maintenance operations.</p>
+<h3>7-2. Deficiency Enforcement and Corrective Action Failure to meet maintenance standards identified during CMDP inspections will be recorded as deficiencies. Units will develop and implement corrective action plans to address all deficiencies.</h3>
+<p>Corrective actions will be tracked to completion and will include identification of root cause, corrective measures, and responsible personnel. Commanders will ensure corrective actions are completed within established timelines.</p>
+<p>Deficiencies will be verified through reinspection to ensure compliance with applicable standards and regulatory requirements.</p>
+<h3>7-3. Commander Responsibilities Commanders at all levels will establish, implement, and enforce CMDP within their organizations.</h3>
+<p>Commanders will:</p>
+<p>Conduct scheduled and unscheduled CMDP inspections</p>
+<p>Ensure CMDP inspections are conducted using command-approved checklists aligned with regulatory requirements and higher headquarters guidance</p>
+<p>Ensure maintenance operations comply with regulatory requirements</p>
+<p>Ensure all faults are properly identified, documented, and corrected</p>
+<p>Ensure accuracy of maintenance data and readiness reporting</p>
+<p>Ensure deficiencies identified during inspections are corrected and tracked to completion</p>
+<p>Review maintenance readiness, trends, and reports</p>
+<p>Allocate resources to correct deficiencies</p>
+<p>Use CMDP results to improve maintenance operations and readiness</p>
+<h3>7-4. CMDP Structure and Responsibilities CMDP will be executed through coordination between brigade and battalion elements.</h3>
+<p>Brigade and Battalion CMDP coordinators will coordinate inspection schedules and requirements</p>
+<p>Brigade elements will conduct inspections of HHC and assigned units as required</p>
+<p>HHC will conduct CMDP inspections of subordinate units within 120 days of the higher headquarters inspection</p>
+<p>Units will maintain CMDP continuity through coordination with higher headquarters</p>
+<h3>7-5. Scope of Inspections CMDP inspections will evaluate all aspects of maintenance operations, to include:</h3>
+<p>PMCS execution and validation</p>
+<p>Fault identification, documentation, and correction</p>
+<p>GCSS-Army usage and data accuracy</p>
+<p>Maintenance plans and scheduled services</p>
+<p>Equipment status and readiness reporting</p>
+<p>Dispatch procedures and control</p>
+<p>Maintenance records and TAMMS compliance</p>
+<p>Operator licensing and training</p>
+<p>Safety and environmental compliance</p>
+<p>CMDP inspections will be conducted using command-approved checklists aligned with regulatory requirements and higher headquarters guidance.</p>
+<h3>7-6. Inspection Standards All maintenance activities will be inspected against applicable regulatory standards and approved CMDP checklists.</h3>
+<p>Inspections will use the approved CMDP checklist</p>
+<p>Inspection items will be tied to regulatory requirements</p>
+<p>Each item will be evaluated using objective pass or fail criteria</p>
+<p>Fault documentation and readiness reporting accuracy will be validated</p>
+<p>Failure to meet these standards will be identified as a deficiency and addressed in accordance with paragraph 7-2 of this chapter.</p>
+<h3>7-7. Inspection Frequency CMDP inspections will be conducted on a recurring basis.</h3>
+<p>Commanders will establish inspection schedules</p>
+<p>Inspections will be conducted during training, maintenance periods, or as directed</p>
+<p>Additional inspections may be conducted as required</p>
+<h3>7-8. Deficiency Tracking and Correction Deficiencies identified during CMDP inspections will be documented and corrected.</h3>
+<p>Deficiencies will be recorded with findings, regulatory reference, root cause, and recommended corrective actions</p>
+<p>Units will track deficiencies to completion</p>
+<p>Corrective actions will be validated through follow-up inspection or reinspection</p>
+<p>Commanders will verify corrective actions are completed</p>
+<p>Repeated deficiencies will be addressed through retraining or administrative action</p>
+<h3>7-9. Documentation and Reporting CMDP results will be documented and reported.</h3>
+<p>Inspection results will be recorded and maintained</p>
+<p>CMDP reports will be submitted to the Brigade S4 no later than 30 days following inspection</p>
+<p>CMDP checklists, inspection records, and maintenance SOPs will be maintained on hand and available for review during inspections</p>
+<p>Documentation will be used to identify trends and systemic issues</p>
+<h3>7-10. Continuous Improvement CMDP will be used to improve maintenance operations and readiness.</h3>
+<p>Units will analyze inspection results and trends</p>
+<p>Leaders will implement corrective actions and improvements</p>
+<p>CMDP findings will inform maintenance planning and readiness reporting</p>
+<h2 class="chapter">Chapter 8 Dispatching And Equipment Control</h2>
+<h3>8-1. General Dispatching is the commander’s control system for the use of equipment. All equipment will be dispatched and operated in accordance with AR 750-1, DA PAM 750-8, AR 385-10, applicable technical manuals, GCSS-Army procedures, and TXARNG maintenance policy.</h3>
+<p>Dispatching establishes positive control of equipment, ensures safe operation, and verifies that equipment is mission capable and properly maintained prior to use. Commanders will enforce strict dispatch discipline to maintain accountability, safety, and readiness.</p>
+<h3>8-2. Command Responsibility Commanders at all levels are responsible for establishing and enforcing dispatch procedures.</h3>
+<p>Commanders will:</p>
+<p>Establish and enforce a dispatch control system within their unit</p>
+<p>Designate dispatching authorities in writing</p>
+<p>Ensure equipment is not operated without a valid dispatch</p>
+<p>Ensure only properly trained and licensed operators are authorized to operate equipment</p>
+<p>Ensure dispatch procedures comply with DA PAM 750-8 and GCSS-Army requirements</p>
+<p>Enforce dispatch discipline through CMDP inspections</p>
+<p>Ensure integration of dispatch procedures with unit safety programs in accordance with AR 385-10</p>
+<h3>8-3. Dispatch Authority and Control Dispatch authority will be controlled at the unit level.</h3>
+<p>Dispatch authority will be designated by the commander</p>
+<p>Only authorized personnel will issue and approve dispatches</p>
+<p>Dispatch control logs will be maintained in GCSS-Army</p>
+<p>Dispatch records will be controlled and auditable</p>
+<p>Equipment will not be dispatched without proper authorization</p>
+<h3>8-4. Dispatch Process (Control Loop) Dispatching will follow a controlled process in accordance with DA PAM 750-8.</h3>
+<p>Verify operator is properly licensed on assigned equipment</p>
+<p>Verify operator qualification records are current</p>
+<p>Review equipment records and ensure services are current</p>
+<p>Perform PMCS in accordance with TM -10/-20 manuals</p>
+<p>Record faults on DA Form 5988-E or in GCSS-Army</p>
+<p>Evaluate faults to determine mission capability</p>
+<p>Dispatching authority will determine if equipment is safe to operate</p>
+<p>Generate dispatch using GCSS-Army or authorized forms</p>
+<p>Annotate dispatch records and dispatch control log</p>
+<p>Issue dispatch to operator prior to operation</p>
+<p>Upon return, inspect equipment and record faults</p>
+<p>Close dispatch in GCSS-Army or appropriate system</p>
+<h3>8-5. Required Forms and System Equivalents Dispatch operations will utilize required forms or their GCSS-Army equivalents.</h3>
+<p>DA Form 5987-E, Dispatch Authorization</p>
+<p>DA Form 5988-E or DA Form 2404, Equipment Inspection and Maintenance Worksheet</p>
+<p>DD Form 1970, Motor Equipment Utilization Record</p>
+<p>DA Form 2401, Organizational Control Record</p>
+<p>DA Form 5982-E, Dispatch Control Log</p>
+<p>GCSS-Army transactions will serve as the system of record when applicable and will replace manual forms as authorized.</p>
+<h3>8-6. Operator Requirements Operators must meet all requirements prior to dispatch.</h3>
+<p>Operators must be properly licensed on the equipment</p>
+<p>Operators must perform PMCS prior to operation</p>
+<p>Operators must review faults and equipment status</p>
+<p>Operators must comply with safety requirements and technical manuals</p>
+<p>Operators will not operate equipment that is unsafe or non-mission capable</p>
+<h3>8-7. Safety Requirements Dispatching procedures will enforce safety in accordance with AR 385-10.</h3>
+<p>Operators will comply with all safety requirements</p>
+<p>Required safety equipment will be used</p>
+<p>Ground guides will be used when required</p>
+<p>Risk management procedures will be applied</p>
+<p>Unsafe equipment will not be dispatched</p>
+<p>Leaders will enforce safe operation of all equipment</p>
+<h3>8-8. Equipment Status Verification Equipment status will be verified prior to dispatch.</h3>
+<p>Equipment status in GCSS-Army will be reviewed</p>
+<p>Work order status codes R, U, S, T, Y, Z will be evaluated</p>
+<p>Equipment will not be dispatched if non-mission capable or unsafe</p>
+<p>Status will reflect actual equipment condition</p>
+<h3>8-9. Dispatch Records and Documentation Dispatch records will be maintained to ensure accountability and auditability.</h3>
+<p>Dispatch records will be maintained in GCSS-Army or authorized forms</p>
+<p>Records will be accurate, complete, and available for inspection</p>
+<p>Dispatch records will be retained in accordance with ARIMS and RRS-A requirements</p>
+<p>Records will support CMDP inspections and audits</p>
+<h3>8-10. Equipment Return and Closeout Equipment will be inspected and dispatch closed upon return.</h3>
+<p>Equipment will be inspected after use</p>
+<p>New faults will be recorded and entered into GCSS-Army</p>
+<p>Dispatch records will be closed out upon completion</p>
+<p>Equipment status will be updated to reflect current condition</p>
+<h3>8-11. GCSS-Army Dispatch Procedures GCSS-Army will be used to execute dispatch operations.</h3>
+<p>Dispatches will be created, approved, and tracked in GCSS-Army</p>
+<p>Dispatch control logs will be maintained in the system</p>
+<p>Work orders and dispatches will be linked as required</p>
+<p>Units will follow brigade and state guidance for GCSS-Army dispatch procedures</p>
+<p>Personnel will be trained on GCSS-Army dispatch functions</p>
+<h3>8-12. CMDP Inspection Requirements Dispatch procedures will be inspected and enforced through CMDP.</h3>
+<p>CMDP inspections will evaluate dispatch procedures, records, and compliance</p>
+<p>Operator licensing and qualification records will be inspected</p>
+<p>Dispatch approval and control procedures will be validated</p>
+<p>Dispatch records will be reviewed for accuracy and completeness</p>
+<p>Deficiencies will be documented and corrected in accordance with CMDP</p>
+<h3>8-13. Enforcement and Discipline Dispatch discipline will be enforced at all levels.</h3>
+<p>Unauthorized dispatching is prohibited</p>
+<p>Failure to follow dispatch procedures will be corrected</p>
+<p>Repeated violations will be addressed through retraining or administrative action</p>
+<p>Leaders will enforce compliance with dispatch procedures</p>
+<h2 class="chapter">Chapter 9 Operator And Equipment Maintenance Training</h2>
+<h3>9-1. General Operator and equipment maintenance training is essential to sustaining readiness, ensuring safe operations, and preventing damage to equipment. Units will establish and maintain a structured training program in accordance with AR 750-1, AR 385-10, DA PAM 750-8, applicable technical manuals, TXARNG policy, and the unit Licensing SOP where applicable.</h3>
+<p>The purpose of this program is to develop disciplined, proficient operators who understand the capabilities, limitations, and risks associated with assigned equipment. Training will focus on safe operation, proper PMCS, accurate fault identification, and adherence to maintenance standards.</p>
+<p>Improper operation or inadequate training increases the risk of injury, equipment damage, and mission failure. Training programs will prioritize safety, equipment preservation, and readiness.</p>
+<h3>9-2. Command Responsibility Commanders at all levels are responsible for establishing and enforcing operator and equipment maintenance training programs.</h3>
+<p>Commanders will:</p>
+<p>Establish and enforce training programs for all assigned equipment</p>
+<p>Ensure personnel are trained to standard prior to operating or maintaining equipment</p>
+<p>Allocate time and resources for training</p>
+<p>Ensure integration of training with unit safety programs</p>
+<p>Ensure training is documented and maintained</p>
+<p>Enforce training standards through CMDP inspections</p>
+<h3>9-3. Training Program Structure Unit training programs will be structured to ensure all operators are trained to standard on assigned equipment.</h3>
+<p>Training will include:</p>
+<p>Equipment operation</p>
+<p>Preventive Maintenance Checks and Services (PMCS)</p>
+<p>Safety procedures and risk management</p>
+<p>Equipment limitations and capabilities</p>
+<p>Fault identification, reporting, and documentation</p>
+<p>Dispatch procedures where applicable</p>
+<p>GCSS-Army familiarization as required</p>
+<p>Training will be conducted using technical manuals, Army regulations, unit SOPs, and the Licensing SOP when applicable.</p>
+<p>Execution of the training program is conducted through a structured system of unit-level coordinators, platoon representatives, and first line supervisors.</p>
+<h3>9-4. Unit Operator Training Structure and Responsibilities Operator Instructors and Evaluators (LI/LE) serve as the primary coordinators of operator and equipment maintenance training within the unit. Their primary responsibility is to train operators. They will also ensure first line leaders are fully qualified to operate their assigned equipment and capable of training their subordinates to standard.</h3>
+<p>In conjunction with the BN Master Driver, LI/LE personnel will develop, coordinate, and oversee training of first line leaders and validate execution at the platoon and section level, ensuring that training is conducted in accordance with technical manuals, regulatory guidance, and unit SOP. They will validate that first line supervisors are proficient in both operation and PMCS and are capable of enforcing standards within their formations.</p>
+<p>The Unit LI/LE will:</p>
+<p>Oversee execution of the operator training program</p>
+<p>Ensure standardization of training and evaluation</p>
+<p>Coordinate with the Battalion Master Driver for oversight and compliance</p>
+<p>Train and supervise subordinate trainers and evaluators</p>
+<p>Conduct formal training classes on PMCS and operation of all unit equipment</p>
+<p>Ensure training data is properly tracked and reported</p>
+<h3>9-5. Platoon and Section Operator Training Representatives Each platoon or section will designate primary and alternate operator training representatives. These personnel are responsible for executing operator and equipment maintenance training at the lowest level and ensuring all assigned personnel are trained to standard.</h3>
+<p>Platoon and section operator training representatives will:</p>
+<p>Conduct operator training and assist with formal training events as required</p>
+<p>Provide instruction on equipment operation, PMCS, and safety procedures</p>
+<p>Ensure training is conducted in accordance with technical manuals, regulations, and unit SOP</p>
+<p>Maintain and manage operator training records for assigned personnel</p>
+<p>Validate that all required training has been completed to standard</p>
+<p>Verify that documentation is accurate, complete, and current</p>
+<p>Conduct evaluations of operator proficiency</p>
+<p>Identify deficiencies and coordinate retraining as required</p>
+<p>Ensure personnel are trained on assigned equipment and all applicable variants</p>
+<p>Ensure personnel understand equipment capabilities, limitations, and hazards</p>
+<p>Support first line supervisors in developing and validating subordinate operators</p>
+<p>Enforce training standards and prevent untrained personnel from operating or maintaining equipment</p>
+<p>These representatives execute training in coordination with unit-level guidance and ensure compliance with all safety and maintenance requirements.</p>
+<h3>9-8. First Line Supervisor Responsibilities First line supervisors are responsible for enforcing training standards and validating operator proficiency.</h3>
+<p>Supervisors will:</p>
+<p>Train and mentor subordinates in equipment operation and PMCS</p>
+<p>Validate operator proficiency through observation and evaluation</p>
+<p>Ensure personnel are trained prior to operating equipment</p>
+<p>Verify training is documented</p>
+<p>Prevent personnel from operating equipment when training requirements are not met</p>
+<p>Not direct or permit untrained or unqualified personnel to operate equipment</p>
+<p>Supervisors are the primary enforcers of safe operation and command maintenance discipline.</p>
+<h3>9-6. Operator Training Requirements The following requirements establish the minimum standard for operator training across the unit:</h3>
+<p>Operators will be trained to standard prior to operating or maintaining any equipment.</p>
+<p>Operators will be trained on all assigned equipment and variants</p>
+<p>Training will include hands-on operation and PMCS</p>
+<p>Operators will demonstrate proficiency in safe operation and equipment handling</p>
+<p>Operators will be trained to identify, report, and document faults</p>
+<p>Operators will understand equipment limitations and hazards</p>
+<p>Operators must be licensed in accordance with the Licensing SOP when required. Personnel will not operate equipment requiring a license without proper qualification.</p>
+<h3>9-7. Equipment Variant Qualification Operator training will be specific to the exact equipment and configuration assigned. Variations in equipment may introduce different controls, capabilities, limitations, and hazards.</h3>
+<p>Personnel will be trained and documented on each equipment variant prior to operation or PMCS.</p>
+<p>Improper use of variant-specific systems, such as winches, load handling devices, generators with different output systems, or mission-specific modifications, can result in equipment damage, injury, or mission degradation.</p>
+<p>Personnel will not operate or perform PMCS on equipment for which they are not trained and documented. Leaders will enforce this requirement to ensure safe operation and prevent damage to equipment.</p>
+<h3>9-9. PMCS Training PMCS training will be conducted at all levels.</h3>
+<p>Personnel will be trained in accordance with TM -10/-20 manuals</p>
+<p>Training will emphasize fault identification and documentation</p>
+<p>L:eaders will validate PMCS performance</p>
+<p>PMCS training will be reinforced during routine operations</p>
+<p>Personnel will only perform PMCS on equipment for which they are trained</p>
+<p>Proper PMCS is critical to preventing equipment failure and maintaining readiness.</p>
+<h3>9-10. Training Validation and Evaluation Training effectiveness will be validated through evaluation and inspection.</h3>
+<p>Leaders will conduct hands-on evaluations</p>
+<p>Subject matter experts will validate training programs</p>
+<p>CMDP inspections will evaluate training compliance</p>
+<p>Deficiencies will be corrected through retraining</p>
+<p>Evaluation standards will be aligned with regulatory guidance and the Licensing SOP when applicable.</p>
+<h3>9-11. Training Documentation All training will be documented and maintained.</h3>
+<p>Training records will be accurate and complete</p>
+<p>Documentation will be available for inspection</p>
+<p>Records will be maintained in accordance with ARIMS</p>
+<p>Licensing documentation will be maintained in accordance with the Licensing SOP when applicable</p>
+<h3>9-12. Safety and Professional Standards Training programs will emphasize safety and discipline.</h3>
+<ul>
+<li>Personnel will comply with all safety regulations and technical manuals • Risk management principles will be applied • Unsafe practices will be corrected immediately • Leaders will enforce safe operation at all times</li>
+</ul>
+<h3>9-13. Continuous Training and Improvement Training programs will be continuously evaluated and improved.</h3>
+<p>Units will assess training effectiveness</p>
+<p>Leaders will identify gaps and implement improvements</p>
+<p>Training will adapt to mission requirements</p>
+<p>Lessons learned will be incorporated into training programs</p>
+<h3>9-14. NCOPD Integration Operator and PMCS training will be incorporated into the NCOPD program.</h3>
+<p>NCOPD will include instruction on PMCS, safety, and equipment operation</p>
+<p>NCOs will be trained to enforce standards and supervise training</p>
+<p>Training will be conducted using technical manuals and SOPs</p>
+<h3>9-15. New Personnel Integration New personnel will be integrated into the unit training program.</h3>
+<p>Personnel will obtain prior training records within 60 days of assignment</p>
+<p>Leaders will review training status and determine requirements</p>
+<p>Personnel without verifiable training will be retrained prior to operating equipment</p>
+<h3>9-16. MTOE-Designated Operator Prioritization Personnel designated by MTOE as operators will be prioritized for training.</h3>
+<p>MTOE remarks will identify operator requirements</p>
+<p>Personnel will be trained to standard within 90 days of assignment</p>
+<p>Leaders will enforce training timelines</p>
+<p>This ensures operational readiness and reduces risk associated with untrained personnel operating equipment.</p>
+<h2 class="chapter">Chapter 10 Safety</h2>
+<h3>10-1. General Safety is essential to all maintenance operations, equipment operation, PMCS, dispatch, recovery, and training. Personnel will perform all duties in a safe manner to prevent injury, equipment damage, environmental harm, and mission failure. Command emphasis on safety is required at all levels, and safety will be integrated into all maintenance planning, execution, supervision, and inspection.</h3>
+<p>This chapter applies safety requirements relevant to unit maintenance and equipment operations in accordance with AR 385-10, AR 750-1, DA PAM 750-8, AR 600-55 where applicable, TXARNG policy, and the unit Licensing SOP where applicable.</p>
+<p>Safety considerations apply to all equipment and systems within the unit, not just motor vehicles. Personnel will apply appropriate safety procedures when operating or maintaining all assigned equipment, including generators, night vision devices, weapons systems, and other mission equipment.</p>
+<h3>10-2. Command Responsibility Commanders at all levels will emphasize safety and enforce safe practices in all maintenance and operational activities.</h3>
+<p>Commanders will:</p>
+<p>Enforce compliance with applicable safety regulations, technical manuals, and SOP</p>
+<p>Integrate safety into unit maintenance and training programs</p>
+<p>Ensure risk management is applied to all operations</p>
+<p>Ensure unsafe equipment is not operated or dispatched</p>
+<p>Ensure required safety equipment is present, serviceable, and used</p>
+<p>Enforce corrective action for safety deficiencies through CMDP</p>
+<h3>10-3. Risk Management Risk management will be applied to all maintenance, training, and operational activities.</h3>
+<p>Leaders will:</p>
+<p>Identify hazards prior to operations</p>
+<p>Assess risk based on mission, equipment, and environment</p>
+<p>Implement control measures</p>
+<p>Supervise and evaluate controls</p>
+<p>Adjust controls as conditions change</p>
+<h3>10-4. Safe Condition of Equipment All equipment will be maintained in a safe and serviceable condition prior to operation.</h3>
+<p>Equipment will not be operated, maintained, or dispatched when:</p>
+<p>It is unsafe</p>
+<p>A fault creates unacceptable risk</p>
+<p>Required PMCS has not been completed Required safety equipment is missing or unserviceable</p>
+<p>Administrative deadline or dispatch restriction will be used when equipment is not safe to operate.</p>
+<h3>10-5. PMCS and Maintenance Safety PMCS is a safety-critical task and will be performed in accordance with applicable technical manuals.</h3>
+<p>PMCS will:</p>
+<p>Be conducted with and in IAW appropriate and up to date technical manuals</p>
+<p>Identify safety faults and deficiencies</p>
+<p>Require documentation of faults</p>
+<p>Be validated by leaders Be tied to dispatch and maintenance actions</p>
+<p>Leaders will conduct safety briefings prior to PMCS operations. These briefings will reinforce required PPE, known hazards, and safe work practices.</p>
+<h3>10-6. Dispatch and Operational Safety Dispatch is a safety control measure.</h3>
+<p>Before dispatch, leaders will ensure:</p>
+<p>Assistant drivers and vehicle commanders will meet the same qualification and readiness requirements as operators. They will be properly trained and adequately rested prior to operations.</p>
+<p>PMCS is complete</p>
+<p>Equipment is safe to operate</p>
+<p>Required forms and records are present</p>
+<p>Required BII and safety equipment are present and serviceable</p>
+<p>Operators are trained and qualified</p>
+<p>Dispatched equipment will include a serviceable fire extinguisher, first aid kit, and required BII.</p>
+<p>CAUTION: Loads, trailers, and attachments will be properly secured and inspected prior to movement in accordance with applicable technical manuals. This applies to maintenance operations as well as over the road doispatch.</p>
+<h3>10-7. Operator and Crew Safety Leaders will enforce the use of required PPE at all times.</h3>
+<p>Operators are responsible for safe operation of equipment.</p>
+<p>Operators will:</p>
+<p>Comply with all safety requirements</p>
+<p>Report unsafe conditions</p>
+<p>Personnel are authorized and required to stop work when unsafe conditions are identified.</p>
+<p>Ground guides will be used when required by technical manuals, unit SOP, or when visibility is restricted.</p>
+<p>Personnel will use required PPE when operating or maintaining equipment. At a minimum, PPE will include:</p>
+<p>Gloves for PMCS and maintenance</p>
+<p>Eye protection during PMCS and maintenance</p>
+<p>Hearing protection when operating or working around loud equipment such as vehicles, generators, or other equipment producing hazardous noise levels</p>
+<p>NOTE: Additional PPE will be used as required by technical manuals and mission conditions.</p>
+<h3>10-8. Unsafe Operator Practices and Fatigue Unsafe behaviors are prohibited.</h3>
+<p>Operators will not:</p>
+<p>Operate equipment while fatigued or impaired</p>
+<p>Use cell phones while operating equipment unless authorized</p>
+<p>Sleep in vehicles with engines running</p>
+<p>Operate equipment under unsafe conditions</p>
+<p>Leaders will enforce rest requirements and safe operating practices.</p>
+<p>CAUTION: Personnel will not operate equipment in enclosed or poorly ventilated areas where exhaust fumes may accumulate. Leaders will ensure proper ventilation to prevent carbon monoxide exposure.</p>
+<h3>10-9. Fire Prevention and Emergency Equipment Units will enforce fire prevention and maintain emergency equipment.</h3>
+<p>Required equipment will include:</p>
+<p>Fire extinguishers</p>
+<p>First aid kits</p>
+<p>Warning devices</p>
+<p>Serviceable BII</p>
+<h3>10-10. Fueling Safety and Fire Hazard Mitigation Fueling operations present a significant fire hazard and will be conducted in accordance with applicable safety standards and technical manuals.</h3>
+<p>During fueling operations</p>
+<p>First line supervisors will directly supervise fueling operations</p>
+<p>Engines will be shut off unless required by technical manual</p>
+<p>Smoking and open flames are prohibited within fueling area</p>
+<p>Fire extinguishers will be present and readily accessible</p>
+<p>fuel spills will be immediately contained and cleaned</p>
+<p>Static discharge precautions will be observed when required</p>
+<p>Personnel will maintain situational awareness of ignition sources</p>
+<p>Leaders will supervise fueling operations to ensure compliance with safety procedures and prevent fire hazards.</p>
+<h3>10-11. Environmental and Spill Safety Environmental protection measures will be enforced during maintenance.</h3>
+<p>Use drip pans during fueling and maintenance</p>
+<p>Report and clean spills immediately</p>
+<p>Maintain spill kits and response materials</p>
+<p>Drip pans will be used during all fueling and maintenance operations when there is a risk of fluid leakage or spillage. Personnel will take precautions to prevent contamination from petroleum, oils, and lubricants. Gloves will be worn when handling fuels, oils, or contaminated components to prevent exposure and ensure safe handling of hazardous substances.</p>
+<h3>10-12. Supply Support for Safety Unit supply operations will support the safety program by ensuring required safety equipment and materials are available.</h3>
+<p>Unit supply personnel will:</p>
+<p>Requisition and maintain adequate PPE</p>
+<p>Ensure availability of gloves, eye protection, and hearing protection</p>
+<p>Maintain stocks of rags, drip pans, absorbent materials, and spill kits</p>
+<p>Ensure fire extinguishers and first aid kits are available and serviceable</p>
+<p>Coordinate with maintenance personnel on safety supply needs</p>
+<p>Leaders will ensure required safety equipment is issued and used. Lack of PPE or safety supplies will be corrected prior to operations.</p>
+<h3>10-13. Safety Training Safety training will be integrated into all operator and maintenance training.</h3>
+<p>Training will include hazards, PPE, and safe procedures</p>
+<p>Training will address equipment-specific risks</p>
+<p>Safety training will be incorporated into NCOPD</p>
+<p>Leaders will reinforce safety during pre-operation briefings</p>
+<p>Accidents, near misses, and safety incidents will be reported in accordance with AR 385-10 and unit reporting procedures.</p>
+<h3>10-14. Specialized Safety Training Specialized training will be conducted for high-risk equipment and tasks, including:</h3>
+<p>Trailers and towing</p>
+<p>Forklifts and material handling</p>
+<p>Construction equipment</p>
+<p>Hazardous materials</p>
+<p>Recovery operations</p>
+<p>Night operations</p>
+<h3>10-15. Inspection and Enforcement Safety compliance will be enforced through CMDP and leader supervision.</h3>
+<p>Deficiencies will be documented and corrected</p>
+<p>Unsafe practices will result in retraining or corrective action</p>
+<p>Leaders will track and close safety deficiencies</p>
+<h3>10-16. Safety References This chapter is based on AR 385-10, AR 750-1, DA PAM 750-8, AR 600-55 where applicable, TXARNG policy, and unit SOPs.</h3>
+
+      <hr class="sop-start-divider" />
+      <div class="sop-actions" aria-label="End of document downloads">
+        <button type="button" class="download-btn" onclick="window.print()">Download PDF</button>
+        <button type="button" class="download-btn" onclick="window.print()">Print SOP</button>
+        <a class="download-btn" href="176th-en-bde-maint-%20sop-fdv-1-2026-03-25.docx" download>Download Word</a>
+      </div>
+    </section>
+  </main>
+  <a class="download-btn back-to-top-float" href="#page-top" aria-label="Back to top">Back to Top</a>
+  <footer><p>CMDP Compliance Documentation - FY24-25</p></footer>
+</body>
+</html>
