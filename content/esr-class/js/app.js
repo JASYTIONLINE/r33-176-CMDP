@@ -141,3 +141,54 @@ if (slideFigure && slideImage) {
     openFullscreen();
   }
 }
+
+const zoneModal = document.querySelector("[data-zone-modal]");
+const zoneModalTitle = document.querySelector("#zone-modal-title");
+const zoneModalBody = document.querySelector("#zone-modal-body");
+let activeZoneTrigger = null;
+
+if (zoneModal && zoneModalTitle && zoneModalBody) {
+  const zoneCloseButton = zoneModal.querySelector(".zone-modal-close");
+
+  const closeZoneModal = () => {
+    if (zoneModal.hidden) {
+      return;
+    }
+
+    zoneModal.hidden = true;
+    document.body.classList.remove("is-zone-modal-open");
+
+    if (activeZoneTrigger) {
+      activeZoneTrigger.focus();
+      activeZoneTrigger = null;
+    }
+  };
+
+  const openZoneModal = (trigger) => {
+    activeZoneTrigger = trigger;
+    zoneModalTitle.textContent = trigger.dataset.zoneTitle || "";
+    zoneModalBody.textContent = trigger.dataset.zoneBody || "";
+    zoneModal.hidden = false;
+    document.body.classList.add("is-zone-modal-open");
+
+    if (zoneCloseButton) {
+      zoneCloseButton.focus();
+    }
+  };
+
+  document.querySelectorAll("[data-zone-title]").forEach((trigger) => {
+    trigger.addEventListener("click", () => {
+      openZoneModal(trigger);
+    });
+  });
+
+  zoneModal.querySelectorAll("[data-zone-modal-close]").forEach((control) => {
+    control.addEventListener("click", closeZoneModal);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeZoneModal();
+    }
+  });
+}
