@@ -12,8 +12,12 @@ if (currentSlide) {
 const slideFigure = document.querySelector(".slide-figure");
 const slideImage = document.querySelector(".slide-image");
 const slideCopy = document.querySelector(".slide-copy");
+const fullscreenSessionKey = "esrClassFullscreen";
 
 if (slideFigure && slideImage) {
+  const previousPage = slideFigure.querySelector(".slide-arrow-left");
+  const nextPage = slideFigure.querySelector(".slide-arrow-right");
+
   const fullscreenButton = document.createElement("button");
   fullscreenButton.className = "fullscreen-toggle";
   fullscreenButton.type = "button";
@@ -31,6 +35,39 @@ if (slideFigure && slideImage) {
   closeButton.className = "fullscreen-close";
   closeButton.type = "button";
   closeButton.setAttribute("aria-label", "Close full screen image");
+
+  const createFullscreenArrow = (sourceLink, direction) => {
+    if (!sourceLink) {
+      return null;
+    }
+
+    const arrow = document.createElement("a");
+    arrow.className = `fullscreen-arrow fullscreen-arrow-${direction}`;
+    arrow.href = sourceLink.href;
+    arrow.setAttribute(
+      "aria-label",
+      direction === "left" ? "Previous page" : "Next page"
+    );
+
+    return arrow;
+  };
+
+  const setFullscreenSession = (isActive) => {
+    if (isActive) {
+      sessionStorage.setItem(fullscreenSessionKey, "true");
+    } else {
+      sessionStorage.removeItem(fullscreenSessionKey);
+    }
+  };
+
+  const navigateInFullscreen = (event) => {
+    event.preventDefault();
+    setFullscreenSession(true);
+    window.location.href = event.currentTarget.href;
+  };
+
+  const previousArrow = createFullscreenArrow(previousPage, "left");
+  const nextArrow = createFullscreenArrow(nextPage, "right");
 
   const fullImage = document.createElement("img");
   fullImage.className = "fullscreen-image";
@@ -51,33 +88,56 @@ if (slideFigure && slideImage) {
   }
 
   fullscreenContent.append(imagePane, copyPane);
-  overlay.append(closeButton, fullscreenContent);
+  overlay.append(closeButton);
+  if (previousArrow) {
+    overlay.appendChild(previousArrow);
+  }
+  if (nextArrow) {
+    overlay.appendChild(nextArrow);
+  }
+  overlay.appendChild(fullscreenContent);
   document.body.appendChild(overlay);
 
   const closeFullscreen = () => {
+    setFullscreenSession(false);
     overlay.hidden = true;
     document.body.classList.remove("is-fullscreen-open");
     fullscreenButton.focus();
   };
 
-  fullscreenButton.addEventListener("click", () => {
+  const openFullscreen = () => {
+    setFullscreenSession(true);
     fullImage.src = slideImage.currentSrc || slideImage.src;
     overlay.hidden = false;
     document.body.classList.add("is-fullscreen-open");
     closeButton.focus();
-  });
+  };
+
+  fullscreenButton.addEventListener("click", openFullscreen);
 
   closeButton.addEventListener("click", closeFullscreen);
 
-  overlay.addEventListener("click", (event) => {
-    if (event.target === overlay) {
-      closeFullscreen();
+  if (previousArrow) {
+    previousArrow.addEventListener("click", navigateInFullscreen);
+  }
+
+  if (nextArrow) {
+    nextArrow.addEventListener("click", navigateInFullscreen);
+  }
+
+  document.addEventListener("keydown", (event) => {
+    if (overlay.hidden) {
+      return;
+    }
+
+    if (event.key === "ArrowLeft" && previousArrow) {
+      previousArrow.click();
+    } else if (event.key === "ArrowRight" && nextArrow) {
+      nextArrow.click();
     }
   });
 
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && !overlay.hidden) {
-      closeFullscreen();
-    }
-  });
+  if (sessionStorage.getItem(fullscreenSessionKey) === "true") {
+    openFullscreen();
+  }
 }
