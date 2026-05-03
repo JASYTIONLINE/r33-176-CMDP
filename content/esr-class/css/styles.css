@@ -82,6 +82,42 @@ body {
   color: var(--color-primary);
 }
 
+.site-rail {
+  position: fixed;
+  top: 8.5rem;
+  left: 1rem;
+  z-index: 9;
+  display: grid;
+  gap: 0.6rem;
+  width: 6.25rem;
+  padding: 0.75rem;
+  border: 1px solid var(--color-primary-soft);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 14px 34px rgba(18, 53, 91, 0.16);
+}
+
+.site-rail a {
+  display: block;
+  padding: 0.55rem 0.45rem;
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.site-rail a:hover,
+.site-rail a:focus {
+  background: var(--color-accent);
+  transform: translateX(0.12rem);
+}
+
 .slide-shell {
   max-width: 1440px;
   margin: 0 auto;
@@ -406,6 +442,19 @@ h1 {
 
   .nav-links a {
     font-size: 0.8rem;
+  }
+
+  .site-rail {
+    position: static;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 0.9rem 0.75rem 0;
+    padding: 0.6rem;
+  }
+
+  .site-rail a {
+    min-width: 5rem;
   }
 
   .slide-card {
