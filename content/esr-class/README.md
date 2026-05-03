@@ -6,7 +6,7 @@ This static HTML, CSS, and JavaScript class is integrated into the CMDP Complian
 
 - `equipment-status-report-class.html` - ESR class landing page and first slide
 - `content/` - slide pages 2 through 11
-- `assets/slides/` - one slide image per page
+- `../../assets/images/esr-class/slides/` - one slide image per page
 - `css/` - shared presentation styling
 - `js/` - shared navigation behavior
 
@@ -16,4 +16,4 @@ Open `equipment-status-report-class.html` from the CMDP site navigation to begin
 
 ## Replacing Slide Images
 
-The current slide images are editable SVG files generated from the mock-up text. Replace files in `assets/slides/` with final exported slide images using the same names, or update the matching HTML `src` paths if using a different file type.
+The current slide images are editable SVG files generated from the mock-up text. Replace files in `../../assets/images/esr-class/slides/` with final exported slide images using the same names, or update the matching HTML `src` paths if using a different file type.

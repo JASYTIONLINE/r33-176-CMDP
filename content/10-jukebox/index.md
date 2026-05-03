@@ -16,13 +16,13 @@ Each subfolder represents a concept turned into rhythm — a tool to help you *r
 ---
 
 ### [Album One](10-jukebox/alb-1/index.md)  
-![[alb1-ca.jpg]]
+![[../../assets/images/jukebox/alb-1/alb1-ca.jpg]]
 
   Album Description Goes Here.
   
 ---
 ## [Album 2](10-jukebox/alb-2/index.md)  
-![Album two's Cover Art](10-jukebox/alb-2/alb2-ca/alb2-ca.jpg)
+![Album two's Cover Art](../../assets/images/jukebox/alb-2/alb2-ca.jpg)
 
   Seven songs exploring human motivation and leadership theories—from Maslow to Vroom—aligned with the PMP *People Domain.*
 

@@ -14,21 +14,21 @@ shortcode: "[idx]"
 ###### [[#Welcome Center|Navigation Section]]
 # Welcome to JASYTI's Repo Template  
  One Skill Set: 4 ways to Learn It: 
-![[jasyti-profile.png]]
+![[../assets/images/site/jasyti-profile.png]]
 *Learn it. See it. Live it. Speak it.*
 
 I know what your thinking! WTF am I looking at?  his is my pre made fully linked Quartz Compliant Ready to publish Repository Knowledge Base
 ## Main Categories
 ---
 ### [01. Category 1](01-category-1/index.md)
-![Category 1 Image](cat1-img.png)
+![Category 1 Image](../assets/images/site/cat1-img.png)
 *image caption*
 ### Category 1 Header
 Category 1 Description
 
 ---
 ### [2. Category 2](02-category-2/index.md)  
-![Category 2 Image](assets/images/cat2-img.png)
+![Category 2 Image](../assets/images/site/cat2-img.png)
 *image caption*
 ### Category 2 Header
 Category 2 Description
@@ -36,7 +36,7 @@ Category 2 Description
 ---
 ### [03 Category 3](03-category-3/index.md)
 
-![[cat3-img.png|Category 3 Image]]
+![[../assets/images/site/cat3-img.png|Category 3 Image]]
 *image caption*
 ### Category 3 Header
 Category 3 Description
@@ -44,7 +44,7 @@ Category 3 Description
 ---
 ### [04 Category 4](04-category-4/index.md)
 
-![[cat2-img.png|Category 4 Image]]
+![[../assets/images/site/cat2-img.png|Category 4 Image]]
 *image caption*
 ### Category 4 Header
 Category 4 Description
@@ -52,14 +52,14 @@ Category 4 Description
 ---
 ### [05 Category 5](05-category-5/index.md)
 
-![[assets/images/cat5-img.png|Category 5 Image]]
+![[../assets/images/site/cat5-img.png|Category 5 Image]]
 *image caption*
 ### Category 5 Header
 Category 5 Description
 ---
 ### [10 - Visit the Interactive Glossary](9-glossary.md)  
 
-![[glossary.png]]
+![[../assets/images/site/glossary.png]]
 
 Every PMI term, every acronym, every concept—explained in plain English and linked to real exam cues. Search it, click it, learn it on demand.  
 
