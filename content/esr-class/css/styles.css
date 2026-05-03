@@ -154,6 +154,20 @@ h1 {
   line-height: 1.05;
 }
 
+.two-line-title span {
+  display: block;
+}
+
+.two-line-title span:last-child {
+  font-size: clamp(1rem, 1.9vw, 1.45rem);
+  white-space: nowrap;
+}
+
+.single-line-title {
+  font-size: clamp(1.45rem, 2.9vw, 2.4rem);
+  white-space: nowrap;
+}
+
 .slide-figure {
   grid-column: 1;
   position: relative;
@@ -271,8 +285,8 @@ h1 {
   right: 1rem;
   bottom: 1rem;
   z-index: 3;
-  width: 2.75rem;
-  height: 2.75rem;
+  width: 2.2rem;
+  height: 2.2rem;
   border: 2px solid rgba(255, 255, 255, 0.9);
   border-radius: 0.65rem;
   background: rgba(18, 53, 91, 0.86);
@@ -624,8 +638,8 @@ h1 {
   .fullscreen-toggle {
     right: 0.75rem;
     bottom: 0.75rem;
-    width: 2.35rem;
-    height: 2.35rem;
+    width: 1.9rem;
+    height: 1.9rem;
   }
 
   .fullscreen-overlay {
