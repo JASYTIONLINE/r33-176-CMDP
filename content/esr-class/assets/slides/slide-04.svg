@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Slide 4: What Does the ESR Do?</title>
+  <desc id="desc">Presentation image for What Does the ESR Do?.</desc>
+  <rect width="1280" height="720" fill="#eef3f8"/>
+  <circle cx="1080" cy="145" r="175" fill="#1f7a8c" opacity="0.28"/>
+  <circle cx="170" cy="610" r="220" fill="#d9e8f6" opacity="0.32"/>
+  <rect x="84" y="72" width="1112" height="576" rx="34" fill="#ffffff"/>
+  <text x="140" y="150" fill="#1f7a8c" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">SLIDE 4</text>
+  <text x="140" y="245" fill="#12355b" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700">What Does</text>
+<text x="140" y="327" fill="#12355b" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700">the ESR Do?</text>
+  <line x1="140" y1="395" x2="700" y2="395" stroke="#1f7a8c" stroke-width="10" stroke-linecap="round"/>
+  <text x="140" y="465" fill="#607083" font-family="Arial, Helvetica, sans-serif" font-size="28">The Equipment Status Report provides a</text>
+<text x="140" y="505" fill="#607083" font-family="Arial, Helvetica, sans-serif" font-size="28">snapshot of equipment readiness in the</text>
+<text x="140" y="545" fill="#607083" font-family="Arial, Helvetica, sans-serif" font-size="28">unit by consolidating faults, work order</text>
+<text x="140" y="585" fill="#607083" font-family="Arial, Helvetica, sans-serif" font-size="28">status, and operational condition into one</text>
+  <rect x="900" y="250" width="170" height="300" rx="42" fill="#d9e8f6"/>
+  <rect x="945" y="310" width="80" height="190" rx="30" fill="#1f7a8c"/>
+</svg>
