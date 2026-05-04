@@ -1,4 +1,4 @@
-name: Deploy to GitHub pages
+name: Deploy static site to GitHub Pages
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -16,44 +16,33 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-        with:
-          submodules: 'true'
-          fetch-depth: 0 # Fetch all history
-      - name: Apply configurations
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static site artifact
         run: |
-          cp quartz.config.ts quartz.layout.ts quartz
-          cp -rf content/* quartz/content/
-      - name: Fix permissions for quartz executable
-        run: chmod +x quartz/quartz/bootstrap-cli.mjs
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: 'lts/*'
-          cache: 'npm'
-          cache-dependency-path: quartz/package-lock.json
-      - name: Install Node.js dependencies
-        working-directory: quartz
-        run: npm ci --omit=dev
-      - name: Build website
-        run: npx quartz build
-        working-directory: quartz
+          mkdir -p _site/content
+          cp -R index.html memos sops assets css static _site/
+          cp -R content/esr-class _site/content/
+          touch _site/.nojekyll
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: quartz/public
+          path: _site
 
-  # Deployment job
   deploy:
     needs: build
     if: ${{ github.ref == 'refs/heads/main'}}
-    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
-      pages: write # to deploy to Pages
-      id-token: write # to verify the deployment originates from an appropriate source
-      actions: read     # to download an artifact uploaded by `actions/upload-pages-artifact@v3`
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
