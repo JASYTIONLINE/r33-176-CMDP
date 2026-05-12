@@ -238,18 +238,43 @@ hr {
 
 /* Responsive */
 @media (max-width: 768px) {
+  header {
+    padding: 0.75rem 1rem;
+  }
+
+  header h1 {
+    font-size: 1.15rem;
+    line-height: 1.2;
+  }
+
+  nav {
+    margin-bottom: 0.75rem;
+    padding: 0.55rem 0.75rem;
+  }
+
+  nav ul {
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+  }
+
+  nav li {
+    flex: 1 1 0;
+    margin: 0;
+  }
+
+  nav a {
+    display: block;
+    padding: 0.45rem 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    text-align: center;
+    white-space: nowrap;
+  }
+
   main {
     padding: 1rem;
   }
-  
-  nav ul {
-    flex-direction: column;
-  }
-  
-  nav li {
-    margin: 0.25rem 0;
-  }
-  
+
   .document-viewer iframe {
     height: 600px;
   }
