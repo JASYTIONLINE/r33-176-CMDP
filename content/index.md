@@ -15,6 +15,6 @@ This folder contains authored source content for the CMDP compliance site.
 
 - [Memorandums](memos/memos.index.md)
 - [SOPs](sops/sops.index.md)
-- [ESR Class](esr-class/equipment-status-report-class.html)
+- [ESR Class](esr-class/esr/main/sl1-esr-key.html)
 
 Published HTML pages are deployed from the root static site structure. Markdown files in this folder should be treated as source material unless a page is intentionally published from `content/`.

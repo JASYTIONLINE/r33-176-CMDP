@@ -10,7 +10,7 @@
     { label: "Home", href: "index.html" },
     { label: "Memos", href: "memos/index.html" },
     { label: "SOPs", href: "sops/index.html" },
-    { label: "ESR Class", href: "content/esr-class/equipment-status-report-class.html" },
+    { label: "ESR Class", href: "content/esr-class/esr/main/sl1-esr-key.html" },
   ];
 
   const normalizePath = (href) => {

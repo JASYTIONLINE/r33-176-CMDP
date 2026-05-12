@@ -33,10 +33,12 @@ body {
   display: flex;
   align-items: stretch;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 4px;
+  min-height: 100px;
   max-width: 1180px;
   margin: 0 auto;
-  padding: 0.85rem 1.25rem;
+  overflow: visible;
+  padding: 0.45rem 1rem;
 }
 
 .brand,
@@ -46,33 +48,69 @@ body {
 }
 
 .brand {
-  font-size: 1.1rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   text-align: center;
   text-transform: uppercase;
-  white-space: nowrap;
+  white-space: normal;
+  line-height: 1.25;
+  max-width: 100%;
+  padding-inline: 0.25rem;
+}
+
+.brand-primary {
+  margin-bottom: 0.15rem;
+}
+
+.brand-tagline {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  opacity: 0.92;
+  margin-top: 0.2rem;
+  padding-bottom: 0.15rem;
 }
 
 .nav-links {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  min-width: 0;
+  flex-wrap: nowrap;
+}
+
+.nav-links-main {
+  display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  gap: 0.35rem;
+  gap: 4px;
+  flex: 1 1 auto;
   min-width: 0;
   overflow-x: auto;
   scrollbar-width: thin;
+}
+
+.nav-exit-cmdp {
+  flex: 0 0 auto;
 }
 
 .nav-links a {
   border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 999px;
   flex: 0 0 auto;
-  padding: 0.4rem 0.62rem;
-  font-size: 0.82rem;
-  line-height: 1.2;
-  white-space: nowrap;
+  padding: 0.28rem 0.48rem;
+  font-size: 0.72rem;
+  line-height: 1.05;
+  text-align: center;
+  white-space: normal;
   transition: background-color 160ms ease, color 160ms ease;
+}
+
+.nav-links a span {
+  display: block;
 }
 
 .nav-links a:hover,
@@ -82,50 +120,14 @@ body {
   color: var(--color-primary);
 }
 
-.site-rail {
-  position: fixed;
-  top: 8.5rem;
-  left: 1rem;
-  z-index: 9;
-  display: grid;
-  gap: 0.6rem;
-  width: 6.25rem;
-  padding: 0.75rem;
-  border: 1px solid var(--color-primary-soft);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 14px 34px rgba(18, 53, 91, 0.16);
-}
-
-.site-rail a {
-  display: block;
-  padding: 0.55rem 0.45rem;
-  border-radius: 999px;
-  background: var(--color-primary);
-  color: #ffffff;
-  font-size: 0.78rem;
-  font-weight: 700;
-  line-height: 1.1;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: background-color 160ms ease, transform 160ms ease;
-}
-
-.site-rail a:hover,
-.site-rail a:focus {
-  background: var(--color-accent);
-  transform: translateX(0.12rem);
-}
-
 .slide-shell {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 2.5rem 1.25rem 4rem;
+  padding: 0.45rem 1rem 0.5rem;
 }
 
 .slide-card {
-  --slide-content-gap: clamp(1.25rem, 2.5vw, 2rem);
+  --slide-content-gap: 4px;
   display: grid;
   grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
   gap: var(--slide-content-gap);
@@ -133,14 +135,20 @@ body {
   background: var(--color-surface);
   border-radius: 28px;
   box-shadow: var(--shadow-card);
-  padding: clamp(1.25rem, 3vw, 2.4rem) clamp(4.5rem, 6vw, 5.5rem);
+  padding: clamp(0.55rem, 1.6vw, 1.1rem) clamp(4.5rem, 6vw, 5.5rem);
 }
 
-.eyebrow {
-  grid-column: 1 / -1;
-  margin: 0 0 0.35rem;
+.slide-page-footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0.35rem 1rem 0.85rem;
+  text-align: center;
+}
+
+.slide-footer-meta {
+  margin: 0;
   color: var(--color-accent);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -148,7 +156,7 @@ body {
 
 h1 {
   grid-column: 1 / -1;
-  margin: 0;
+  margin: 0 0 0.2rem;
   color: var(--color-primary);
   font-size: clamp(1.45rem, 2.9vw, 2.4rem);
   line-height: 1.08;
@@ -162,15 +170,16 @@ h1 {
 
 .two-line-title span:last-child {
   font-size: clamp(1rem, 1.9vw, 1.45rem);
-  white-space: nowrap;
+  white-space: normal;
+  text-wrap: balance;
 }
 
 .slide-figure {
-  --slide-image-max-height: clamp(10rem, calc(100dvh - 16rem), 680px);
+  --slide-image-max-height: clamp(10rem, calc(100dvh - 11rem), 740px);
   grid-column: 1;
   position: relative;
   display: grid;
-  justify-items: start;
+  justify-items: center;
   min-width: 0;
 }
 
@@ -189,7 +198,7 @@ h1 {
 .slide-image-wrap {
   position: relative;
   display: block;
-  justify-self: start;
+  justify-self: center;
   aspect-ratio: 2056 / 1015;
   width: 100%;
   max-width: calc(var(--slide-image-max-height) * 2056 / 1015);
@@ -515,11 +524,14 @@ h1 {
     max-width: none;
   }
 
+  .slide-page-footer {
+    max-width: none;
+  }
+
   .slide-card {
     grid-template-columns: 1fr;
   }
 
-  .eyebrow,
   h1,
   .slide-figure,
   .slide-copy {
@@ -529,7 +541,7 @@ h1 {
   .slide-copy {
     justify-self: start;
     width: 100%;
-    max-width: min(100%, calc(var(--slide-image-max-height) * 2056 / 1015));
+    max-width: 100%;
   }
 
   .slide-arrow-right {
@@ -539,13 +551,13 @@ h1 {
 
 @media (max-width: 1800px) and (min-width: 761px) {
   .slide-image {
-    width: 80vw;
+    width: 56vw;
     max-width: 100%;
     max-height: none;
   }
 
   .slide-image-wrap {
-    width: 80vw;
+    width: 56vw;
     max-width: 100%;
   }
 
@@ -555,22 +567,18 @@ h1 {
   }
 
   .slide-copy {
-    max-width: min(80vw, 100%);
+    max-width: 100%;
   }
 }
 
 @media (max-width: 999px) {
   .slide-shell {
-    padding-top: 1.5rem;
+    padding-top: 0.35rem;
   }
 
   .slide-card {
     gap: 1rem;
     padding: clamp(1rem, 3vw, 1.75rem);
-  }
-
-  .eyebrow {
-    margin-bottom: 0;
   }
 }
 
@@ -663,25 +671,23 @@ h1 {
 
   .nav-links {
     flex-wrap: wrap;
+    justify-content: flex-end;
+    row-gap: 6px;
+  }
+
+  .nav-links-main {
+    flex: 1 1 100%;
     justify-content: center;
     overflow-x: visible;
+    flex-wrap: wrap;
+  }
+
+  .nav-exit-cmdp {
+    margin-left: auto;
   }
 
   .nav-links a {
     font-size: 0.8rem;
-  }
-
-  .site-rail {
-    position: static;
-    display: flex;
-    justify-content: center;
-    width: auto;
-    margin: 0.9rem 0.75rem 0;
-    padding: 0.6rem;
-  }
-
-  .site-rail a {
-    min-width: 5rem;
   }
 
   .slide-card {
@@ -692,30 +698,29 @@ h1 {
   }
 
   .slide-figure {
-    --slide-image-max-height: clamp(10rem, calc(100dvh - 18rem), 560px);
-    justify-items: stretch;
+    --slide-image-max-height: clamp(10rem, calc(100dvh - 13rem), 560px);
+    justify-items: center;
     width: 100%;
   }
 
-  .eyebrow,
   h1,
   .slide-figure,
   .slide-copy {
     grid-column: 1;
   }
 
-  .eyebrow {
+  .slide-footer-meta {
     overflow-wrap: anywhere;
   }
 
   .slide-image {
-    width: 100%;
+    width: 70%;
     height: auto;
     max-height: none;
   }
 
   .slide-image-wrap {
-    width: 100%;
+    width: 70%;
     max-width: 100%;
   }
 

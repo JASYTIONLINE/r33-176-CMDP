@@ -1,12 +1,28 @@
 const currentSlide = document.querySelector("[data-current-slide]")?.dataset.currentSlide;
 
+/** Inclusive [start, end] by advancement index (`data-current-slide`). Keys match nav `data-slide`. */
+const NAV_SECTION_RANGE = {
+  1: [1, 1],
+  12: [12, 14],
+  15: [15, 17],
+};
+
 if (currentSlide) {
-  document.querySelectorAll("[data-slide]").forEach((link) => {
-    if (link.dataset.slide === currentSlide) {
-      link.classList.add("is-active");
-      link.setAttribute("aria-current", "page");
-    }
-  });
+  const n = Number.parseInt(currentSlide, 10);
+  if (!Number.isNaN(n)) {
+    document.querySelectorAll(".nav-links [data-slide]").forEach((link) => {
+      const key = Number.parseInt(link.dataset.slide, 10);
+      const range = NAV_SECTION_RANGE[key];
+      if (!range) {
+        return;
+      }
+      const [lo, hi] = range;
+      if (n >= lo && n <= hi) {
+        link.classList.add("is-active");
+        link.setAttribute("aria-current", "page");
+      }
+    });
+  }
 }
 
 const slideFigure = document.querySelector(".slide-figure");
