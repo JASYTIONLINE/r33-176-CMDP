@@ -280,3 +280,31 @@ hr {
   }
 }
 
+/* SOP numbered citations (superscript links to §3 REFERENCES) */
+main .cite-ref {
+  font-size: 0.72em;
+  font-weight: 600;
+  vertical-align: super;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+main .cite-ref a {
+  color: #004b8d;
+  text-decoration: none;
+  padding: 0 1px;
+}
+
+main .cite-ref a:hover {
+  text-decoration: underline;
+}
+
+main .ref-anchor-target {
+  scroll-margin-top: 5rem;
+}
+
+main ol.sop-ref-list li {
+  margin: 0.85rem 0;
+  padding-left: 0.25rem;
+}
+

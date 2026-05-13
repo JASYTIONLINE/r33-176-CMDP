@@ -1,0 +1,476 @@
+> **Reference only (temporary).** This Markdown is a working draft used with `_md_driver_training_to_html.py` while the Driver Training SOP is rebuilt. The published draft in the repo is **`sops/101.10.1-sop-driver-training.html`**. Replace that workflow with the final SOP source when ready, then **discard `drivetrain.md`**.
+
+---
+
+# DRIVER TRAINING STANDARD OPERATING PROCEDURE
+
+**176th Engineer Brigade (TXARNG)**
+
+---
+
+## Administrative Data
+
+| Field | Value |
+|---|---|
+| Effective Date | [DD MONTH YYYY] |
+| Supersedes | [Previous SOP Date or N/A] |
+| Review Date | [Annual Review Date] |
+| Approval Authority | [Commander Name, Rank] |
+
+---
+
+# 1. PURPOSE
+
+This SOP establishes **brigade-level** procedures for the selection, training, testing, and licensing of vehicle and equipment operators for units assigned or attached to **176th Engineer Brigade (TXARNG)**. **Operator licensing rules and examination administration come from AR 600-55** (implemented through Section 5 of this SOP). **What constitutes trained performance for each equipment family—including mandated TC lessons, practical tasks, PMCS tables, and performance checks—is defined in the equipment-specific Training Circulars and operator/maintenance technical manuals cited in Section 3.** Commander maintenance responsibilities referenced here align with **AR 750-1**, **DA PAM 750-8**, and safety expectations in **AR 385-10**.
+
+Battalion and company or unit Driver Training SOPs **will be derived from** this publication. Commanders **may supplement** with formation-specific requirements where applicable, provided supplements do not conflict with this SOP, AR 600-55, or higher regulation or policy.
+
+This brigade SOP **does not replace** battalion or unit Driver Training SOPs. Subordinate commanders remain responsible for issuing and maintaining local SOPs that implement **these brigade procedures plus the publication-based requirements in Section 3**, and capture unit-specific execution (for example, appointments, routing of forms, training schedules, and local resources).
+
+---
+
+# 2. APPLICABILITY
+
+This SOP applies to all personnel assigned or attached to 176th Engineer Brigade (TXARNG) who operate, train, test, or license vehicle and equipment operators.
+
+---
+
+# 3. REFERENCES
+
+- AR 600-55, The Army Driver and Operator Standardization Program
+- DA Pam 750-1, Commanders' Maintenance Handbook
+- TC 21-305-xx series and related equipment-specific Training Circulars (indexed to each LIN or configuration), prescribing operator training tasks, practical tasks and performance criteria, and testing alignment for assigned equipment (together with operator TMs—see Section 6.6)
+- Applicable Technical Manuals (TMs) for assigned equipment
+- U.S. Army Combat Readiness Center, **Driver's Training Toolbox** (online driver-training aids and GMV safety resources complementing AR 600-55): https://safety.army.mil/ON-DUTY/Drivers-Training-Toolbox
+- **GCSS-Army** Functional Users Guides and HQDA system policy for equipment dispatch, utilization, maintenance management, petroleum accountability, and operator-equipment association
+- **Army Publishing Directorate** portals for authorized publications and **Army electronic forms** prescribed for licensing, maintenance, dispatch, and utilization records (including **DA Form 348**)
+
+---
+
+# 4. RESPONSIBILITIES
+
+## 4.1 Commander
+
+- Approves operator licensing program
+- Appoints Master Driver, License Instructors, and License Examiners in writing
+- Appoints or approves in writing the Unit Operator Training Coordinator and Platoon (and Section) Operator Training Coordinators (primary and alternate) where applicable
+- Reviews licensing program status quarterly
+
+## 4.2 Master Driver
+
+The Master Driver is the commander's **principal advisor and on-ground program manager** for the Driver and Operator Standardization Program (**IAW AR 600-55**). While commanders retain approval authority, the Master Driver **owns day-to-day execution quality**: training the trainers, keeping the licensing record trail complete and inspectable, and making sure every instructor and examiner applies **current regulatory requirements**—not informal habits or outdated slide decks.
+
+This section is the **primary responsibility block** for Master Drivers in 176th Engineer Brigade formations: every bullet applies unless the commander documents a narrower appointment in writing.
+
+### Train-the-trainer and workforce development
+
+- **Educate and coach the training force.** Conduct recurring updates, walk-throughs, and after-action reviews with **License Instructors (LI)** and **License Examiners (LE)** so classroom, hands-on, road/field, and examination execution matches **Section 6.6**, **Section 5**, and **AR 600-55**.
+- **Verify LI/LE currency.** Ensure every LI and LE meets appointment prerequisites **IAW AR 600-55, Appendix F**, commander orders, and brigade Master Driver directives; track expiration or suspension of certifications and resolve gaps before personnel instruct or examine.
+- **Standardize best practice within the regulation.** Where AR 600-55 or HQDA / U.S. Army Combat Readiness Center (ACRC) guidance publishes recommended techniques (risk management, examination sequencing, documentation checks), the Master Driver adopts those practices unit-wide so execution is predictable during CMDP inspections.
+- **Develop adjunct trainers.** Coach Unit Operator Training Coordinators, platoon/section operator training representatives, and commander-appointed assistants so they can reinforce TC/TM tasks between formal classes **without contradicting** DOSP rules.
+
+### Publications, lesson aids, and the Driver's Training Toolbox
+
+- **Maintain a publications roster for the training cell.** Track applicable versions of **AR 600-55**, **DA PAM 750-8**, **AR 385-10**, equipment **Training Circulars** and **operator/maintenance TMs** cited in **Section 3**, commander supplements, and brigade maintenance/licensing memoranda; distribute changes to LI/LE immediately.
+- **Use the Army Combat Readiness Center Driver's Training Toolbox** at https://safety.army.mil/ON-DUTY/Drivers-Training-Toolbox as the central online repository for Army driver-training aids, government motor vehicle safety products, and hazard-control references that complement—but **do not replace**—AR 600-55, equipment TCs, and operator TMs.
+- **Pull operator-task definitions only from authoritative sources.** Mandatory tasks, hours, and performance checks remain **equipment TC + operator TM + Section 6.6**; toolbox materials support delivery (presentations, scenarios, lesson supplements) where they align with those authorities.
+- **Keep CMDP and ACRC products accessible.** Stage approved CMDP inspection references, ACRC toolbox downloads, and brigade Master Driver packets where LI/LE can consistently retrieve them (**GCSS-Army** reference aids where applicable, Army Publishing Directorate **electronic forms** access, and secure unit repositories—IAW OPSEC and records policies).
+
+### Licensing documentation, records, and reporting
+
+- **Collect, organize, and safeguard licensing artifacts (program level).** Ensure the unit can produce DA Form 348 packets, examination worksheets, training attendance logs, OF 346 issuance records (when used), and commander appointment orders so an inspector can trace **selection, training, testing, and licensing** for any soldier. **Conduct QA/QC, spot checks, inspection samples, and corrective filing guidance**; **routine scrubbing and updating of packets** for soldiers supervised at platoon/section **IAW Section 4.6** so the Battalion Master Driver is not saddled as the sole maintainer of every record in the formation unless commander-directed central routing applies.
+- **Normalize filing and cross-checks.** Align file plans with **ARIMS**, unit records SOP, and brigade Master Driver guidance; **periodically reconcile GCSS-Army** operator-to-equipment associations, dispatch/utilization entries visible in the system, and maintenance records **against DA Form 348** and commander licensing restrictions **IAW** brigade Master Driver and maintenance office guidance.
+- **Produce readiness metrics for the commander.** Summarize licensed population, pending qualifications, expired licenses, backlog risks, and corrective actions for quarterly reviews and short-notice reporting.
+
+### Supervision, inspections, and coordination
+
+- **Supervise LI/LE execution.** Observe training and examinations, correct drift from published procedures, and escalate systemic issues to the commander with recommended fixes.
+- **Synchronize with brigade / battalion Master Driver guidance.** Relay higher-headquarters directives, share lessons learned across companies/batteries, and participate in forums or working groups the brigade Master Driver hosts.
+- **Support inspections and investigations.** Provide licensing documentation, explain program controls, and coordinate corrective training after CMDP findings or accident reviews **IAW AR 385-10**, AR 600-55, and commander guidance.
+
+### Qualifications and professional development
+
+- Remain personally qualified **IAW AR 600-55, Appendix F** for duties the commander assigns (Master Drivers commonly fulfill LI/LE tasks as well).
+- Complete directed professional development (Master Driver Course or successor training, Transportation School updates, ACRC toolbox releases) **IAW AR 600-55**, TRADOC protocols, and brigade timelines.
+
+## 4.3 License Instructors
+
+- Conduct operator training IAW AR 600-55
+- Document training in DA Form 348
+- Prepare operators for licensing examinations
+
+## 4.4 License Examiners
+
+- Administer licensing examinations
+- Evaluate operator proficiency
+- Complete and sign DA Form 348
+
+## 4.5 Unit Operator Training Coordinator
+
+The Unit Operator Training Coordinator synchronizes driver and operator training execution across the unit and links licensing policy to day-to-day training.
+
+- Appointed by the commander in writing (often the senior License Instructor or other qualified leader identified in unit orders)
+- Coordinates scheduling of training, sustainment, and licensing events with the Master Driver and LI/LE personnel
+- Serves as the unit focal point for Battalion Master Driver guidance, tracking metrics, and correcting gaps in operator readiness
+- Ensures Platoon (and Section) Operator Training Coordinators receive **direction aligned with Battalion Master Driver guidance, Section 6, and applicable TC/TM training schedules**, plus clear deadlines and reporting requirements
+- Supports accurate, complete training and licensing documentation across the formation **using DA Form 348 (Army electronic form where deployed), other prescribed DA/D forms, and GCSS-Army visibility IAW Maintenance and Supply SOP**
+
+## 4.6 Platoon (and Section) Operator Training Coordinators
+
+Each platoon or section designates **primary and alternate** Platoon (and Section) Operator Training Coordinators to distribute execution at the lowest level.
+
+Keeping driver-training and licensing **records and packets current where soldiers actually train** preserves the highest day-to-day visibility, catches gaps early, and **distributes clerical workload** across the formation. The **Battalion Master Driver** (and unit licensing cell) remains responsible for **QA/QC**, inspection readiness, and correcting systemic filing problems—but **should not be the only office touching every packet** for routine updates.
+
+- Designated by the platoon/section leader with commander approval as required by unit SOP
+- **Manage, scrub, and update** driver-training and licensing **records and packets** for personnel under platoon/section supervision **IAW AR 600-55**, **Section 5**, commander/unit filing guidance, and brigade Master Driver packet standards—using **DA Form 348**, authorized **Army electronic forms**, prescribed worksheets or examinations on DA-approved formats, and **GCSS-Army** operator/equipment visibility **IAW** Functional Users Guides and Maintenance SOP
+- Coordinate soldier participation in classroom, hands-on, road/field training, and licensing preparation activities
+- Maintain visibility of operator training and licensing status for assigned personnel; resolve routine discrepancies locally when authorized and **elevate shortfalls** through the chain of command when fixes require Master Driver, LI/LE, or commander action
+- Forward packets or status pulls to the **Battalion Master Driver** when directed for **QA/QC samples, inspections, audits, or brigade reporting**—routine maintenance stays at platoon/section unless unit SOP assigns different routing for specific forms
+- Reinforce **TM/TC operator requirements** between formal classes and assist LI/LE with documentation and hands-on consolidation training as directed
+
+## 4.7 First-Line Supervisor
+
+First-line supervisors enforce **TM/TC and licensing requirements between formal training events** and are accountable for who operates equipment under their supervision.
+
+**Authorization on paper is not the same as qualified on equipment.** Entries on DA Form 348 or license documents can lag training decay, variant gaps, or soldier readiness changes. First-line supervisors provide the **final gate** before an operator is tasked: they **know their soldiers**, maintain visibility on operator readiness, and ensure **only soldiers who are actually trained and fit to operate** receive operational assignments.
+
+- Maintain **continuous visibility** on **every subordinate operator**—who is licensed or documented for which equipment, who has completed **Section 6.6** sustainment or refresher requirements when applicable, and who is placed on missions requiring vehicle or equipment operation.
+- **Physical and mental capability.** Confirm soldiers are fit for the duty when assigning operator tasks; comply with medical readiness, profiling, medication and safety, crew-rest, and commander constraints **IAW applicable regulations, medical guidance, and unit policies**. When capability is in doubt, remove the soldier from operator duties and route the issue through the chain of command.
+- **Monitor changes affecting operation.** Track updates to military licensing (DA Form 348 / suspensions), civilian driver license issues, adverse driving incidents, profiles, limitations, and other health or administrative changes reported **IAW Section 4.8**; ensure adjustments are reflected before the soldier operates equipment again.
+- **Pre-mission verification (permission-to-operate scrub).** Before crews depart or missions execute, confirm **actual qualification** matches the equipment and variant being dispatched—not merely that a line exists on a license—by reviewing **DA Form 348**, required sustainment dates, commander restrictions, and recent training documentation available at platoon level (**Section 4.6** packet maintenance supports this review). When dispatch is executed **through GCSS-Army**, verify system operator-equipment associations and release data match **DA Form 348** and commander restrictions before departure. Resolve discrepancies with the Battalion Master Driver / LI/LE before accepting risk.
+- Maintain subject matter expertise on every vehicle and equipment type they personally operate and every type operated by their subordinates; close gaps through training, qualification, licensing, or coordinated SME support before permitting independent operation **IAW Section 6.6**.
+- Train and mentor subordinates on operation and PMCS per assigned equipment.
+- Validate proficiency through observation before permitting independent operation when the mission permits; when known skill drift or equipment mismatch exists, investigate or coordinate refresher **through LI/LE** even if documentation has not yet caught up.
+- Ensure subordinates attend scheduled training, sustainment, and licensing events directed by the chain of command.
+- Do not direct or permit untrained, unlicensed (when licensing applies), medically unfit, or personnel whose **qualification cannot be verified** from DA Form 348, platoon-level packets (**Section 4.6**), and supervisor observation to operate equipment when qualification is required.
+
+## 4.8 Operators
+
+Operators are all soldiers who operate unit vehicles or equipment subject to this SOP.
+
+Operators are **more than drivers**—they are **professional equipment operators**. **Professionals who** pursue **tactical and technical excellence** on every platform they run; **who** sharpen competence against the **equipment Training Circulars**, **operator technical manuals**, **Section 6.6**, and **Section 5** licensing path—not against rumor, shortcuts, or undocumented unit lore; **who** understand that teammates, the mission, and the public **trust whoever sits at the controls**. That standard is worth owning.
+
+**Individual accountability.** Commanders, Master Drivers, LI/LE, and first-line supervisors hold gates, inspections, and permissions to operate; **each operator still bears final responsibility** to remain trained, qualified, and mentally and physically ready for assigned equipment. When unsure whether qualifications, variants, sustainment, or limits are current, the operator **must seek training or verification through the chain of command, LI/LE, or the Battalion Master Driver** before operating.
+
+- Report to their immediate supervisor no later than the next scheduled drill assembly after the event any change in licensing or driving-related status that may affect military licensing, qualification, or duty performance—for example civilian driver license suspension or revocation, DUI/DWI or comparable offenses, other serious motor vehicle violations, or new medical or administrative restrictions affecting operation—unless regulations or orders require earlier notification through the chain of command.
+- **Seek training or verification before operating** when unsure whether authorization, variant configuration, sustainment, or skill currency meets **Section 6.6** or **Section 5**; do not treat a DA Form 348 entry alone as proof of hands-on currency.
+- Attend and complete required classroom, hands-on, road or field training, examinations, and sustainment **IAW AR 600-55**, applicable **TC/TM**, **Section 6.6**, and unit schedules.
+- Operate only equipment for which they are trained, tested, licensed (when required), and documented on **DA Form 348** or equivalent records.
+- **Document equipment employment in official systems and forms.** Record dispatch, utilization return, **mileage or meter readings**, faults, and **petroleum accountability** **through GCSS-Army** transactions **IAW** applicable Functional Users Guides and unit Maintenance/Dispatch SOP, **and** complete prescribed **DA/D forms** (including **Army electronic forms** where mandated). **DA Form 348** remains the operator qualification record; do **not** substitute unofficial spreadsheets or locally invented logs when GCSS-Army or a prescribed form captures the same data.
+- Perform PMCS **IAW applicable operator TM** when assigned as operator or crew; **develop and maintain SME-level mastery** of operator-level PMCS, fluids, indicators, and fault reporting for assigned equipment; identify, report, and document faults through unit maintenance channels.
+- Comply with safety procedures, risk controls, **GCSS-Army dispatch and maintenance rules**, prescribed journey-management requirements, **Army electronic forms** used for movement or utilization when directed, and commander restrictions applicable to the mission and equipment.
+- Maintain personal readiness (for example medical qualification, civilian driver license when required for military licensing, and required operator identification such as OF 346 when issued).
+
+
+---
+
+# 5. PROCEDURES
+
+## 5.1 Operator Selection
+
+- Supervisor nominates personnel for licensing.
+- Verify medical fitness (PULHES requirements).
+- Verify valid civilian driver's license if required.
+- Commander approves training enrollment.
+
+## 5.2 Training Requirements
+
+Quantitative training elements (for example minimum hours, lesson sequences, practical tasks, and performance tests) **are specified in the equipment-specific Training Circular and operator TM** paired to each soldier's DA Form 348 authorization; subsection bullets below list typical training categories rather than replacing those publications.
+
+a. **Classroom Instruction:**
+- Vehicle/equipment familiarization
+- PMCS procedures
+- Safety requirements
+- Regulatory requirements
+
+b. **Hands-On Training:**
+- Minimum hours per AR 600-55 and TCs
+- PMCS performance
+- Operational procedures
+- Emergency procedures
+
+c. **Road/Field Training:**
+- Supervised operation in training environment
+- Progressive skill development
+- Various terrain and conditions as applicable
+
+## 5.3 Testing and Licensing
+
+Written and hands-on examination content **tracks AR 600-55 and the bullets below**; tasks scored on performance examinations **mirror applicable TC practical requirements and TM procedures** described in Section 6.6.
+
+a. **Written Examination:**
+- Minimum passing score: 70%
+- Covers safety, PMCS, and operational procedures
+
+b. **Performance Examination:**
+- PMCS performance
+- Equipment operation
+- Evaluated by License Examiner
+
+c. **Licensing:**
+- Complete DA Form 348
+- Commander signs license
+- Issue OF 346 (U.S. Government Motor Vehicle Operator's Identification Card) if required
+
+## 5.4 Sustainment Training
+
+- Annual sustainment training for all licensed operators.
+- Document training in DA Form 348.
+- Address skill degradation as identified.
+- Include safety updates and **AR 600-55 / other regulatory changes** that affect licensed operators.
+
+## 5.5 Night Vision Device (NVD) Operations
+
+- Separate NVD licensing required.
+- Training IAW TC 21-305-20.
+- NVD Instructor conducts training.
+- Annual NVD sustainment required.
+
+---
+
+# 6. UNIT OPERATOR TRAINING PROGRAM
+
+Operator and equipment maintenance training at battalion and lower echelons complements licensing policy elsewhere in this SOP (**Section 5 Procedures**). This section establishes unit-level training structure, coordination roles, and execution requirements aligned with **AR 750-1**, **AR 385-10**, **DA PAM 750-8**, applicable **operator and maintenance TMs**, **equipment-specific Training Circulars identified in Section 3**, and commander supplements that do not contradict those publications.
+
+## 6.1 General
+
+Operator and equipment maintenance training is essential to sustaining readiness, ensuring safe operations, and preventing damage to equipment. Units will establish and maintain a structured operator training program **executed IAW Section 6.6**, consistent with **Section 3** publications and maintenance references cited there.
+
+The purpose of this program element is to develop disciplined, proficient operators who understand the capabilities, limitations, and risks **called out in applicable operator TMs and equipment TCs** for assigned equipment. Execution focuses on **TM-prescribed** safe operation and PMCS tables, **TM/TC-directed** fault identification and reporting, and operator-level maintenance discipline requirements in **DA PAM 750-8** and **AR 750-1** where those publications assign duties to operators or crews.
+
+Improper operation or inadequate training increases the risk of injury, equipment damage, and mission failure. Training programs will prioritize **AR 385-10** hazard controls, **TM safety warnings**, equipment preservation **IAW commander maintenance guidance**, and readiness.
+
+## 6.2 Command Responsibility
+
+Commanders at all levels are responsible for establishing and enforcing operator and equipment maintenance training programs that **implement Section 6.6 (equipment TCs and operator TMs) and Section 5 licensing steps** under **AR 600-55** and this SOP.
+
+Commanders will:
+
+- Establish and enforce training programs for all assigned equipment.
+- Ensure personnel complete operator training **IAW Section 6.6** (applicable **equipment TC**, **operator TM**, and **Section 5** licensing prerequisites) before solo operation or independent operator-level PMCS.
+- Allocate time and resources for training.
+- Ensure integration of training with unit safety programs **IAW AR 385-10** and **TM** hazard controls.
+- Ensure training is documented and maintained.
+- Use CMDP inspections to verify execution against **Section 6.6**, **TM** procedures, **AR 750-1**, **DA PAM 750-8**, **AR 600-55** licensing documentation, and **AR 385-10** expectations—not undocumented local “standards.”
+
+## 6.3 Training Program Structure
+
+Unit training programs will be structured so every operator completes qualification **IAW Section 6.6** (correct **equipment TC** and **TM** set for each DA Form 348 authorization) before solo operation.
+
+Training will include:
+
+- Equipment operation.
+- Preventive Maintenance Checks and Services (PMCS).
+- Safety procedures and risk management.
+- Equipment limitations and capabilities.
+- Fault identification, reporting, and documentation (**through GCSS-Army maintenance workflows when faults are recorded at operator level**).
+- **GCSS-Army** dispatch, utilization return, and prescribed **Army electronic forms** for movement when applicable.
+- **GCSS-Army** familiarization for dispatch, faults, petroleum accountability, and operator-equipment views **IAW** Functional Users Guides when duties require.
+
+Training will be conducted using technical manuals, Army regulations, unit SOPs, and this SOP where applicable.
+
+Execution of the training program is conducted through a structured system of unit-level coordinators, platoon representatives, and first line supervisors.
+
+## 6.4 Unit Operator Training Structure and Responsibilities
+
+License Instructors and License Examiners (LI/LE) serve as the primary coordinators of operator and equipment maintenance training within the unit. Their primary responsibility is to train operators. They will also ensure first line leaders are **qualified on their assigned equipment IAW the same Section 6.6 TC/TM requirements** their subordinates must meet, and capable of delivering **LI-directed training that mirrors published TC practical tasks and TM procedures.**
+
+In conjunction with the Battalion Master Driver, LI/LE personnel will develop, coordinate, and oversee training of first line leaders and validate execution at the platoon and section level, ensuring training follows **applicable equipment TCs, operator TMs (-10 series), AR 600-55 licensing steps (Section 5), AR 385-10 safety expectations, DA PAM 750-8 maintenance discipline rules at operator level, and unit SOP.** They will validate that first line supervisors demonstrate **TM/TC-aligned** operation and PMCS and can enforce **TM operating limits, safety warnings, and DA Form 348 restrictions** within their formations.
+
+The Unit LI/LE will:
+
+- Oversee execution of the operator training program.
+- Ensure training and evaluation use the **published TC lesson/practical tasks and TM procedures** for each configuration; unit schedules organize execution but **do not replace** those publications.
+- Coordinate with the Battalion Master Driver for oversight and compliance.
+- Train and supervise subordinate trainers and evaluators.
+- Conduct formal training classes on PMCS and operation of all unit equipment.
+- Ensure training data is properly tracked and reported.
+
+## 6.5 Platoon and Section Operator Training Representatives
+
+Each platoon or section will designate primary and alternate operator training representatives—the **Platoon (and Section) Operator Training Coordinators** described in Section 4.6. These personnel are responsible for executing operator and equipment maintenance training at the lowest level and verifying assigned soldiers meet **Section 6.6** (TC/TM training and documentation) before solo operation.
+
+Platoon and section operator training representatives will:
+
+- Conduct operator training and assist with formal training events as required.
+- Provide instruction on equipment operation, PMCS, and safety procedures.
+- Ensure training is conducted **IAW applicable operator/maintenance TMs, equipment TCs listed in Section 3 for each authorization, AR 600-55 where licensing applies, AR 385-10 safety requirements, maintenance publications cited in Section 6 (for example AR 750-1 / DA PAM 750-8), and unit SOP.**
+- Maintain and manage operator training records for assigned personnel.
+- Validate that required TC/TM training events and evaluations for each soldier's authorization are **complete and documented** (**DA Form 348** and unit training records).
+- Verify that documentation is accurate, complete, and current.
+- Conduct evaluations of operator proficiency.
+- Identify deficiencies and coordinate retraining as required.
+- Ensure personnel are trained on assigned equipment and all applicable variants.
+- Ensure personnel understand equipment capabilities, limitations, and hazards.
+- Support first line supervisors in developing and validating subordinate operators.
+- Enforce **TM safety and operating limits**, **licensing restrictions**, and **Section 6.6** gates so untrained personnel do not operate or perform PMCS.
+
+These representatives execute training under unit guidance and comply with **AR 385-10**, applicable **TM safety paragraphs**, **DA PAM 750-8**, **AR 750-1** maintenance discipline expectations at operator level, and unit maintenance reporting requirements.
+
+## 6.6 Operator Training Requirements
+
+These paragraphs describe how the unit executes operator training that supports licensing under AR 600-55 and this SOP. **Training content, mandated practical hours or iterations, lesson sequences, hands-on tasks, and performance-test requirements for each equipment family are established in equipment-specific Training Circulars** (for example publications in the TC 21-305-xx series and successors, selected for each LIN or configuration) **together with applicable operator technical manuals.** Where a TC prescribes a task, sequence, or performance criterion, units will train and evaluate IAW that publication; this SOP does not substitute for or relax TC/TM requirements. AR 600-55 controls licensing-program administration. Individual soldier duties appear in Section 4.8.
+
+- **Qualification before solo operation.** Operators will not conduct unsupervised operation or independent PMCS on an item until they complete the training blocks and practical instruction **required by the applicable equipment-specific TC and operator TM for that configuration**, receive oriented hands-on training under a License Instructor or other commander-appointed trainer through each TC-required practical element that applies to their documented authorization on DA Form 348, satisfy AR 600-55 licensing prerequisites where applicable, and meet examination requirements in Section 5 when licensing applies.
+
+- **Equipment and variant scope.** Training, evaluation, and DA Form 348 (or equivalent) entries will list each equipment type and documented variant or attachment the soldier is authorized to operate (see Section 6.7). Commanders will not authorize solo operation on newly assigned variants until training and documentation reflect the correct TC/TM set for that configuration.
+
+- **Hands-on operation and PMCS (TC/TM-defined).** Practical training will include supervised execution of operator/crew tasks **prescribed in the applicable equipment TC (including practical lesson tasks where the TC publishes them)** and operator TM manuals (-10/-11/-12 series as issued). Operators will be trained on **all applicable operator-level content in the equipment -10 manual** for their authorization, including but not limited to **operation under usual and unusual (or special) operating conditions** described in the TM; **controls, components, and systems** the operator must operate or monitor; **instruments, indicators, gauges, and warning devices**; operator-assigned **PMCS** and fluid/supply checks; **before-, during-, and after-operation** procedures; and **start, normal operation, shutdown, parking, and emergency procedures**. Performance will match TC/TM procedures and safety sequences unless orders document an approved deviation.
+
+- **Proficiency demonstration.** Proficiency is shown through observed hands-on evaluation administered by a License Examiner (or other evaluator appointed IAW AR 600-55 and unit orders), **using checks aligned with the applicable equipment TC and TM**—critical controls, operating limits, emergency stops, coupling/load-handling actions when equipped, and fault isolation or operator-level recovery actions when those publications assign them to the operator. Where licensing applies, written examination minimum scores are in Section 5.
+
+- **Fault identification, reporting, and documentation.** Operators will use TM and TC operator troubleshooting or fault-isolation guidance where provided; report faults through the chain of command and unit maintenance procedures; and record faults **primarily through GCSS-Army** maintenance management transactions **IAW** applicable Functional Users Guides and unit SOP so dispatch and maintenance tracking stay accurate.
+
+- **Limits and hazards.** Before qualification, soldiers will demonstrate knowledge or application of rated capacities, speed or terrain restrictions, hazardous energy controls, stabilization requirements for lifting or recovering loads, and other limits **taught in the applicable TC/TM** or equipment safety supplemental materials.
+
+- **Licensing.** Personnel will not operate categories of equipment requiring an Army operator license until qualified and documented on DA Form 348 with commander approval (and OF 346 when issued), IAW Section 5 and AR 600-55.
+
+## 6.7 Equipment Variant Qualification
+
+Operator training will be specific to the exact equipment and configuration assigned. Variations in equipment may introduce different controls, capabilities, limitations, and hazards.
+
+Variant qualification includes vehicle-specific mission equipment integral to or mounted on the assigned configuration—not only basic mobility or generic chassis PMCS. Operators must receive formal instruction and supervised hands-on practice on applicable systems before operating those functions independently. Typical examples include winches and recovery accessories; load-handling devices such as forklifts, liftgates, crane or hoist assemblies, and materiel-handling interfaces (hooks, slings, stabilizers); auxiliary hydraulic circuits powering lifts or implements; generator sets or power take-offs tied to variant capability; and other attachments addressed in technical manuals, equipment supplemental pamphlets, or training circulars. Units will tie requirements to each LIN/TMS configuration so soldiers are trained on every subsystem they are ordered to operate.
+
+Personnel will be trained and documented **IAW Section 6.6** on each equipment variant (correct TC/TM pairing) prior to operation or PMCS.
+
+Improper use of variant-specific systems, such as winches, load handling devices, generators with different output systems, or mission-specific modifications, can result in equipment damage, injury, or mission degradation.
+
+Personnel will not operate or perform PMCS on equipment for which they are not trained and documented **per TM authorization and Section 6.6**. Leaders enforce this requirement **IAW TM safety data and AR 385-10** expectations for hazard controls.
+
+## 6.8 First Line Supervisor Responsibilities
+
+First line supervisors enforce **Section 6.6 publication-based requirements** and validate operator proficiency **against TM/TC tasks and LE evaluation criteria.** Section 4.7 establishes supervisor responsibilities in the overall responsibility chain from commander to operator.
+
+Supervisors will:
+
+- Maintain subject matter expertise on equipment operated personally and by subordinates, consistent with Section 4.7.
+- Train and mentor subordinates in equipment operation and PMCS.
+- Validate operator proficiency through observation and evaluation.
+- Ensure personnel complete **Section 6.6** gates prior to operating equipment.
+- Verify training is documented.
+- Prevent personnel from operating equipment when training requirements are not met.
+- Not direct or permit untrained or unqualified personnel to operate equipment.
+
+Supervisors are the primary enforcers of **TM-defined** safe operation and **DA PAM 750-8 / AR 750-1** maintenance discipline at operator level.
+
+## 6.9 PMCS Training
+
+PMCS training will be conducted at all levels **IAW TM tables assigned to each duty position** (operator versus organizational maintenance, **IAW DA PAM 750-8**) and **Section 6.6.**
+
+- Personnel receive PMCS instruction from **the TM sections applicable to their duty** (operator **-10** PMCS where assigned; **-10/-20** alignment **IAW DA PAM 750-8** when soldiers perform organizational maintenance tasks).
+- Training will emphasize fault identification and documentation.
+- Leaders will validate PMCS performance.
+- PMCS training will be reinforced during routine operations.
+- Personnel will only perform PMCS on equipment for which they are trained.
+
+Proper PMCS is critical to preventing equipment failure and maintaining readiness.
+
+## 6.10 Training Validation and Evaluation
+
+Training effectiveness is validated through **LE/TM-based practical checks**, **CMDP inspections**, and reviews of **training records**, measured against **Section 6.6** and publications cited there.
+
+- Leaders will conduct hands-on evaluations.
+- Subject matter experts will validate training programs.
+- CMDP inspections will evaluate training compliance.
+- Deficiencies will be corrected through retraining.
+- Hands-on evaluation criteria track **applicable equipment TCs and TMs**; licensing examinations track **AR 600-55** and **Section 5**; maintenance discipline aspects track **AR 750-1**, **DA PAM 750-8**, and **CMDP** inspection guides.
+
+## 6.11 Training Documentation
+
+All training will be documented and maintained **through prescribed DA/D forms (including Army electronic forms)** and **GCSS-Army** equipment-accountability interfaces **IAW** Functional Users Guides, ARIMS, and brigade Master Driver filing guidance.
+
+- Training records will be accurate and complete **in official repositories only**.
+- Documentation will be available for inspection on **DA Form 348**, commander-directed licensing files, and authorized **GCSS-Army** views **IAW** user roles.
+- Records will be maintained in accordance with **ARIMS**.
+- Licensing documentation will be maintained **IAW AR 600-55, DA Form 348 requirements, and Section 5** when applicable.
+- Coordinate with the maintenance office so **GCSS-Army** operator-equipment associations mirror commander approvals recorded on **DA Form 348**.
+
+## 6.12 Safety and Professional Standards
+
+Training programs will emphasize safety and discipline:
+
+- Personnel will comply with **AR 385-10**, **TM safety summaries and warnings**, applicable safety supplements, and other regulations referenced in unit safety SOPs.
+- Risk management principles will be applied.
+- Unsafe practices will be corrected immediately.
+- Leaders will enforce safe operation **IAW TM limits and AR 385-10** at all times.
+
+## 6.13 Continuous Training and Improvement
+
+Training programs will be continuously evaluated and improved.
+
+- Units will assess training effectiveness.
+- Leaders will identify gaps and implement improvements.
+- Training will adapt to mission requirements.
+- Lessons learned will be incorporated into training programs.
+
+## 6.14 NCOPD Integration
+
+Operator and PMCS training will be incorporated into the NCOPD program.
+
+- NCOPD will include instruction on PMCS, safety, and equipment operation.
+- NCOs will enforce **TM limits, Section 6.6 completion requirements, and AR 385-10 safety controls** while supervising training.
+- Training will be conducted using **applicable TMs, equipment TCs from Section 3, AR 600-55 where licensing applies**, and **unit SOP**.
+
+## 6.15 New Personnel Integration
+
+New personnel will be integrated into the unit training program.
+
+- Personnel will obtain prior training records within 60 days of assignment.
+- Leaders will review training status and determine requirements.
+- Personnel without verifiable training will complete **Section 6.6 qualification IAW the applicable TC/TM** prior to operating equipment.
+
+## 6.16 MTOE-Designated Operator Prioritization
+
+Personnel designated by MTOE as operators will be prioritized for training.
+
+- MTOE remarks will identify operator requirements.
+- Personnel will complete **initial Section 6.6 qualification (TC/TM blocks and DA Form 348 updates)** within **90 days** of assignment unless commander-approved exceptions are documented.
+- Leaders will enforce training timelines.
+
+This prioritization supports operational readiness and reduces risk associated with untrained personnel operating equipment.
+
+---
+
+# 7. RECORDS AND REPORTS
+
+Unless the commander approves a documented exception in writing, units capture driver-training and licensing artifacts **only** through **GCSS-Army** prescribed transactions **and** mandated **Army forms** (to include **Army electronic forms**):
+
+- **DA Form 348** (Equipment Operator's Qualification Record; authorized **Army electronic form** distribution **IAW** Army Publishing Directorate)
+- **OF 346** (U.S. Government Motor Vehicle Operator's Identification Card) when issued
+- **GCSS-Army** dispatch, utilization, fault/work-order entry, petroleum accountability, and operator-equipment association data **IAW** Functional Users Guides
+- Training attendance rosters on commander- or brigade-prescribed DA-approved formats
+- Monthly licensing status reports transmitted through official channels **IAW** brigade Master Driver guidance
+
+---
+
+# 8. TRAINING DOCUMENTATION
+
+Training documentation uses **Army electronic forms** (where mandated), prescribed **DA/D forms**, and **GCSS-Army** entries when qualifications must align with equipment accountability:
+
+- **DA Form 348** (master qualification record)
+- Unit training calendars (official battalion/brigade format when prescribed)
+- Individual training records **IAW ARIMS** or authorized electronic training management tools
+- **GCSS-Army** transactions required so dispatch and maintenance visibility reflects licensing restrictions approved by the commander
+
+---
+
+# 9. SAFETY
+
+- All training conducted IAW safety requirements
+- Instructor present during all hands-on training
+- Required PPE worn during all operations
+- Training vehicles inspected before each training session
+
+---
+
+**APPROVAL:**
+
+**[LAST NAME, FIRST NAME MI.]**
+
+[RANK, BRANCH, COMPONENT]
+
+Commanding
+
+---
+
+**CMDP Reference:** 10(10)-1
