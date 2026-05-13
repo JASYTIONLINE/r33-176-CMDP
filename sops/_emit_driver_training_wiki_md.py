@@ -1,4 +1,4 @@
-"""Emit content/sops/101.10.1-sop-driver-training.md from drivetrain.md (UTF-8 wiki mirror)."""
+"""Emit content/sops/10.10.1-sop-driver-training.md from drivetrain.md (UTF-8 wiki mirror)."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -8,7 +8,7 @@ from _md_driver_training_to_html import decode_md
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent
 MD_PATH = ROOT / "drivetrain.md"
-OUT_PATH = REPO / "content/sops/101.10.1-sop-driver-training.md"
+OUT_PATH = REPO / "content/sops/10.10.1-sop-driver-training.md"
 
 
 def main() -> None:
@@ -31,7 +31,7 @@ def main() -> None:
     out.append("---")
     out.append("")
     out.append(
-        "> **Wiki mirror.** Authoritative draft for the site is **`sops/101.10.1-sop-driver-training.html`**. "
+        "> **Wiki mirror.** Authoritative draft for the site is **`sops/10.10.1-sop-driver-training.html`**. "
         "`sops/drivetrain.md` is reference-only scaffolding until the rebuilt SOP has a permanent source; "
         "then discard `drivetrain.md` and update this page from that source."
     )

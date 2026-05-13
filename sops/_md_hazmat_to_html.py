@@ -1,20 +1,45 @@
-"""Convert sops/drivetrain.md to HTML (reference-only draft MD; discard after the new SOP source replaces this workflow)."""
+"""Convert sops/hazmat.md to sops/10.4.3-sop-environmental.html (authoritative markdown source)."""
 from __future__ import annotations
 
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-MD_PATH = ROOT / "drivetrain.md"
-OUT_FRAG = ROOT / "_driver_training_body.frag.html"
-OUT_PAGE = ROOT / "10.10.1-sop-driver-training.html"
+MD_PATH = ROOT / "hazmat.md"
+OUT_FRAG = ROOT / "_hazmat_body.frag.html"
+OUT_PAGE = ROOT / "10.4.3-sop-environmental.html"
+
+# Brigade line shown on published CMDP page (edit here or drive from md later).
+BRIGADE_DISPLAY = "176th Engineer Brigade (TXARNG)"
+
+ADMIN_HTML = """<h2>Administrative Data</h2>
+<table>
+<thead><tr><th>Field</th><th>Value</th></tr></thead>
+<tbody>
+<tr><td><strong>Effective Date</strong></td><td>[DD MONTH YYYY]</td></tr>
+<tr><td><strong>Supersedes</strong></td><td>[Previous SOP Date or N/A]</td></tr>
+<tr><td><strong>Review Date</strong></td><td>[Annual Review Date]</td></tr>
+<tr><td><strong>Approval Authority</strong></td><td>[Commander Name, Rank]</td></tr>
+</tbody>
+</table>
+<hr>
+"""
+
+APPROVAL_HTML = """<hr>
+<p><strong>APPROVAL:</strong></p>
+<p><strong>[LAST NAME, FIRST NAME MI.]</strong></p>
+<p>[RANK, BRANCH, COMPONENT]</p>
+<p>Commanding</p>
+<hr>
+<p><strong>CMDP Reference:</strong> 10(4)-3</p>
+"""
 
 SOP_SHELL = """<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DRIVER TRAINING STANDARD OPERATING PROCEDURE - CMDP Compliance</title>
+    <title>ENVIRONMENTAL / HAZMAT STANDARD OPERATING PROCEDURE - CMDP Compliance</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -22,7 +47,8 @@ SOP_SHELL = """<!DOCTYPE html>
         <h1>CMDP Compliance Documents</h1>
     </header>
     <nav data-site-nav data-root-path="../" aria-label="Main navigation"></nav>
-    <main>{body}
+    <main>
+{body}
     </main>
     <footer>
         <p>CMDP Compliance Documentation - FY24-25</p>
@@ -66,7 +92,6 @@ def decode_md(raw_bytes: bytes) -> str:
         return raw_bytes.decode("utf-16")
     if raw_bytes.startswith(b"\xef\xbb\xbf"):
         return raw_bytes.decode("utf-8-sig")
-    # UTF-16 LE without BOM often begins "#\x00" or BOM-less UTF-16 text editors save this way
     if (
         len(raw_bytes) >= 4
         and raw_bytes[0] == ord("#")
@@ -74,7 +99,6 @@ def decode_md(raw_bytes: bytes) -> str:
         and raw_bytes[3] == 0
     ):
         return raw_bytes.decode("utf-16-le")
-    # UTF-16 LE without BOM starting with other Markdown (e.g. blockquote ">"): nulls on odd indices
     sample = raw_bytes[: min(512, len(raw_bytes))]
     if len(sample) >= 8:
         odd_indices = range(1, len(sample), 2)
@@ -85,43 +109,63 @@ def decode_md(raw_bytes: bytes) -> str:
     return raw_bytes.decode("utf-8")
 
 
-def main() -> None:
-    raw_bytes = MD_PATH.read_bytes()
-    text = decode_md(raw_bytes)
-    raw_lines = text.splitlines()
-    lines: list[str] = []
-    started = False
-    for ln in raw_lines:
-        if "[[" in ln and "]]" in ln:
-            continue
-        if not started:
-            if ln.startswith("# DRIVER TRAINING"):
-                started = True
-                lines.append(ln)
-            continue
-        lines.append(ln)
+def strip_banner_and_cover(lines: list[str]) -> list[str]:
+    """Drop blockquote banner, document title, brigade line, and leading ---."""
+    i = 0
+    while i < len(lines) and lines[i].strip().startswith(">"):
+        i += 1
+    while i < len(lines) and not lines[i].strip():
+        i += 1
+    while i < len(lines) and lines[i].strip() == "---":
+        i += 1
+    while i < len(lines) and not lines[i].strip():
+        i += 1
+    if i < len(lines) and lines[i].startswith("# HAZARDOUS"):
+        i += 1
+    while i < len(lines) and not lines[i].strip():
+        i += 1
+    if i < len(lines) and lines[i].strip().startswith("**"):
+        i += 1
+    while i < len(lines) and lines[i].strip() == "---":
+        i += 1
+    while i < len(lines) and not lines[i].strip():
+        i += 1
+    # Avoid duplicate horizontal rule after shell Administrative Data block
+    while i < len(lines) and lines[i].strip() == "---":
+        i += 1
+    while i < len(lines) and not lines[i].strip():
+        i += 1
+    return lines[i:]
 
-    # Drop trailing wiki/backlink lines
-    while lines and (lines[-1].strip() == "" or "[[" in lines[-1]):
-        lines.pop()
 
+def md_lines_to_html(lines: list[str]) -> str:
     html: list[str] = []
     i = 0
     list_stack: list[str] = []
-    seen_main_h1 = False
+    ol_open = False
 
-    def close_list():
+    def close_ul():
         nonlocal list_stack
         while list_stack:
             html.append("</ul>")
             list_stack.pop()
+
+    def close_ol():
+        nonlocal ol_open
+        if ol_open:
+            html.append("</ol>")
+            ol_open = False
+
+    def close_lists():
+        close_ul()
+        close_ol()
 
     while i < len(lines):
         ln = lines[i]
         stripped = ln.strip()
 
         if stripped == "---":
-            close_list()
+            close_lists()
             html.append("<hr>")
             i += 1
             continue
@@ -130,9 +174,8 @@ def main() -> None:
             i += 1
             continue
 
-        # Markdown table
         if stripped.startswith("|") and stripped.endswith("|"):
-            close_list()
+            close_lists()
             rows: list[list[str]] = []
             while i < len(lines) and lines[i].strip().startswith("|"):
                 row = [c.strip() for c in lines[i].strip().strip("|").split("|")]
@@ -157,21 +200,27 @@ def main() -> None:
                 html.append("</table>")
             continue
 
+        num_m = re.match(r"^(\d+)\.\s+(.+)$", stripped)
+        if num_m:
+            close_ul()
+            if not ol_open:
+                html.append("<ol>")
+                ol_open = True
+            html.append(f"<li>{bold(num_m.group(2))}</li>")
+            i += 1
+            continue
+        close_ol()
+
         if ln.startswith("# ") and not ln.startswith("##"):
-            close_list()
+            close_lists()
             t = ln[2:].strip()
-            if not seen_main_h1 and t.upper().startswith("DRIVER TRAINING"):
-                html.append(f"<h1>{bold(t)}</h1>")
-                seen_main_h1 = True
-            else:
-                html.append(f"<h2>{bold(t)}</h2>")
+            html.append(f"<h2>{bold(t)}</h2>")
             i += 1
             continue
 
         if ln.startswith("## ") and not ln.startswith("###"):
-            close_list()
+            close_lists()
             t = ln[3:].strip()
-            # Match CMDP SOP shell: Administrative Data is h2; other ## subsections are h3
             if t == "Administrative Data":
                 html.append(f"<h2>{bold(t)}</h2>")
             else:
@@ -180,13 +229,14 @@ def main() -> None:
             continue
 
         if ln.startswith("### "):
-            close_list()
+            close_lists()
             t = ln[4:].strip()
             html.append(f"<h4>{bold(t)}</h4>")
             i += 1
             continue
 
         if stripped.startswith("- "):
+            close_ol()
             if not list_stack:
                 html.append("<ul>")
                 list_stack.append("ul")
@@ -195,8 +245,7 @@ def main() -> None:
             i += 1
             continue
 
-        # Plain paragraph (preserve line as single block; merge continuation without bullet?)
-        close_list()
+        close_lists()
         paras = [stripped]
         i += 1
         while i < len(lines):
@@ -211,20 +260,45 @@ def main() -> None:
                 break
             if nxt.startswith("- "):
                 break
+            if re.match(r"^\d+\.\s+", nxt):
+                break
             paras.append(nxt)
             i += 1
         body = " ".join(paras)
         html.append(f"<p>{bold(body)}</p>")
         continue
 
-    close_list()
-    body_text = "\n".join(html)
-    OUT_FRAG.write_text(body_text + "\n", encoding="utf-8")
-    page_body = "\n\n<hr>\n\n" + body_text.strip()
-    page_html = SOP_SHELL.format(body=page_body)
+    close_lists()
+    return "\n".join(html)
+
+
+def main() -> None:
+    raw_bytes = MD_PATH.read_bytes()
+    text = decode_md(raw_bytes)
+    raw_lines = text.splitlines()
+    filtered: list[str] = []
+    for ln in raw_lines:
+        if "[[" in ln and "]]" in ln:
+            continue
+        filtered.append(ln)
+    while filtered and (filtered[-1].strip() == "" or "[[" in filtered[-1]):
+        filtered.pop()
+
+    body_lines = strip_banner_and_cover(filtered)
+    body_inner = md_lines_to_html(body_lines)
+
+    header_html = f"""<hr>
+<h1>ENVIRONMENTAL / HAZMAT STANDARD OPERATING PROCEDURE</h1>
+<p><strong>{esc(BRIGADE_DISPLAY)}</strong></p>
+<hr>
+{ADMIN_HTML}"""
+
+    body_text = header_html + body_inner + "\n" + APPROVAL_HTML
+    OUT_FRAG.write_text(body_inner + "\n", encoding="utf-8")
+    page_html = SOP_SHELL.format(body=body_text)
     with OUT_PAGE.open("w", encoding="utf-8", newline="\r\n") as f:
         f.write(page_html)
-    print(f"Wrote {OUT_FRAG} and {OUT_PAGE} ({len(body_text)} chars body)")
+    print(f"Wrote {OUT_FRAG} and {OUT_PAGE} ({len(body_inner)} chars inner body)")
 
 
 if __name__ == "__main__":

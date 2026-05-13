@@ -32,7 +32,7 @@ content/word/word-sop/10.15.1-sop-arms-room.docx
 content/word/word-sop/10.16.2-sop-cbrn.docx
 content/word/word-sop/10.18.1-sop-publications.docx
 content/word/word-sop/10.4.3-sop-environmental.docx
-content/word/word-sop/101.10.1-sop-driver-training.docx
+content/word/word-sop/10.10.1-sop-driver-training.docx
 convert_md_to_html.py
 convert_memos_to_docx.py
 convert_single_memo.py
@@ -69,5 +69,5 @@ sops/10.16.2-sop-cbrn.html
 sops/10.18.1-sop-publications.html
 sops/10.2.2-sop-dispatch.html
 sops/10.4.3-sop-environmental.html
-sops/101.10.1-sop-driver-training.html
+sops/10.10.1-sop-driver-training.html
 sops/index.html

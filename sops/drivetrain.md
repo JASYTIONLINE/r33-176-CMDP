@@ -1,4 +1,4 @@
-> **Reference only (temporary).** This Markdown is a working draft used with `_md_driver_training_to_html.py` while the Driver Training SOP is rebuilt. The published draft in the repo is **`sops/101.10.1-sop-driver-training.html`**. Replace that workflow with the final SOP source when ready, then **discard `drivetrain.md`**.
+> **Reference only (temporary).** This Markdown is a working draft used with `_md_driver_training_to_html.py` while the Driver Training SOP is rebuilt. The published draft in the repo is **`sops/10.10.1-sop-driver-training.html`**. Replace that workflow with the final SOP source when ready, then **discard `drivetrain.md`**.
 
 ---
 

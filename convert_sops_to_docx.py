@@ -200,9 +200,10 @@ def convert_markdown_to_docx(md_file_path, output_dir):
             i += 1
             continue
         
-        # Handle unit name (bold, centered)
-        if line.startswith('**') and line.endswith('**') and '[UNIT NAME]' in line:
-            unit_name = line.replace('**', '').strip()
+        # Brigade / unit line directly under the H1 title (bold, centered)
+        m_unit = re.fullmatch(r"\*\*(.+)\*\*", line)
+        if m_unit and "|" not in line:
+            unit_name = m_unit.group(1).strip()
             create_paragraph_with_formatting(doc, unit_name, bold=True,
                                            alignment=WD_ALIGN_PARAGRAPH.CENTER)
             i += 1
