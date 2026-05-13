@@ -54,7 +54,7 @@ Each SOP will be its own page with a downloadable template.
 ---
 
 # Tool Room Operations
-- [[10.11.1-sop-tool-room|Tool Room SOP]]  
+- [[10.11.1-sop-tool-room|Tool Room and SKOT SOP]]  
   *Covers accountability, sign-out, inventories, security, and storage for tools.*
 
 ---

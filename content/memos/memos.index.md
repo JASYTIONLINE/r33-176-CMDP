@@ -86,8 +86,8 @@ Covers training, certification, maintenance, and GCSS-Army integration.
 ## Publications SOP
 Ensures TMs, TBs, LOs, MWOs are current, accessible, and controlled.
 
-## Tool Room SOP
-Defines accountability, inventories, sign-out, key control, and storage.
+## Tool Room and SKOT SOP
+Defines accountability, inventories, issue/recovery, SKOT, TMDE calibration, and storage.
 
 ## Dispatch SOP
 Defines dispatch authority, loop closure, record retention, and operator validation.
