@@ -42,7 +42,7 @@ Each SOP will be its own page with a downloadable template.
 ---
 
 # CBRN Operations
-- [[10.16.2-sop-cbrn|CBRN Operations SOP]]  
+- [[10.16.2-sop-cbrn|CBRN Equipment Maintenance SOP]]  
   *Defines CBRN equipment maintenance, training, and GCSS-Army integration.*
 
 ---
