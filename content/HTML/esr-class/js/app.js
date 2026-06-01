@@ -33,67 +33,166 @@ const slideShell = document.querySelector("main[data-current-slide]");
 const slideAudioSrc =
   slideShell?.getAttribute("data-slide-audio")?.trim() || "";
 
-if (slideFigure && slideImage) {
-  let slideAudio = null;
+let slideAudio = null;
+const audioToggleButtons = new Set();
+let audioEventsBound = false;
 
-  const resolveSlideAudioUrl = () => {
-    if (!slideAudioSrc) {
-      return "";
+const resolveSlideAudioUrl = () => {
+  if (!slideAudioSrc) {
+    return "";
+  }
+  const fileName =
+    slideAudioSrc.split("/").filter(Boolean).pop() || slideAudioSrc;
+  if (slideImage?.src) {
+    const imgUrl = new URL(slideImage.src, window.location.href);
+    const audioPath = imgUrl.pathname.replace(
+      /\/images\/esr-class\/[^/]+$/,
+      `/audio/${fileName}`
+    );
+    if (audioPath !== imgUrl.pathname) {
+      return `${imgUrl.origin}${audioPath}`;
     }
-    const fileName =
-      slideAudioSrc.split("/").filter(Boolean).pop() || slideAudioSrc;
-    if (slideImage?.src) {
-      const imgUrl = new URL(slideImage.src, window.location.href);
-      const audioPath = imgUrl.pathname.replace(
-        /\/images\/esr-class\/[^/]+$/,
-        `/audio/${fileName}`
-      );
-      if (audioPath !== imgUrl.pathname) {
-        return `${imgUrl.origin}${audioPath}`;
-      }
-    }
-    try {
-      return new URL(slideAudioSrc, window.location.href).href;
-    } catch {
-      return slideAudioSrc;
-    }
-  };
+  }
+  try {
+    return new URL(slideAudioSrc, window.location.href).href;
+  } catch {
+    return slideAudioSrc;
+  }
+};
 
-  const ensureSlideAudio = () => {
-    const url = resolveSlideAudioUrl();
-    if (!url) {
-      return null;
+const syncAllAudioToggleButtons = () => {
+  const isPlaying =
+    slideAudio && !slideAudio.paused && !slideAudio.ended;
+  audioToggleButtons.forEach((button) => {
+    button.classList.toggle("is-playing", isPlaying);
+    button.setAttribute(
+      "aria-label",
+      isPlaying ? "Pause narration" : "Play narration"
+    );
+    const label = button.querySelector(".slide-audio-toggle__label");
+    if (label) {
+      label.textContent = isPlaying ? "Pause" : "Play";
     }
-    if (!slideAudio) {
-      slideAudio = new Audio(url);
-      slideAudio.preload = "auto";
-    } else if (slideAudio.src !== url) {
-      slideAudio.src = url;
-    }
-    return slideAudio;
-  };
+  });
+};
 
-  const stopSlideAudio = () => {
-    if (!slideAudio) {
-      return;
-    }
-    slideAudio.pause();
-    slideAudio.currentTime = 0;
-  };
+const ensureSlideAudio = () => {
+  const url = resolveSlideAudioUrl();
+  if (!url) {
+    return null;
+  }
+  if (!slideAudio) {
+    slideAudio = new Audio(url);
+    slideAudio.preload = "auto";
+  } else if (slideAudio.src !== url) {
+    slideAudio.src = url;
+  }
+  if (!audioEventsBound) {
+    audioEventsBound = true;
+    slideAudio.addEventListener("play", syncAllAudioToggleButtons);
+    slideAudio.addEventListener("pause", syncAllAudioToggleButtons);
+    slideAudio.addEventListener("ended", syncAllAudioToggleButtons);
+  }
+  return slideAudio;
+};
 
-  const playSlideAudio = () => {
-    const audio = ensureSlideAudio();
-    if (!audio) {
-      return;
-    }
+const stopSlideAudio = () => {
+  if (!slideAudio) {
+    return;
+  }
+  slideAudio.pause();
+  slideAudio.currentTime = 0;
+  syncAllAudioToggleButtons();
+};
+
+const playSlideAudio = (fromStart = true) => {
+  const audio = ensureSlideAudio();
+  if (!audio) {
+    return;
+  }
+  if (fromStart) {
     audio.currentTime = 0;
+  }
+  const playAttempt = audio.play();
+  if (playAttempt !== undefined) {
+    playAttempt.catch((error) => {
+      console.warn("ESR slide audio could not play:", error);
+    });
+  }
+};
+
+const toggleSlideAudio = () => {
+  const audio = ensureSlideAudio();
+  if (!audio) {
+    return;
+  }
+  if (audio.paused) {
     const playAttempt = audio.play();
     if (playAttempt !== undefined) {
       playAttempt.catch((error) => {
         console.warn("ESR slide audio could not play:", error);
       });
     }
-  };
+  } else {
+    audio.pause();
+  }
+};
+
+const bindAudioToggleButton = (button) => {
+  if (button.dataset.audioBound === "true") {
+    return;
+  }
+  button.dataset.audioBound = "true";
+  audioToggleButtons.add(button);
+  button.addEventListener("click", toggleSlideAudio);
+  syncAllAudioToggleButtons();
+};
+
+const mountNarrativeAudioControls = (container) => {
+  if (!slideAudioSrc || !container) {
+    return;
+  }
+
+  let controls = container.querySelector(".slide-audio-controls");
+  if (!controls) {
+    controls = document.createElement("div");
+    controls.className = "slide-audio-controls";
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "slide-audio-toggle";
+    button.setAttribute("aria-label", "Play narration");
+
+    const icon = document.createElement("span");
+    icon.className = "slide-audio-toggle__icon";
+    icon.setAttribute("aria-hidden", "true");
+
+    const label = document.createElement("span");
+    label.className = "slide-audio-toggle__label";
+    label.textContent = "Play";
+
+    button.append(icon, label);
+    controls.appendChild(button);
+    container.insertBefore(controls, container.firstChild);
+  }
+
+  controls.querySelectorAll(".slide-audio-toggle").forEach(bindAudioToggleButton);
+};
+
+const getNarrativeHtml = () => {
+  if (!slideCopy) {
+    return "";
+  }
+  const clone = slideCopy.cloneNode(true);
+  clone.querySelector(".slide-audio-controls")?.remove();
+  return clone.innerHTML;
+};
+
+if (slideAudioSrc && slideCopy) {
+  mountNarrativeAudioControls(slideCopy);
+}
+
+if (slideFigure && slideImage) {
   const previousPage = slideFigure.querySelector(".slide-arrow-left");
   const nextPage = slideFigure.querySelector(".slide-arrow-right");
 
@@ -163,9 +262,13 @@ if (slideFigure && slideImage) {
 
   const copyPane = document.createElement("div");
   copyPane.className = "fullscreen-copy";
-  if (slideCopy) {
-    copyPane.innerHTML = slideCopy.innerHTML;
-  }
+
+  const refreshFullscreenCopy = () => {
+    copyPane.innerHTML = getNarrativeHtml();
+    mountNarrativeAudioControls(copyPane);
+  };
+
+  refreshFullscreenCopy();
 
   fullscreenContent.append(imagePane, copyPane);
   overlay.append(closeButton);
@@ -189,13 +292,14 @@ if (slideFigure && slideImage) {
   const openFullscreen = () => {
     setFullscreenSession(true);
     fullImage.src = slideImage.currentSrc || slideImage.src;
+    refreshFullscreenCopy();
     overlay.hidden = false;
     document.body.classList.add("is-fullscreen-open");
     requestAnimationFrame(() => closeButton.focus());
   };
 
   fullscreenButton.addEventListener("click", () => {
-    playSlideAudio();
+    playSlideAudio(true);
     openFullscreen();
   });
 
@@ -223,7 +327,7 @@ if (slideFigure && slideImage) {
 
   if (sessionStorage.getItem(fullscreenSessionKey) === "true") {
     openFullscreen();
-    playSlideAudio();
+    playSlideAudio(true);
   }
 }
 
