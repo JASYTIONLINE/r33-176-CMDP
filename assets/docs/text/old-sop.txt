@@ -1,0 +1,1504 @@
+
+
+176th EN BDE 
+Texas Army National Guard
+Austin, Texas
+Revised DEC 2023
+UNCLASSIFIED
+
+SUMMARY of CHANGE
+
+
+o This administrative revision, dated 10 DEC 2023
+
+o Corrects typographical and spelling errors and clarifies instructions. 
+
+o adds references and procedures of the Global Combat Support System – Army (GCSS-Army)
+
+o adds more specific unit level commander responsibilities
+
+o adds specifics to PMCS and Drivers Training Program
+
+o adds specifics to unit dispatching
+
+o adds unit responsibilities to the CMDP 
+
+o adds new training requirement for Master Drivers and Licensing Officials/Examiners
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+176th Engineer Brigade                                                                    Ground Maintenance 
+Texas Army National Guard                                                            Standard Operational Procedure
+Austin, TX                                                                                        
+Revised NOV 2023
+
+
+Maintenance of Supplies and Equipment
+Ground Maintenance Standard Operational Procedure
+________________________________________________________________________________
+
+
+ 
+History. This publication is an administrative revision.
+
+Summary. This pamphlet covers the automated process, preparation, and management of forms, records, and data required to manage maintenance, control use, report deficiencies, document warranty actions, document equipment modifications; report equipment improvement recommendations; and report quality deficiency reports.
+
+Applicability. This pamphlet applies to the 176th EN BDE and all subordinate units assigned. It applies to tactical, combat, and administrative wheeled vehicles, engineer equipment, ground support equipment and any other ground operated tactical or non-tactical equipment. 
+.
+Proponent and exception authority.
+The proponent of this Standard Operating Procedure is the 176th EN BDE, and 176th EN BDE Commander has the authority to approve exceptions or waivers to these procedures that are consistent with controlling regulations. Activities may request a waiver to these procedures by providing justification that includes an analysis of the expected benefits. All waiver requests will be endorsed by the unit’s commander or senior leader and forwarded through their higher headquarters.
+Suggested improvements. Users are invited to send comments and suggested improvements to this SOP to the 176th EN BDE SMS. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contents (listed by paragraph and page number)
+
+
+CHAPTER 1		
+GENERAL 					  
+Purpose 1-1 page 6
+Scope	 1-2 page 6
+Objective 1-3 page 6
+Revisions 1-4 page 6
+Unit Maintenance SOPs 1-5 page 6
+
+CHAPTER 2		
+ORGANIZATION FOR MAINTENANCE
+General 2-1 page 6
+Unit Level Commanders 2-2 page	 7
+S4 Responsibilities 2-3 page 8
+
+CHAPTER 3		
+MAINTENANCE POLICIES, OPERATIONS, MANAGEMENT
+General (-10/-20 Standards) 3-1 page 9
+Unit and SEMF relations 3-2 page 11
+SOPs 3-3 page 11
+Evacuation 3-4 page 11
+Attached Units Support 3-5 page 11
+Command Maintenance Disciple 3-6 page 11
+Program Recovery/Evacuation 3-7 page 11
+GCSS-Army 3-8 page 12 
+Warranty Procedures 3-9 page 12
+Class IX Repair Parts 3-10	page 12
+Army Award for Maintenance Excellence 3-11 page 12
+Winterization	3-12 page 13
+Shop Supply List (SSL) 3-13 page 13
+Small Arms Repair Parts (SARP) 3-14 page 13
+Army Oil Analysis Program (AOAP) 3-15	 page 13
+Unit Maintenance Profile 3-16 page 13
+Controlled Exchange 3-17 page 14
+Cannibalization of Material	3-18 page 14
+Security 3-19 page 14
+Safety 3-20 page 14
+Environment 3-21 page 14
+Maintenance Services 3-22 page 15
+Historical Records 3-23 page 15
+Equipment Dispatch	 3-24 page 15 
+Equipment Service Optimization Program 3-25 page 16
+					
+CHAPTER 4      
+MAINTENANCE TRAINING
+Training Methods 4-1 page 17										
+Staff Training Responsibility 4-2 page 17
+
+
+
+CHAPTER 5      
+PERFORMANCE OF MAINTENANCE UNDER FIELD CONDITIONS
+General 5-1 page 18
+Procedures 5-2 page 18
+Special Considerations 5-3 page 19
+
+Appendix 
+GCSS-Army How-To page 20
+
+Appendix B
+Publications, Glossary of Terms and Abbreviations page 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHAPTER 1
+General Maintenance
+
+1-1. Purpose
+This SOP outlines materiel maintenance concepts, policies, and procedures in the 176th EN BDE. It intends to provide the necessary guidance for Global Combat Support System-Army (GCSS-Army) and maintenance operations to all subordinate units with the goal of achieving and maintaining maximum material readiness and mission capability of all equipment assigned. It attempts to reinforce the policies for maintenance operations from the TXARNG 750-1 and implements the guidance of the Adjutant General of Texas as it pertains to surface equipment maintenance operations. Included is guidance in the care, maintenance, and storage of troop support materiel, and supplies in the hands of users and operators, or stored in unit supply.  
+
+1-2. Scope  
+This SOP is applicable to all levels of maintenance within the Brigade. This SOP in conjunction with Army Regulation (AR) 750-1 and National Guard Regulation (NGR) 750-2, is applicable to all units and facilities of the Texas Army National Guard (TXARNG).  It is designed to provide a single reference that will either provide necessary guidance not already stated in AR 750-1, DA PAM 750-3, or lead to the proper reference.
+
+1-3. Objective
+Achieve and maintain 90% or better operational readiness by early detection and correction of potential, or actual, equipment failure at the lowest practical level.  This will be augmented by identifying problem areas, beyond Divisional control, for action by higher headquarters.
+
+1-4. Revisions
+The 176th EN BDE S4 has general staff responsibility for continuous review and revision of this SOP.  Recommended changes should be submitted to the S4.
+
+1-5. Unit Maintenance SOPs
+In accordance with DA PAM 750-3, all units performing field maintenance are required to have a maintenance Standing Operating Procedures (SOP) signed by the unit commander.  SOPs are to be used in conjunction with DA PAM 750-3 (to include publications listed in Appendix A, DA PAM 750-8, DA PAM 710-2-1).  It is recommended that units use this SOP to form their own or they may adopt this SOP as their own.
+
+
+Chapter 2
+Organization of Maintenance
+
+2-1. General
+
+   a. Maintenance is a continuous process that must be supervised and evaluated in both field and garrison environments.  Maintenance periods, scheduled services, command maintenance and PMCS days will be scheduled on the Troop training schedule. The TXARNG short-range and long-range calendars will also reflect maintenance requirements IAW AR 750-1.  The objective of an organized maintenance plan is to support divisional equipment both in the field and in garrison.  A unit succeeds through the efficient use of maintenance resources and an organized maintenance program.
+   b. The chain of command exercises control over maintenance activities.  To effectively exercise this control, the commander and subordinate leaders devise an organizational plan that clearly defines individual responsibilities for specific personnel. The FY24 Army National Guard Maintenance Execution Guidance (AMEG) along with any state policies, procedures and SOPs will serve as a guide to determining these responsibilities.
+   c. Basic organizations for maintenance are directed in Modified Tables of Organization and Equipment (MTOE).  The prescribed duties and responsibilities of operators, maintenance personnel, staffs, and supervisors vary between units.  Unit commanders designate specific maintenance responsibilities as additional duties.
+   d. The maintenance structure is separated into two levels of maintenance, Field Maintenance and Sustainment Maintenance. 
+   (1) Field Maintenance consists of maintenance functions formerly known as Operator/Crew (equipment operators and vehicle crews), unit and direct support. Field maintenance managers are those officers and noncommissioned officers that plan, organize, direct, coordinate, and control field level maintenance assets and processes. Battalions will receive field maintenance support from maintenance shops (FMS, UTES, and MATES facilities) assigned to their respective units. Regardless of how a unit accomplishes field maintenance, the most influential maintenance manager in a unit is its commander. 
+   (2) Sustainment Maintenance consists of maintenance functions formerly known as general support and depot operations of the Army maintenance system and Army-wide programs for “commodity unique” maintenance. Sustainment Maintenance support will be implemented when maintenance is above the Field maintenance level task.  
+
+2-2. Unit Level Commander Responsibilities
+   a. Maintenance is a command responsibility. Commanders at all levels will:
+    (1) Maintain accountability of all MTOE equipment and ensure that equipment requiring above operator level PMCS is properly entered into the GCSS-Army system. All faults identified from PMCS must be reviewed by the unit’s maintenance role personnel, inputted in to GCSS-A, and work ordered created, and sent to the proper Field Maintenance Company (FSC) or Field Maintenance Team (FMT), Supporting Equipment Maintenance Facility (SEMF) NLT than 3 days after it was identified.  Commanders need to make sure that current mileage of equipment is updated in GCSS-A monthly; this can be done during PMCS and use of the DA 5998-E.
+    (2) Formally appoint a commissioned officer, warrant officer, and non-commissioned officer qualified in maintenance at the battalion level with GCSS-A maintenance roles to provide staff supervision of materiel maintenance. Commander must maintain a copy of the appointment orders on file and submit a copy of the orders to their organic Support Maintenance Office. 
+    (3) Ensure all roles assigned personnel in GCSS-A have completed all the required GCSS-A certification training per role and a DA 2875 and proper appointment MFR is listed in the GCSS-A and unit level Army Knowledge Data Bases; DA 2875’s must be reviewed and updated yearly. Personnel should not be moved to roles in GCSS-A as a minimum MFR appointment and DA 2875 completed; personnel must complete all required GTRAC training courses for the assigned role NLT 60 days of role appointment. Commanders must make sure they have the 4 CMDP required role appointments and have 80 percent of their UMR registered in GCSS-A. 
+    (4) Commanders will ensure that all scheduled services are being performed by their supporting FMS, UTES, or MATES facility. Commanders will make sure all reportable B1 and B2 table equipment has maintenance plans in GCSS-A and that they are updated as required.
+    (5) Establish a maintenance PMCS program for all MTOE equipment that requires equipment to be checked at least once per IDT period or once a week during times of active duty. Enforce PMCS standards at the unit level to ensure equipment is maintained to 10/20 maintenance standards IAW Chapter 3-1 of this SOP. Twenty-five percent of IDT time should be dedicated to PMCS and documented on the unit training schedules. 
+    (6) Emphasize the importance of safety and maintenance and ensure that subordinates are held accountable for the conduct of maintenance operations. 
+    (7) Provide leadership, technical supervision, and management control of materiel maintenance programs of subordinate commands and activities.
+    (8) Emphasize the conduct and supervision of PMCS performed at unit level. Materiel will be maintained at the maintenance standard specified in AR 750-1 and DA PAM 750-3. Commanders need to appoint a maintenance supervisor whose responsibilities is to oversee rolling stock PMCS and GCSS-A Equipment Status Reports. All work order condition code status of R, U, S, T, Y, Z must be addressed for pick up or close out before the 15th of each month for unit operation rate reporting.
+    (9) Develop and sustain a high degree of maintenance discipline within their commands, including management of repair parts per AR 710–2. Operator level maintenance during PMCS should be corrected if parts or lubricants are available.
+    (10) Establish and conduct training of operators, crews, and maintenance personnel to properly use and maintain equipment. Commanders should be maintaining twenty percent of their MTO&E with assigned qualified operators, supporting FSC, supporting FMT.
+    (11) Establish and conduct training of leaders at all levels to properly supervise maintenance operations and to motivate subordinates to use and maintain equipment properly.
+    (12) Exercise management controls sufficient to ensure prudent and efficient use of all resources (personnel, funding, materiel, and time) required to perform assigned maintenance missions.
+    (13) Conduct inspections and staff visits to determine the adequacy of command maintenance operations. Document all faults to ensure that corrective actions are taken and to ensure the accuracy of readiness reports.
+    (14) Provide materiel maintenance support to all maintenance activities.
+    (15) Comply with the provisions of AR 750–43, TB 43-0211 and the TMDE Lab External SOP for TMDE used in support of maintenance operations. Commanders should not be more than 2 percent delinquent in routine maintenance regarding TMDE and should maintain greater than a 90 percent availability rate. Commanders need to review their units TMDE Master Listings for due or delinquent items monthly.
+     (16) Implement an effective quality acquisition program per AR 70–1. Quality programs will be defined, quantified, specified, measured, and assessed. 
+    (17) Ensure that the submissions of Product Quality Deficiency Reports (PQDRs) and Equipment Improvement Recommendations (EIRs) are accomplished per DA Pam 750–8 for ground equipment and watercraft.
+    (18) Encourage establishment of an aggressive awards program for operators and maintainers.
+    (19) Ensure prompt compliance with requirements dictated by safety-of-use messages in accordance with AR 750–6 and AR 95–1.
+    (20) Ensure that enough personnel are trained in various BDAR skills and self-recovery so that combat resilience requirements can be met in peace and wartime operations.
+    (21) Support the Sample Data Collection (SDC) program IAW DA PAM 700-24, when implemented.
+    (22) Emphasize the prompt turn-in of unserviceable reparable to SSA or maintenance activity.
+    (23) Support the implementation of the National Maintenance Program (NMP).
+    (24) Ensure modifications to assigned equipment are done in compliance with AR 750–10; this includes the proper admin/unit identification markings on rolling stock matching GCSS-A data as well as assigned operators.
+    (25) Ensure all required CMDP additional duty appointments are appointed per AR 750-52 and TXARNG 750-52. 
+
+2-3. S-4 Maintenance Section Responsibilities
+    a. Maintains visibility of maintenance activities and posture. Provides the Command Group real-time maintenance management data upon request. 
+    b. Monitors equipment Operational Readiness (OR) rates of all Brigade and attached units. Analyzes problem areas and recommends corrective actions.
+    c. Provides the S4 guidance on priorities changes based upon the status of the brigade’s critical combat systems and the Brigade Commander’s intent.
+    d. Coordinates with S4 Officers to recommend priorities of support for reportable equipment.
+    e. Collects unit data and O/O prepares to brief the readiness posture of the brigade and related logistical areas.  S4 Officer briefs brigade level data, Battalion XOs brief unit logistics data.
+    f. Establishes and monitors maintenance programs under policy guidance provided by AR 750-1 and the G4.  These include, but are not limited to:
+     (1) Modification Work Order Program
+     (2) Warranty Claims Program
+     (3) Army Oil Analysis Program (AOAP)
+     (4) Sample Data Collection
+     (5) Maintenance Reporting and Management System
+     (6) Contract Maintenance Support
+     (7) Automated Data Processing Equipment Maintenance
+     (8) Chemical Agent Resistant Camouflage (CARC) Painting
+     (9) TMDE Maintenance 
+     (10) Work Order Logistics File (WOLF) Program
+     (11) Quality Deficiency Report (QDR)  
+     (12)  Class IX Repair and Return Program
+     (13) Class IX Requisition, Receipt and Issue System
+     (14) Depot Repair and Return Programs
+     (15) Materiel Readiness Conference (MRC)
+     (16) Stock Funded Depot Level Reparable (SFDLR) Program
+     (17) Single Stock Fund
+      (18) LBE Program
+    g. Monitors the Global Combat Support System-Army and analyzes the data and reports to identify trends, problem areas, and other information that generates requirements for action by the support battalions and/or other staff elements. GCSS-Army combines applications and data maintained by finance, property accountability, and maintenance applications into a single program source. 
+    h. Monitors and manages Division Operational Readiness Float (ORF) assets.  
+      
+Chapter 3
+Maintenance Policies, Operations, and Management
+3-1. GENERAL.  
+This chapter describes maintenance policies, operations, and management procedures. All equipment is maintained IAW 10/20 standards at a minimum of 90% equipment readiness.
+     a. Army equipment meets the maintenance standard when the following conditions exist:
+      (1) The TXARNG has one maintenance standard. The maintenance standard is based on TM-10 and TM-20 series.  The maintenance standard is the condition of the equipment when it meets the criteria of AR 750-1, Chapter 3.  Units that achieve and sustain an operational readiness for all mission essential equipment of 92% or higher will be considered outstanding.  The Adjutant General has set a minimum acceptable standard of having no units fall below The Adjutant General’s (TAG’s) goal for equipment readiness (ER) on the Unit Status Report (USR). Texas Maintenance Organizations will take steps to minimize maintenance turn-around-time (TAT) and provide assistance to supported organizations so that the overall customer-wait-time (CWT) is minimized.
+    (2) All faults are identified following prescribed intervals using the “items to be checked” column of the applicable TM XX–10 and XX–20 series PMCS tables. Commanders must make sure they have appointed publication personnel in order to maintain and have available all TM’s and publications needed for operators to properly PMCS assigned or unassigned equipment.
+    (3) All repairs, services, and other related work that will correct field-level equipment/materiel faults for which the required parts/supplies are available have been completed in accordance with DA Pam 750–8 or DA Pam 738–751.
+     (4) Parts and supplies required to complete the corrective actions, but which are not available in the unit, are on a valid funded requisition in accordance with AR 710–2.
+     (5) Corrective actions that are not authorized at field level by the MAC must be on a valid support maintenance request.
+     (6) Scheduled services are performed at the service interval required by the applicable technical publication and GCSS-A generated notification. Rolling stock maintenance plans need to be set to every two years; NVG’s and other instruments are usually done every 180 days and weapons gauging is one year from the last time it was completed. Because of competing mission requirements, units are authorized a 10 percent variance when performing scheduled services. Procedures to apply this variance are found in DA Pam 750–8 for ground equipment. (Afloat prepositioning ships–Afloat are excluded from this variance requirement.
+     (7) All routine, urgent, and emergency MWOs are applied to equipment in accordance with AR 750–10. In addition, actions required by one-time safety-of-use messages and emergency safety-of-flight messages are completed per AR 750–6 and AR 95–1. Notifications in GCSS-A are normally generated in the system by a (-) dash symbol; these need to be forwarded to the supporting SEMF for ordering parts and repair. Units should be monitoring the maintenance information management system or MIMS for equipment MWOs; this includes software updates.
+     (8) All authorized BII and COEI are present and serviceable or on a valid supply request. 
+     c. The Army maintenance standard applies to all equipment except equipment used as training aids that require frequent disassembly and assembly.
+    d. Proper use, care, handling, and conservation of materiel per applicable technical publication are mandatory. Commanders are to make sure unit personnel are trained to operate assigned equipment before use to prevent damage to equipment or injury to personnel.
+    e. Equipment can be FMC and units may meet readiness and mission goals, yet not meet –10/-20 criteria IAW AR 750-1. Operators are key to identifying deadline faults; GCSS-A MASTECH or ERPS are key to data input into the system; commanders need to make sure all PMCS is in GCSS-A after each IDT or AT training and forwarded as a work order to the FSC, SEMF. Surface Maintenance J45 requirement for work orders is one work order per type of work order per admin. All diagonal slashes listed on one work order; all deadline faults listed on one work order per admin. There should be only 4 types of work orders per admin at one time. One diagonal slash, one deadline, one maintenance plan, and one MWO. 
+    f. All attempts should be made to maintain equipment at -10/-20 standards.  Deferred maintenance is authorized.  Procedures for annotating and monitoring deferred maintenance are defined in DA PAM 750-8, para 3-10. All deferred maintenance faults must be reviewed at the next scheduled service.  NMC faults or periodic inspections will not be deferred.
+    g. Commanders deferring maintenance actions must ensure that the actions required to correct the differences between –10/-20 and operational standards is measurable in both funding and manpower capabilities. Circle X initialed by the commanders, should only be used for emergency situations and EVAC to SEMF facilities for repairs; commanders should discuss this decision with qualified maintenance personnel to determine further damage to equipment or safety of personnel.
+    h. Required Verification Tests that are due and not performed during equipment scheduled services are recorded by title and date as an uncorrected fault. The required test annotation will remain with the system until it is completed and recorded as a test or service in the GCCS-Army database. Verification Test examples are weapons gauging, Night Vision Device (NVD) high-low light test, winterization checks, load tests, and etc. Units need to make sure that coordination of these events are made with the FSC, SEMF prior to EVAC due to competing missions.
+    i. Urgency of Need Designator (UND):  Maintenance units and facilities will manage repair of materiel by maintenance priority designator and analysis of impact on unit readiness. UND and their application maintenance activities are specified in AR 750-1, Chapter 3. Units will take steps to minimize maintenance TAT and assist their assigned supporting SEMF so that the unit’s overall CWT is minimized. 
+		(1). UND “A” will be used for:
+		   (a)  NMC faults repair and deadline of ERC A and Pacing items.
+          	              (b)  NMC faults repair and deadline of ERC A/Pacing item system that contains an ERC B item. 
+    		(2). UND “B” will be used for: 
+             	   (a)  Repair of a non-deadline fault of ERC A and Pacing items. 
+             	   (b)  Repair of a non-deadline fault of an ERC A/Pacing item system that contains and ERC B item.
+          	              (c)  Repair of a deadline fault of an ERC B/C item.
+
+		 (3). UND “C” will be used in assigning maintenance priority for all other materiel not listed above.
+
+3-2. Unit and Supporting Surface Equipment Maintenance Facility (SEMF) relationships
+Owning units will perform unit PMCS and -10 level repairs within their units’ limitations and time constraints. Commanders are encouraged to visit their SEMF regarding the completion of Field Level scheduled services and mission priorities. Unit commanders are responsible for advising the supporting SEMF supervisors of unit maintenance requirements that exceed their unit’s capability and of additional maintenance training assistance such as IDT support. Units need to make sure when requesting support, it is done in a timely manner for the SEMF to respond; see SEMF external SOP for guidance. 
+
+3-3. Standing Operations Procedures (SOPs)
+All Battalion S4 must publish a Maintenance SOP which provides detailed information on how the unit conducts maintenance and describes how maintenance is accomplished for any customer units. A copy of the Units SOP will be provided to the next higher headquarters annually or as revised/reviewed whichever occurs first.  
+ 
+3-4. Evacuation of NMC equipment 
+Unserviceable equipment that requires repair beyond organic maintenance capabilities will be evacuated to the next higher maintenance activity within 72 hours. Units will evacuate pacing items to higher maintenance activity within 24 hours if faults are beyond their repair capability.  Repaired pacing items are picked up from the supporting maintenance activity within 24 hours of notification. Units need to follow guidance from their SEMF external SOP for evacuation procedures. Units need to also review their equipment status reports weekly for updates to EVAC equipment such as condition code status R which is ready to pick up; unit should schedule pickup of these items ASAP or at least within required pick up times listed in the SEMF external SOP. 
+
+
+3-5. Attached Unit Support 
+Units that are attached to the 176th EN BDE, will utilize the same SEMF facilities in their areas for higher level than -10 repairs. HHC S4 will be the lead on any coordination that attached units may need regarding their maintenance.  
+
+3-6. Command Maintenance Disciple program (CMDP)
+ The Command Maintenance Discipline Program (CMDP) is a mandatory program established IAW Department of the Army Pamphlet 750-1, Maintenance of Supplies and Equipment, Commanders Maintenance Handbook. CMDP establishes policies and reporting procedures required to identify maintenance issues in order to improve the conduct of maintenance and sustainment of equipment for all Force Elements. Commanders must conduct CMDP within the guidelines of DA PAM 750-1, Chapter 10 and the TXARNG CMDP LOI. Brigade/Battalion CMDP appointed Coordinators, will collaborate off year of State level COMET for unit CMDP inspections. HHCs will be inspected by the Brigade and HHCs will inspect their units within 120 days of their inspection. All CMDP reports will be sent to the Brigade S4 upon completion of the inspection and documentation, NLT 30 days after completion. A copy of the current CMDP checklist will be included with this SOP and both will be stored in all units Maintenance SOP Binders. 
+
+3-7. Recovery and Evacuation of Rolling Stock NMC equipment
+    a. Unit operators are required to self-recover using tow bars and safety chains; units need to make sure that these items are ordered and stored in their supply areas. However, towing operations that requires more than 25 miles at 45 miles an hour will require maintenance activities to remove the drive shafts to prevent equipment damage. 
+
+    b. Unserviceable equipment that requires repair beyond organic maintenance capabilities will be evacuated with work order to the next higher maintenance activity within 72 hours. Units will evacuate pacing items to higher maintenance activity within 24 hours if faults are beyond their repair capability.
+ 
+    c. Repaired pacing items are picked up from the supporting maintenance activity within 24 hours of notification.
+    
+3-8. GCSS-Army
+The purpose of the Global Combat Support System (GCSS-Army) is to enhance the current STAMIS ability for commanders at all levels in managing equipment use and operations, equipment maintenance, and repair operations and to maintain equipment to the Army standard as outlined in Army Regulation (AR) 750–1.  It provides clear picture of equipment readiness combining Property Accountability, Maintenance Management, and Finance into one data base solution.  Commanders can access all troop/company maintenance and equipment assets from Shop-stock to equipment shortages provided through a consolidated database with the associated costs tied to all transactions.  It also provides the foundation for materiel condition status reporting (MCSR) as outlined in AR 700–138 and controlling equipment as outlined in AR 600–55. TAMMS is a comprehensive management information system, consisting of automated information component and records, manually maintained components and records, and a central Army database at Logistics Support Activity (LOGSA). This central database is the Maintenance Module of the Logistics Integrated Database and is used by all Army commands.  The TAMMS process and maintenance records enables commanders to manage equipment readiness, availability, and durability, based on the level of resources provided by higher command. Resources include the application of time, trained personnel, tools, test equipment, and funds. GCSS-Army is the future of Army Maintenance, enhancing our legacy STAMIS systems into a central database for the entry level user of all Army commands.  We have become accustomed to LOGSA and an Army database that has been echelons above us for years.  GCSS-Army has brought this logistics tool to the Commanders desktop.  While TAMMS is still the system required by regulation we will continue to maintain equipment records along with all regulated documents IAW the regulations and local SOPs within the limitations of the SAP Solution known as GCSS-Army. Commanders utilize this management knowledge system through the assignments of roles. All units must have at least minimum 4 roles in order to be considered satisfactory for the CMDP and maintain 80 percent of their UMR registered in GCSS-A. These roles are BN or Brigade level: CDR, S4 Access Admin, MASTECH, Maintenance Role, PBO, Unit level: CDR, Maintenance Role, MASTECH or ERPS, Licensing Instructor/Examiner. 
+
+3-9. Warranty Procedures
+Units will appoint a Warranty Control Officer (WARCO) to track all warranty issues (AR 700-139).  In summary, units will list the warranty end date as an uncorrected fault on the DA 5988E which remains a valid entry until the warranty expires.  Whenever a new system is fielded, the warranty details will be provided to the receiving unit.  The WARCO maintains this information and coordinates all warranty repairs.  Upon failure, the customer contacts the WARCO and opens a warranty claim action work request IAW DA PAM 750-8, para 3-16. The WARCO will coordinate the repair through warranty channels for the customer.  
+
+3-10. Class IX Repair parts
+All class IX requisitions are ordered through each FSC or SEMF (see the JFTX G4 Class IX ordering policy and TXARNG 750-1).
+
+3-11. Army Chief of Staff Award for Maintenance Excellence (AAME)
+Army Award for Maintenance Excellence is awarded to Army National Guard (ARNG) MTOE units in each state rated most outstanding maintenance management during the training year. Commanders who wish to compete in the program should follow procedures outlined in AR 750-1, Chap 8. The purpose of this award is to improve the maintenance posture of the ARNG units by stimulating competition.  The primary criterion evaluated is the demonstrated success of the established unit maintenance management logistics systems. The CMDP is the precursor to rewarding excellent performance by recognizing and nominating exceptional units to participate in the Army Award for Maintenance Excellence (AAME) program. 
+
+3-12. Winterization
+      a. Vehicles and equipment powered by liquid cooled internal combustion engines are winterized IAW TB 750-651. Winterization of organizational equipment including equipment on loan from other units is the responsibility of unit commanders. Commanders need to make sure around 1st of October that their SEMF ensures that all the unit’s equipment is winterized.  
+      b. Winterization detailed instruction is specified. 
+        (1) All equipment is protected to -25 degrees Fahrenheit.
+        (2) Procedures for use and requirements for antifreeze solutions are defined in TB 750-651. Recycled antifreeze will be used if available.
+      c. Winterization is accomplished under the supervision of maintenance personnel who:
+        (1)  Inspect cooling system for leaks, pressure tests the radiator and cap with the antifreeze pressure test kit before winterizing.
+        (2)  Check level of protection with anti-freeze hydrometer.  Test the coolant system PH acidity with alkalinity test strips: NSN 6630-01-011-5039. When unsatisfactory readings are found; draining and replacement of the coolant will be required.
+        
+3-13. Shop Supply List (SSL)
+
+      (1) When CL IX parts are ordered and stored the unit is responsible for all CMDP inspectable requirements.
+      (2) Items that are under Class IX and Class II that are CIIC listed in item (a) must be kept locked up according to the CSDP/ AR 710-2 requirements. 
+         (a) CIIC = "U," OR " J," ("J" CANNOT BE SMALL-ARMS REPAIR PARTS). 
+3-14. Small Arms Repair Parts (SARP)  
+Commanders will not store SARP (CIIC Code 1-8 or J) in their unit arms room. Authorized SARP in a SSL must be stored in a double-lock container. SARP is intensively managed and controlled. NGTX J4 approval is required to order SARP.       
+
+3-15. Army Oil Analysis Program (AOAP)
+      a. AOAP enrollment is mandatory for Army selected non-aeronautical equipment which require special command emphasis. The standard for AOAP participation is 100% submission for enrolled equipment per AR 750-1 para 8-2. AOAP, if unit qualifies will be coordinated with the SEMF.
+      b. Units with equipment required to be enrolled in the AOAP will appoint an AOAP monitor in writing on an "Additional Duty Appointment Order". AOAP monitors are trained and certified by the installation AOAP coordinator.  Copies of the AOAP Monitor certification and appointment orders will be maintained on file at the unit maintenance facility.    
+      c. AOAP sampling procedures and intervals are prescribed in TB 43-0211, the online Oil Lab listing and/or any specialized equipment list in the NGB Maintenance Support Plan (MSP) for specific FY. Units should monitor end-item lubricants for the presence of contaminants, abrasive part wear, and submit special AOAP samples, when necessary.
+      d. Units will ensure that adequate AOAP supplies are maintained.
+      e. Equipment will be scheduled by the GCSS-Army.
+      f. Units will conduct due AOAP sampling when in the field or training environment.
+
+3-16. Unit Maintenance Profile (UMP)
+Commander will use the UMP as an integral part of their maintenance program. The Unit Maintenance Profile is a program that assists commanders in knowing how their unit stands on its operator and organizational maintenance, identify problems and give solutions to the problems.  Using the profile will enable commanders to see what needs to be done and how to get it done. Commanders will assign soldiers to cover all areas, perform routine inspections, and conduct follow up inspections. When properly used it is an effective maintenance management tool.
+
+3-17. Controlled Exchange
+Controlled exchange is the removal of serviceable components from unserviceable, economically reparable end items for immediate reuse in restoring a like item or weapon system to an FMC condition. Procedures must be outlined in the unit SOP if controlled exchange is authorized but will explicitly follow AR 750-1. Once approved by the BC commander of the organization performing the controlled exchange, it may be performed by any TXARNG unit maintenance personnel during IDT or ADT. Controlled exchange of non-NMC/safety related repair parts is not recommended. 
+      (1) The unserviceable component must be tagged and installed on the end item or weapon system from which the serviceable like item was removed. Material involved is owned or under control of the organization performing the controlled exchange. 
+      (2) Controlled exchange documents and a controlled exchange log will be maintained IAW AR 25-400-2. Documentation will be filed in IAW the record retention schedule required by AR 750-1, Chapter 4. Controlled exchange information must be updated within GCSS-Army database to reflect the exchange of parts between equipment, when necessary. The Supporting SEMF will be given copies of the DA 5988e(s) listing the controlled exchange item, equipment involved and any other pertain information to permanently correct the fault. 
+      (3) Controlled exchange NOT authorized on Operational Readiness Floats (ORF) assets.
+
+3-18 Cannibalization of Materiel
+In addition to the requirements of AR 750-1, Chapter 4-10, Cannibalization of MTOE equipment which is not in a Cannibalization Point (CP) can only be authorized by the 71st Troop Command Commander. Equipment inducted into an established CP maybe obtained and utilized. To obtain parts from an established CP follow the AR750-1 and the local SOP.  
+
+3-19 Security
+Physical security is the responsibility of everyone.  To prevent loss, damage, or vandalism of US Government and personal property, the unit must protect, prevent, and report physical security violations. AR 190-11, Physical Security of Arms, Ammunition, and Explosives; AR 190-13, The Army Physical Security Program, AR 190-51, Security of Unclassified Army Property; and DA PAM 190-51, Risk Analysis for Army Property; give detailed physical security guidelines. Commanders are encouraged to use MOUs or MOAs for motor pools that are not organic to them such as SEMF locations. 
+
+3-20 SAFETY
+An effective safety program is essential during all maintenance operations. Personnel must understand the importance of working in a safe environment. AR 385-10 defines the Army safety procedures. All equipment dispatched will be issued with a working fire extinguisher, first aid kit, and serviceable BII at the point PMCS has been completed for safe operation.
+
+3-21 Environment
+Protection of the environment is an increasing responsibility for the chain of command.  Strict compliance with environmental regulations must be adhered to, in order to protect the environment as well as our soldiers. Units will use drip pans during all fueling operations, in order to prevent spills to from affect the environment. All spills to the environment must be reported and properly cleaned up. Unit commanders must make sure that their units have the proper spill kits on site. Cleanup from spills can be turned into the local SEMF; see external SOP for procedures. Always abide by the Texas Hazardous/Waste Management SOP for all spills and containments located under assurances on the ELSP website. 
+
+
+3-22 PMCS and Maintenance Services
+     a. Scheduled rolling stock services will be conducted by the FSC, SEMF. Units should have a MOA or MOU outlining unit/SEMF responsibilities. It is the responsibility of the unit commander to make sure all maintenance plans are created, and notifications/work orders are pushed and coordinated with their SEMF IAW AR 750-1, DA PAM 750-1. 
+     b. A copy of the units last service should be retained in the equipment records folder per admin; (DA Form 5988-E/2407-E) IAW DA PAM 750-8. 
+     c. Service and maintenance records consist of one file per admin number, weapons rack, or as designated in GCSS-Army database and include the following minimum:
+      (1)  Copy of DA Form 5988-E/2407-E for each type of service. Completed scheduled service packets are kept on file until the next scheduled service.
+      (2)  Winterization results.
+      (3)  Record of exercise. PMCS road test will consist of at least ten miles. Ground Equipment (i.e.: generators, pumps, heaters, etc...) will be dispatched to capture operating hours. The closed DA Form 5987-E dispatch is retained with the corresponding service packet and last submitted DA 5988-E for repairs.
+      (4)  Records of load-tests, annual weapons gauging (DA Form 2407-E/ Gauging Checklist-DA Form 5988e) night sight high-low light resolution tests are maintained until the next test is complete for inspection purposes.
+      (5)  Equipment enrolled in low-usage programs will have, as a minimum, the highest required level service record on file.
+      d. Quality Control. Quality Control is more than paperwork.  Commanders must ensure that their appointed PMCS supervisors reviews the completion of each PMCS or -10 level repair for quality control purposes; must be fully integrated into maintenance operations AR 750-1. As a minimum the records reflect quality control as prescribed IAW DA PAM 750-8. 
+      (1)  Commanders designate quality control supervisors in writing.
+      (2)  Each -10 fault is initialed when fault is corrected.
+      (3)  Unit -10 level services are reviewed by the commander; his/her designated representative or a qualified person who did not perform the service.  
+      (6)  Commanders need to make sure that all AR 700-138 Tables B-1 and B-2 reportable other service equipment such as radios, electronic equipment…etc. deemed as cage equipment has maintenance plans and selected unit personnel complete these services and update in GCSS-A during IDT and AT training. 
+
+3-23 Historical Records 
+
+3-24. Equipment Dispatch
+      a. Dispatching is the method by which a commander controls the use of equipment. However, allowing equipment to be used carries with it the responsibility for both the equipment and the operator’s safety. The commander must make sure that dispatching procedures are understood and followed IAW DA PAM 750-8 and AR 600-55 and current Texas Army National Guard Drivers Training and Dispatching SOP, NOTE:  Dispatching procedures for each unit is based solely upon the mission requirements and must, at minimum, follow this prescribed SOP. All operators listed in GCSS-A as Army Standard on the LI/LE Ledger must have a totally complete operator record according to the documentation of both the AR 600-55 and the TXARNG SOP. If not, their Army Standard license must be suspended until corrections can be made. 
+    b. Standardized sequence of events that create a proper GCSS-A D1 notification (normal Dispatch)
+ (1) CDR/ Commander:
+         (a) Evaluate and assess mission requirements.
+         (b) Evaluate equipment availability.
+         (c) Evaluate and set safety standards.
+         (d) Oversee his Preventive Maintenance Check and Service (PMCS) program. 
+         (e) Assign mission.
+  (2) Platoon/Section leader/Sergeant:
+         (a) Ensure that equipment is PMCS correctly performed.
+         (b) Ensure the operator has his full complement of basic issue items including a full, serviceable, and sealed fire extinguisher and first aid kit.
+         (c) Provide a mission brief to the occupants.
+         (d) Perform risk assessments as part of the mission analysis.
+         (e) Ensure that the operator and assistant operator/senior occupant understand safety standards specified in AR 385 10, CH-11.
+      (3) Request the dispatch (D1) from the dispatcher (unit MASTECH or ERPS). 
+         (a) Once a Texas or State driver’s license has been reviewed, the dispatcher will create the D1 notification through GCSS-Army while ensuring the operator meets all the licensing requirements for the equipment requested for mission (automated). 
+         (b) The dispatch will then immediately be routed through GCSS-Army for the required approval by the Commander or the Designated Representative. 
+         (c) Once the dispatch is approved the dispatcher will print the approved dispatch and notify the requestor of the dispatch disposition.
+         (d) Prior to giving the dispatch to the operator/operator assistant the dispatcher will inspect the logbook ensuring all required paperwork, including accident forms are present and up to date and any faults on the PMCS that were found are to be considered safe for operation.   
+(4) Commander or Designated Representative will action the D1 dispatch notification through the GCSS-A workplace application via email. (must be completed within four hours of notification initiation)
+          (a) D1 Notification Options are: Approve, Disapprove or Keep in Workflow. The 5988E can be viewed via the EQUIP_SIT Board or navigate through Approval process via this Dispatch Approval hyperlink within the notification. 
+
+3-25. Equipment Service Optimization Program
+a.	Eliminate semi-annual and annual time-based service intervals, and establish usage-based service intervals for HMMWV, FMTV, HEMTT and PLS. Revise all rifle variants M16A2, M16A3, M16A4, M4 and M4A1 quarterly services with semi-annual services, and remove all NCOMP references. 
+(1) Review current maintenance plans and consolidate a list of last completed biennial service dates prior to revising service intervals for HMMWV, FMTV, HEMTT, PLS and rifle variants affected by HQDA EXORD 335-23. These dates are needed to set the start date of the new maintenance plans. Units must exercise caution to not stack maintenance plans on the same date. 
+
+(2) Review and complete open PM02/PM07 service work orders. Service work orders must be closed prior to revising maintenance plan intervals. 
+
+(3) The ARNG will utilize U.S. Army Combined Arms Support Command (CASCOM) created GCSS-Army Maintenance Plan Templates to revise service intervals for these fleets. These templates have been created and are available in GCSS-Army. For HMMWV, FMTV, HEMTT, and PLS use maintenance plan template “2002 EQUIPMENT SERVICES OPTIMIZATION 335-23”. For M4/M4A1 Carbine use maintenance plan template “815 cp2/3 M4A1-SEMI-ANNUALL_BIENNIAL_GAGING”. 
+
+(4) Reference GCSS-Army EUM+ for step-by-step instructions to deactivate current maintenance plan, flag current maintenance plan for deletion, and create maintenance plans from a template.
+ 
+(5) Commanders ensure historical records are maintained IAW DA Pam 750-1, paragraph 2-3. d. In addition to work orders closed without completion as prescribed by this policy, commanders will ensure the last completed service remains on file until the next required service is completed utilizing the usage-based maintenance intervals. 
+
+(6) Trained unit-level armorers of non-Military Occupational Specialty (MOS) 91F are authorized to conduct semi-annual services. Personnel with MOS 91F are required to perform annual service and gaging. 
+
+(7) Unit Armorer Training Support Package can be found on the Army Sustainment Resource Portal at <https://cascom.army.mil/asrp/qm-ind.html>. 
+
+(8) Commanders ensure appointed personnel acknowledge receipt of Maintenance Action Messages associated with implementation of ESOP. Additionally, ensure appointed personnel confirm compliance for equipment once transitioned to the ESOP. Receipt acknowledgement and compliance confirmation must be completed via MMIS at <https://ent.ldac.army.mil/mmis> to receive credit. 
+
+b.	Exercise tactical / combat vehicles not less than 10 miles and tracked combat vehicles not less than 5 miles every 120 days and implement QA/QC measures for equipment dispatch procedures. 
+
+(1)	Commanders will ensure equipment is exercised every 120 days IAW HQDA EXORD 335-23. Utilization must be completed in one continuous operation to receive credit. See paragraph 3.B.2.C of the EXORD for operations that satisfy this requirement. 
+
+(2)	The ARNG will capture equipment utilization in GCSS-Army via Equipment Dispatch (DA Form 5987-E). With implementation of usage-based services, accurate record keeping of equipment utilization is imperative. Inaccurate recording will lead to services not being completed when needed, and severe damage to equipment and/or personnel could result. 
+
+(3)	Operator’s preventative maintenance checks and services (PMCS) in the -10 Technical Manual is the only requirement for equipment dispatch. 
+
+(4)	Commanders are responsible for implementing QA/ QC measures for equipment dispatch. Unit commanders are encouraged to create a QA/ QC checklist that will ensure assessment of “Before” checks in the operator’s -10 TM PMCS that will render equipment non-mission capable (NMC) and is a safety concerns in accordance with paragraph 13-4, Tactical Vehicle Safety, of AR 385-10. Refer to Annex B of HQDA EXORD 335-23 for an example of a pre-dispatch inspection checklist. 
+
+
+CHAPTER 4
+MAINTENANCE TRAINING
+
+4-1. Training 
+    a. Maintenance training courses are highly encouraged and in some instances mandatory.  There are numerous training courses throughout ATRRS that are recommended to be attended by maintenance personnel.  There are four (4) forms of maintenance training available to commanders:  formal training provided at schools operating outside the Division; training at schools operating within the Division; AMC LAO assisted training teams; Contractor provided training. 
+     b. Commanders will establish a Driver’s Training Program.  Commanders will establish their own training programs using the appropriate guidelines: AR 600-55, governing equipment TCs and TMs, TXARNG Drivers Training and Dispatching SOP and 176th EN BDE Drivers Training SOP. 
+     c. It is recommended all HMMWV operators attend HMMWV Egress Assistance Trainer (HEAT) training.
+     d. Commanders must establish a PMCS training Program and incorporate it into the Unit’s Operator training program.
+     e. It is required all unit personnel with a role in GCSS-A, attend their role required GCSS-Army certification courses on the GTRAC training website.
+     f. Unit armorers should attend a Unit Armorer Course. 
+    g. All unit commander assigned Licensing Officials and Licensing Examiners must complete ATRRS LI/LO Course to instruct drivers training.
+    h. The following courses can be coordinated through NGTX J4/J3 Training:
+     (1) Master Drivers Course (M9 ASI), all unit Master Drivers (Must be assigned by and to BDE/BN S3) are required to be certified. This course is conducted by the Army US Transportation School and must be requested through ATRRS application. 
+     (2) HMMWV Egress Assistance Trainer, (HEAT). Is an 8-hour block of instruction on the procedures for successfully and safely exiting a HMMWV involved in a roll-over. As of October 2007, this training is mandatory for all deploying personnel. 
+     (3) Unit Maintenance Profile, this course is scheduled and conducted by the MAIT. 
+     (4) HAZMAT Training. Contact J3 Schools. 
+     (5) CBRN Training. Contact J3 Schools.
+     (6) Night driving exercises with NVGs.
+		  
+4-2. Staff Training Responsibilities
+     a. S3:
+      (1) Procures quotas for courses at Division, Installation, and Army Service schools.
+      (2) Integrates maintenance training, operations, and inspections into the 176th EN BDE training program.
+      (3) Includes adequate time for PMCS maintenance in planning for field exercises.
+      (4) Recommends, organizes, and conducts maintenance related courses in coordination with the ACofS, J4.
+      b. J4:
+      (1) Recommends maintenance training plans to S3, to ensure 176th EN BDE readiness goals and maintenance requirements are met.
+      (2) Coordinates with the S3 to inspect maintenance training operations and reports findings that indicate required changes to maintenance training policies.  Reviews training calendar to ensure maintenance training and scheduled services are reflected on unit training calendars.
+
+CHAPTER 5
+Performance of Maintenance under Field Conditions
+
+5-1. General procedures
+    a. Complete, timely PMCS maintenance in the field is essential to successful accomplishment of the tactical mission.
+    b. During tactical operations, maintenance must be continuous to preserve the combat effectiveness of fighting forces. Before, during and after PMCS will be conducted while in a field environment; commanders need to plan the collection of DA 5988-Es after training exercises as a normal garrison environment. Cleaning and properly stow of field equipment is also required before COB of IDT or AT missions. 
+    c. To ensure maintenance operations in the field are conducted to standard, the procedures outlined below are established during all field operations.
+
+5-2. Procedures
+    a. Maintenance appointed personnel need to bring all self-recovery assets and tools. 
+    b. Plans for continuous maintenance operations in the field include methodology for sending GCSS-Army data to Support Operations. 
+    c. Coordinate local SEMF support to and from mission location in case of break downs or needed maintenance support during non-working hours. 
+
+
+
+
+5-3. Special considerations
+     a. The uniqueness of the 176th EN BDE creates situations where conduct of PMCS maintenance activities requires additional command emphasis.  Under these conditions, innovative solutions to unique problems are implemented. 
+     b. GCSS-Army System will require commanders to stay in constant review of their GCSS-A assigned roles and required documentation.  One of those roles is a maintenance role which commander will use to govern equipment repairs, lead unit sections in PMCS, service status, and operational rate. 
+     c. We deploy and our equipment and personnel are often utilized in State Active-Duty missions across Texas; for this reason, it is imperative that all commanders be engaged in their PMCS programs, Driver’s Training Programs, and develop relationships with their FSC, SEMF that supports your organization. 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix A: GCSS-Army How To
+
+A-1. Create a Dispatch 5987E (Approval Required) (ISDFPS/DISP_EQU_SIT)
+1. Select equipment from the Equipment Situation Report.
+2. Select the D1 Notification Radio button.
+3. Enter the destination of dispatch.
+4. Enter duration of dispatch (Date and Time).
+5. Select the Status of Dispatch (Approval required) (Reason for approval, off post,
+extended,
+6. Enter Function (Primary and/or Alternate Operator) and press enter. Select the
+Green Flag to put in process, check operator qualifications, and start the
+workflow to the Approving Authority.
+7. Save the Notification.
+8. Receive Express Document back from Approving Authority and complete
+Workflow Item.
+9. Select the Print icon to print the Dispatch.
+NOTE: The Approval Required Dispatch cannot be printed unless it has been approved.
+
+A-2. Close out a Dispatch 5987E (ISDFPS/DISP_EQU_SIT)
+1. Select equipment from the Equipment Situation Report.
+2. Select the Notification Radio button.
+3. Select the Return Usage Data Tab.
+4. Select the Paper document to create a measurement reading for miles, hours,
+fuel etc.
+5. Enter the current reading for each item.
+6. Select the Checkered Flag to complete the Dispatch.
+7. Enter Reference Time of completion.
+
+A-3. View Dispatch Control Log
+1. Go into the transaction code “IW28”
+2. View the “Notification Selection” section.
+3. Fill out the following field. Notification type: D1 (Dispatch)
+4. Delete the “Notification date” field blocks.
+5. View the “General Data/ Administrative Data” section
+6. Fill out the following field. Main work center: (ex: A0LA*)
+
+A-4. Create and Maintain an Operator Qualification Record (PA30)
+1. Click the Collective search help link located in the Find by panel.
+2. Type in the Last name and First name and press enter.
+3. Double-click the name of the record that requires updating.
+4. Click the row selector button to the left of Personal Features.
+5. In the Period area, click the “From current date” option button and enter the
+desired date.
+6. Click the Create button.
+7. Add personal features to the operator record. (E.g., Height, weight, eye color
+etc.).
+8. Press Enter.
+9. Click the Save button.
+
+A-5. Add Operator Qualifications (PPPM)
+1. Click the Date button to perform a search for an earlier entered record. (For
+example, 04/01/2011) and select enter.
+2. Expand the item located to the left of the Person list item.
+3. Click the Collective search help list item.
+4. Type your entry in the name field if you are not sure of spelling use a wild card
+(for example, J*) and press enter.
+5. On the Hit list, double-click the name of the person required to update.
+6. Click the Create button located on the tool bar near the bottom of the panel.
+7. Click the Structure Search tab. Enter Equipment Qualifications
+8. Click the expand folder button to the left of the desired folder (for example, 1-
+Equipment Qualifications)
+9. Click the expand folder button to the left of the desired sub-folder (for example,
+ATACOM Combat Vehicles).
+10. Click the check box for the intended qualification for example, CBT ENGINEER
+VEH (Equipment Identification Code ABF).
+11. Press Enter to acknowledge the selection. 12. Click the (Proficiency) field.
+12. Click the desired Permit Type and press Enter.
+13. Click the Save button.
+14. Enter Utilization Qualifications
+15. Click the Utilization Qualifications tab.
+16. Click the Create button.
+17. Click the Qualification list item and press enter.
+18. Click the expand node button to the left of the intended qualification folder.
+19. Click the intended qualification check box.
+20. Press enter.
+21. An Information message appears for each qualification stating their respective
+22. default End Dates.
+23. Click the Save button.
+24. Enter Restrictions
+25. Click the Restrictions tab.
+26. Click the Create button.
+27. Click the Qualification list item and press enter.
+28. Within the dialog box, click the Refresh button.
+29. Click the expand node button to the left of the intended qualification folder and
+press enter.
+30. Click the Save button.
+NOTE: Repeat process for the Violations tab as needed.
+The License tab is never used to issue a new or replacement Permit. To issue a Permit,
+always use the Issue/Print Operator Permit ID (ZoPID) transaction. It will automatically
+update this tab. This tab is only used to suspend, revoke, or reinstate an existing
+Operator Permit ID (driver's license).
+
+A-6. Issue and Print Operator Permit ID (ZoPID)
+1. Click the Personnel ID field.
+2. Enter individual name.
+3. Select the record of the individual.
+4. Select the Execute icon. 5. Place a check the box next to the individual’s name.
+5. Select the glasses icon to review qualifications.
+6. Select the back button.
+7. A dialog box appears stating to update the operator profile, answer yes to
+continue.
+8. A confirmation message will appear stating that the profile has been updated.
+9. Print the Operator Permit.
+
+A-7. Display/Print the Operators Permit Ledger (ZoPLR)
+1. The Ledger can be created for one Force Element (FE) or several.
+2. Click the organizational unit drop down and add the Force Element.
+a. This is the Organizational Structure Root.
+b. If numerous Force Elements are desired, select the Multiple Selection an
+add the other FE.
+3. Enter a Unit Identification Code (UIC) into search field.
+4. Remove the Start date and select execute.
+5. Check the Ledger to ensure that the selected UIC is populated.
+6. Double Click the Operator to view their qualification record.
+7. Select back and exit the transaction.
+
+A-8. Create a Notification without parts (ISDFPS/DISP_EQU_SIT)
+1. Select equipment from the Equipment Situation Report.
+2. Select the M1 Notification Radio button.
+3. Enter the Notification action (Right rear tire flat, etc.)
+4. Select the Priority of the Notification.
+5. Select the Technical Status of the item (NMC – X, Diagonal Slash etc.)
+6. Select the Coding for the Notification (How the fault was found).
+7. Select the Fault Details tab and enter the Object part (what the notification item is
+affected).
+8. Enter the Cause code (the reason why the item is broken).
+9. Save the Notification.
+
+A-9. Create a Notification with a Work Order when parts are required
+(ISDFPS/DISP_EQU_SIT)
+1. Select equipment from the Equipment Situation Report.
+2. Select the M1 Notification Radio button.
+3. Enter the Notification action (Right rear tire flat, etc.).
+4. Select the Priority of the Notification.
+5. Select the Technical Status of the item (NMC – X, Diagonal Slash etc.).
+6. Select the Coding for the Notification (How the fault was found).
+7. Select the Fault Details tab and enter the Object part (what the notification item is
+affected).
+8. Enter the Cause code (the reason why the item is broken).
+9. Select the Paper icon to create the Work Order.
+10. Enter the Order Type, and Business Area.
+11. Set the System Condition Code (in shop, awaiting NMC parts etc.).
+12. Add any Components (NIIN) on the Component tab if material is required for the
+work.
+NOTE: If the material is recoverable there will be an operation listed on the Operations
+tab that requires a return to Supply. Once the WO is saved the -1 will be listed on the
+Components tab.
+13. Release the Order.
+14. Select the Check Material Availability icon (check if the parts are in stock).
+NOTE: If a confirmation box opens that will mean that the part is in your stock. Go to the
+Equipment Situation Report and select the equipment and select Parts and perform a
+Good Movement to the Work Order.
+15. Save action.
+
+A-10. Create a Work Order from an existing Notification (ISDFPS/DISP_EQU_SIT)
+1. Select equipment from the Equipment Situation Report.
+2. Select the Notification Radio button to show the Notifications for the Equipment.
+3. Select the Paper icon to create the Work Order.
+4. Enter the Order Type, and Business Area.
+5. Set the System Condition Code (in shop, awaiting NMC parts etc.).
+6. Add any Components on the Component tab if material is required for the work.
+NOTE: If the material is recoverable there will be an operation listed on the Operations
+tab that requires a return to Supply. Once the WO is saved the -1 will be listed on the
+Components tab.
+7. Release the Order.
+8. Select the Check Material Availability icon (check if the parts are in stock).
+9. Save action.
+
+A-11. Complete Work Order and Close Notification (Overall Completion
+Confirmation ISDFPS/DISP_EQU_SIT, IW42)
+1. Select the equipment from the Equipment Situation Report.
+2. Select the Orders button to call up the open orders against the equipment.
+NOTE: In some case there may only be one order for the equipment, therefore the
+IW37N radio button should be selected, then proceed to step 4.
+3. From the list of Work Orders, select the Order that is required to perform
+corrective action.
+VII
+4. In the top Menu Bar, select Order, expand that selection, and select
+Confirmations, expand that selection and select Overall Confirmation
+Completion.
+5. NOTE: The Items, Causes, Time confirmation and Goods Movement sections
+populate from the Notification and Work Order fields entered at creation. If those
+items were not entered, they will have to be entered at this point.
+6. Enter time confirmations for each person completing work. Click the Act. Work
+(Actual Work) field and enter the Act. Work (for example, 3 hours).
+7. Click the Pers. No. (Personnel Number) field and enter the Pers. No. (Personnel
+Number) field (for example, 1216).
+8. Select the Activities section Code Group field.
+9. Click the Expand button associated with GRNDGEN.
+10. Select what action was taken to complete the work against the Work Order.
+11. Select the Technically complete (TECO) to complete the work order. This action
+changes the status of the Notification to TICL (TI Cleared).
+12. Select Save to complete the overall confirmations against the work order. NOTE:
+A message at the bottom of the screen will show the number of confirmations
+completed.
+13. Select the Back arrow, to take you back to the Equipment Situation Report.
+14. Select the Operation Status to update the equipment. (E.g., NMCM to FMC)
+15. “Refresh” if necessary.
+
+A-12. Monitor Service Schedule (IP24)
+1. In Maint Plant Code enter PM, O1, MW etc.
+2. In Scheduled Start Dates put From Start Date to Start date. (example 07/07/2010
+to 07/30/2010)
+3. In the Completion Dates click the arrow at the end of the row.
+4. Next to the first single value box hit the yellow box on the left.
+5. Double click on the Single Value =.
+6. Hit the copy button (first button on the left with the clock and green check).
+7. Main work Center (your main work center e.g., H98B*).
+8. Select the execute icon.
+
+A-13. Create a Multi Counter Maintenance Plan (Service & AOAP) (IP43)
+1. Select Maint. Plan cat. For services choose PM and press enter.
+2. In the Maintenance Plan Text field enter the EIC and type of Service being
+performed e.g., AQA – Engine Oil Sample.
+3. Select the Maintenance Plan Cycle tab.
+4. Enter the Cycle and unit for service due (e.g., 90) next field put in days.
+5. Enter the Cycle and unit for service due (e.g., 750) next field put in miles.
+6. Enter the Equipment Number of the desired equipment the service will be
+performed against.
+7. Enter the Notification type e.g., PM and press enter.
+NOTE: The rest of the record will populate once enter is selected.
+8. Select the Priority, e.g., AOAP. Enter the Start Date and Time 09/01/2011,
+23:59:00. Example: If the first service should occur on 09/01/2011, enter
+05/31/2011 (90 days before the start of the first service) in the Start Date field.
+9. Enter the Scheduling Period number of days for service due (e.g., 365).
+10. Select the Completion required box.
+11. Select the Maintenance Plan Additional data tab and select AOAP
+12. Press the save button.
+NOTE: The Maintenance Plan will be scheduled in a background processing session
+during the next run of IP30.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix B: Publications, Glossary of Terms and Abbreviations
+
+SECTION I:  RECOMMENDED PUBLICATIONS
+
+FORSCOM Regulation 700-2
+
+JFTX Regulation 750-1
+
+AR 70-1	Army Acquisition Policy
+
+AR 750-1	Army Materiel Maintenance Policies 
+
+AR 190-5	Motor Vehicle Traffic Supervision 
+
+AR 25-400-2	                  The Army Records Information Management System (ARIMS)
+
+AR 34-4		       Army Standardization Policy
+
+AR 190-11	Physical Security Update; Physical Security of Arms, Ammunition, and 
+                                         Explosives
+
+AR 190-13	The Army Physical Security Program
+
+AR 385-10	The Army Safety Program
+
+AR 600-55	Motor Vehicle Driver Selection, Testing and Licensing
+
+AR 672-20	Incentive Awards
+
+AR 710-2	Supply Policy Below Wholesale Level
+
+ALARACT Message, 202/2007 HQDA, DTG150515Z Subject: INTERIM change to AR 710-2 Shop Supply Policy (SSL).
+
+AR 725-50	Requisitioning, Receipt, and Issue System
+
+AR 735-5	Basic Policies and Procedures for Property Accounting
+
+AR 750-43	Test Measurement and Diagnostic Equipment
+
+CTA 50-900	Clothing and Individual Equipment
+
+CTA 50-909	Field and Garrison Furnishings and Equipment
+   	   
+DA PAM 750-1	Commander’s Maintenance Handbook
+
+DA PAM 25-30	The Army Publishing Program 
+
+DA PAM 710-2-1    	Using Unit Supply System, Manual Procedures 
+	
+DA PAM 750-8 	The Army Maintenance Management System (TAMMS) 
+
+FM 3-100.12	Risk Management
+
+FM 4-20.102	Airdrop of Supplies and Equipment: Rigging Airdrop Platforms
+
+FM 4-20.108	Rigging Military Utility Vehicle (M-Gator)
+
+FM 4-30.3 	Maintenance Operations and Procedures
+
+FM 5-499	Hydraulics
+
+FM 10-500-71	Airdrop of Supplies and Equipment: Rigging the Family of Medium Tactical 
+                                       Vehicles (FMTV)
+
+FM 100-21	Contracting Support on the Battlefield 
+
+TB 43-0211	AOAP Program Guide for Leaders and Users 	
+
+TB 750-651	Use of Antifreeze Multi-Engine Type Cleaning Compounds and Test Kit in             
+                                         Engine Cooling 
+
+TB 43-0139	Painting Instructions Army Materiel
+
+TB 43-0142        	Safety Inspection and Testing of Lifting Devices
+
+TB 43-180	Calibration and Repair Requirements for the Maintenance of Army Materiel
+
+TB 43-0209	Color, Marking and Camouflage Painting of Military Vehicles/Construction and Materials Handling Equipment
+
+TB 43-0218	Inspection, Use and Tightening of Metal Fasteners Used On Tank-Automotive 
+                                         Equipment
+
+TB 43-0242	WD CARC Spot Painting
+
+TB 43-0002-81	Maintenance Expenditure Limits for FSC Group 23, FSC Classes 2320, 2330, 
+                                         And 2310
+
+TB SIG 222	Solder and Soldering
+
+TM 1-1500-328-23	Aeronautical Equipment Maintenance Management Policies and Procedures	  
+
+TM 750-245-4	Quality Control Inspectors Inspection Criteria
+
+TM 750-254	Cooling Systems:  Tactical Vehicles
+
+TM 9-243	Use and Care of Hand Tools
+
+TM 9-8000	Principles of Automotive Vehicles
+
+TC 43-4           	Commander's and Shop Officer's Guide for Support Maintenance Management
+
+TC 9-237 	Operators’ Circular Welding Theory and Application
+
+FY 24 AMEG	Army National Guard Maintenance Execution Guidance
+
+Some of the listed publications are found only on AESIP ETMs online or at the Army Publishing Directorate online.
+
+SECTION II:  Glossary
+Maintenance Related Abbreviations
+ACR
+ammunition condition report
+ADP
+automatic data processing
+AEPS
+Army Electronic Product Support
+AISM
+automated information system manual
+AIT
+automatic identification technology
+AMC
+Army Materiel Command
+AMCOM
+U.S. Army Aviation and Missile Command
+AMDF
+Army master data file
+AMSS
+Army materiel status system
+AOAP
+Army Oil Analysis Program
+APS
+afloat prepositioning stock
+AR
+Army regulation
+ARDEC
+Armament Research Development and Engineering Center
+ASIOE
+associated support items of equipment
+ATC
+air traffic control
+AWCF
+Army working capital fund
+BDAR
+battlefield damage assessment and repair
+CASCOM
+U.S. Army Combined Arms Support Command
+CECOM
+U.S. Army Communications-Electronics Command
+DA PAM 750–8 • 22 August 2005 297
+CONUS
+continental United States
+COSCOM
+Corps Support Command
+CTA
+common table of allowances
+CWO
+customer work order
+DA
+Department of the Army
+DCA
+Defense Communications Agency
+DCR
+document control register
+DCS, G–1
+Deputy Chief of Staff, G–1
+DCS, G–2
+Deputy Chief of Staff, G–2
+DCS, G–3
+Deputy Chief of Staff, G–3
+DCS, G–4
+Deputy Chief of Staff, G–4
+DIF
+deficiency investigation file
+DLA
+Defense Logistics Agency
+DOD
+Department of Defense
+DODAAC
+Department of Defense activity address code
+DODD
+Department of Defense directive
+DODI
+Department of Defense instruction
+DOT
+Department of Transportation
+DRMO
+Defense Reutilization and Marketing Office
+DS
+direct support
+298 DA PAM 750–8 • 22 August 2005
+DSN
+Defense Switched Network
+DSU
+direct support unit
+ECC
+equipment category code
+ECOD
+estimated cost of repairs
+EDF
+equipment data file
+EFC
+equivalent full charge
+EIR
+equipment improvement recommendation
+ERC
+equipment readiness code
+ETM
+electronic technical manual
+FAA
+Federal Aviation Agency
+FED LOG
+Federal Logistics Record
+FPG
+Field Procedures Guide
+FRA
+Forward Repair Activity
+FSC
+Federal Supply Catalog
+FSCM
+Federal Stock/Supply Classification/Code for Manufacturers
+GCSS-A
+Global Combat Support System—Army
+GOCO
+Government owned, contractor operated
+GOGO
+Government owned, Government operated
+GS
+general support
+GSA
+General Services Administration
+DA PAM 750–8 • 22 August 2005 299
+HQ
+Headquarters
+HQDA
+Headquarters, Department of the Army
+IETM
+interactive electronic technical manual
+LAO
+logistics assistance office
+LAR
+logistics assistance representative
+LCSS
+life cycle software support
+LIDB
+logistics integrated database
+LIN
+line-item number
+LO
+lubrication order
+LOGSA
+USAMC Logistics Support Activity
+LSE
+logistics support element
+MATCAT
+Materiel Catalog
+MATES
+mobilization and training equipment sites
+MCSR
+Materiel Condition Status Report
+MIF
+malfunction investigation file
+MMDF
+maintenance master data file
+MMIS
+Modification Management Information System
+MRC
+maintenance repair code
+MSC
+major subordinate command
+MTOE
+modification table of organization and equipment
+300 DA PAM 750–8 • 22 August 2005
+MWO
+modification work order
+NBC
+nuclear, biological, chemical
+NCOIC
+noncommissioned officer in charge
+NICP
+national inventory control point
+NIIN
+national item identification number
+NMC
+not mission capable
+NMCM
+not mission capable maintenance
+NMCS
+not mission capable supply
+NMM
+national maintenance manager
+NMP
+National Maintenance Point
+NRTS
+not reparable this station
+NSN
+national stock number
+OCOC
+on condition oil change
+OCONUS
+outside the continental United States
+OF
+optional form
+OIC
+officer in charge
+ORD
+operational requirements document
+ORF
+operational readiness float
+ORG WON
+organization work order number
+PAM
+pamphlet
+DA PAM 750–8 • 22 August 2005 301
+PD
+priority designator
+PDQR
+product quality deficiency report
+PLL
+prescribed load list
+PM
+program manager
+PMCS
+preventive maintenance checks and services
+POC
+point of contact
+PQDR
+Product Quality Deficiency Report
+PSI
+pounds per square inch
+QDR
+quality deficiency report
+RC
+recoverability code
+RCS
+report control symbol
+RSC
+regional support center
+SDC
+sample data collection
+SF
+standard form
+SFDLR
+stock funded depot level reparable
+SMART
+Supply Maintenance Assessment and Review Team
+SOP
+standing operating procedure
+SRA
+specialized repair activity
+SSA
+Supply Support Activity
+302 DA PAM 750–8 • 22 August 2005
+SSN
+Social Security number
+STAMIS
+Standard Army Management Information System
+SURVIAC
+Survivability/Vulnerability Information Analysis Center
+TA
+theater Army
+TACOM
+Tank-automotive and Armaments Command
+TAMMS
+The Army Maintenance Management System
+TAMMSA
+TAMMS—Aviation
+TB
+technical bulletin
+TDA
+table of distribution and allowances
+TEDB
+TAMMS equipment database
+TIPS
+tool improvement program suggestions
+TM
+technical manual
+TMDE
+test, measurement, and diagnostic equipment
+TOE
+table of organization and equipment
+TRADOC
+Training and Doctrine Command
+UIC
+unit identification code
+ULLS
+Unit Level Logistics System
+UND
+urgency need designation
+UNK
+unknown
+USAMC
+U.S. Army Materiel Command
+DA PAM 750–8 • 22 August 2005 303
+USARC
+Commander, U.S. Army Reserve Command
+WARCO
+warranty coordinator
+WARS
+Worldwide Ammunition Reporting System
+WCA
+warranty claim action
+WIRS
+Watercraft Information Reporting System
+WON
+work order number
+WTB
+warranty technical bulletin
+
+Section III Terms
+Administrative deadline
+Procedure for taking equipment out of service if the commander or unit maintenance officer determines it is necessary. Administratively dead-lined equipment is FMC per the applicable PMCS tables and is reported FMC per AR 700–138 and this pamphlet but is not used or dispatched. The following conditions are examples of typical situations (not an all-inclusive list) when administrative deadline of equipment would apply:
+  a. Operation would result in a violation of published Federal, Department of the Army, local commander, or host nation safety regulations if the equipment were dispatched or used.
+  b. Pending completion of an official investigation.
+  c. Pending transfer, turn-in, or disposition instructions.
+  d. Pending inspection for a safety deficiency detailed under a safety-of-use message.
+  e. Pending receipt of oil resample or special sample results.
+  f. Pending completion of scheduled service that exceeds the ten percent variance.
+After operation checks
+PMCS checks and services performed per the TM/electronic technical manuals (ETMs) 10 series PMCS tables at the conclusion of the mission to identify and correct faults that preclude the next mission and to maintain the equipment to TM 10 and 20 series PMCS maintenance standard. Faults that render the equipment NMC and are within the authorized level of repair of the operator/crew to correct must be corrected immediately. Faults above the operator/crew authorized level of repair are immediately reported to unit maintenance for correction prior to start of the next mission. Unit maintenance performs unscheduled correction required by reports from operator/crew and performs required services per TM/ETM 20 series to maintain the equipment to the TM 10 and 20 series PMCS maintenance standard.
+Ammunition
+All Army-adopted class V items.
+Ammunition peculiar equipment
+Equipment used in depot to perform maintenance, surveillance, demilitarization, or preservation/packaging work on ammunition.
+Army Oil Analysis Program (AOAP)
+Part of a DOD-wide effort to detect impending equipment component failures and determine lubricant condition through evaluation of used oil samples.
+Army Oil Analysis Program evaluation criteria
+Factors, including quantitative metal wear expressions, against which the results of oil analysis are compared to determine the condition of a component or lubricant and the necessity for maintenance.
+Assembly
+A combination of components/modules and parts used as a portion of, and intended for, further installation in an equipment end item (for example, engine, transmission, rotor head, electronic chassis/rack/cabinet).
+Associated support items of equipment (ASIOE)
+An end item required to support the operation, maintenance, and/or transportation of a basic issue of plan item. ASIOE is listed on the BOIP of the item it supports. ASIOE has its own LIN and is separately documented into TOE/ Vertical—The Army Authorization and Documents System.
+Automatic test equipment
+Equipment designed to automatically evaluate the degree of unit under test performance degradation. It may be used to perform fault isolation of unit under test malfunctions.
+Available days
+The days equipment is on hand in an organization and fully able to do its mission; the time that equipment is FMC.
+Battlefield damage assessment and repair (BDAR)
+A wartime procedure to rapidly return disabled equipment to operational condition by expediently repairing, bypassing, or jury-rigging components to restore the minimum essential systems required for the support of a specific combat mission or to enable the equipment to self-recover.
+Before operation checks
+Checks performed by the operator/crew per TM/ETM 10 series PMCS tables to identify faults that prevent performance of the mission and must be corrected prior to start of the mission. All faults are corrected or, if above operator/crew authorized level of repair, are reported to unit maintenance before the mission. Before operation checks should not take over 20 minutes for completion by the operator/crew.
+Black box
+An electronic assembly removed and replaced from the next higher assembly at the user level and generally synonymous with line replaceable unit.
+Component/module
+A combination of parts mounted together during manufacturing that may be tested, replaced as a unit, or repaired (for example, starter, generator fuel pump, and printed circuit board). The term module is normally associated with electronic equipment.
+Deferred maintenance
+Authorized delay of maintenance/repair of uncorrected faults.
+Deficiency
+A fault or problem that causes equipment to malfunction. Faults that make the equipment NMC are deficiencies.
+Department of Defense activity address code (DODAAC)
+A six-digit code that gives a DOD delivery address for supplies and equipment.
+Depot-level reparable
+A class IX item with a maintenance repair code of D or L.
+During operations checks
+Checks performed by the operator/crew per the TM/ETM 10 series PMCS tables that monitor operation of equipment and identify faults in equipment performance during the mission. Faults that render the equipment NMC require immediate correction or authorization for limited operation using CIRCLED X status condition. All other faults are corrected (if above operator/crew authorized level of repair to correct) or reported during or after the mission.
+Electromagnetic environmental effect
+Any failure (or serious effect) apparently caused by, or related to, radio waves, electromagnetism, voltage, or current pulses (static discharge, lightning, electromagnetic pulse, or transient electricity), from whatever source.
+End item code
+Data element that identifies a part to a specific end item. It is a three-position alphanumeric code that uses the full English alphabet and the numbers 2 through 9 and is structured so that each position of the code has a specific meaning.
+Equipment category code (ECC)
+A two-position alphabetical code. The first letter identifies the primary category of equipment. The two-position ECC is used in ADP systems to produce the complete description of an item of equipment by make, model, noun nomenclature, line number, and national stock number if desired or required. It is also entered in specified blocks or positions on manually produced data source documents.
+Equipment end item
+A final combination of assemblies, components, modules, and parts that is designed to perform an operational function and is ready for intended use. These end items are normally type-classified and assigned line-item identification numbers (FED LOG) but may require other end items to perform a mission (for example, tank, truck, radio, generators, and machine guns).
+Equipment improvement recommendation (EIR)
+Written reports on an SF Form 368 to report equipment faults in design operations and manufacturing of new equipment received that is below standard quality in workmanship under AR 702–7 and AR 702–7–1.
+Equipment performance data
+Historical information relating to the maintainability, reliability, and supportability characteristics of systems, subsystems, and components of weapons and equipment end items accumulated during their operational application or tests simulating actual operations.
+Equipment readiness codes
+A one-digit code explaining an item’s importance to a unit’s combat, combat support, or service support mission. The codes are assigned to items on modification tables of organization and equipment.
+Failure
+The event, or inoperative state, in which any item or part of an item does not, or would not, perform as previously specified.
+Fault
+A term used to indicate that a piece of equipment has a deficiency or shortcoming.
+Fault isolation
+Test performed to isolate faults within a piece of equipment.
+Forward support maintenance
+Maintenance oriented toward quick turnaround to the user in order to maximize combat time by minimizing repair and evacuation time.
+Fully mission capable
+Systems and equipment that are safe and have all mission-essential subsystems installed and operating as designated by applicable Army regulation. An FMC vehicle or system has no faults that are listed in the not fully mission capable ready if columns of the TM/ETM 10 and 20 series PMCS tables that apply to the vehicle/system, or its sub-system required by AR 700–138. The terms ready/available and fully mission capable refer to the same status: equipment is on hand and able to perform its combat missions.
+Go/no go (system)
+Condition or state of operability of a system that can have only two parameters:
+  a. Go: Functioning properly.
+  b. No-go: Not functioning properly. Such conditions are displayed using meters and/or visual or audible alarms, sensors, or similar mechanisms.
+Line-item number (LIN)
+A six-position alphanumeric number that identifies the generic nomenclature of specific types of equipment. Standard LINs consist of one alpha character followed by five numeric characters. Standard are assigned by the Army Materiel Command and are listed in the FED LOG.
+Line replaceable unit
+A combination of components/modules installed in an item of equipment or system that is replaceable in the operational environment (that is, under field or combat conditions). A line replaceable unit may be a printed circuit board, black box, component, major component, alternator, carburetor, avionics, tank engine, road wheel assembly installed weapons, and so forth. This repair by replacement is normally accomplished as far forward as possible by unit (organizational) maintenance personnel.
+Maintainability
+Characteristics of design that inherently provide for the retention of and/or restoration of a specified condition within a given period when maintenance is performed by prescribed procedures and resources.
+Maintenance
+All actions necessary for retaining an item in or restoring it to a specified condition.
+Maintenance, corrective
+All actions performed as a result of failure to restore an item to a specified condition. Corrective maintenance can include any or all of the following steps: localization, isolation, disassembly, interchange, reassembly, alignment, and check-out.
+maintenance capability
+Availability of those resources—facilities, tools, TMDE, drawings, technical publications, trained maintenance personnel, engineering and management support, and repair parts—required to perform maintenance operations.
+maintenance capacity
+A quantitative measure of maintenance capability usually expressed as the number of man-hours or direct labor that can be applied within a specific maintenance activity or shop during a 40-hour week (one shift, 5 days).
+maintenance concept
+The maintenance concept briefly defines the intended maintenance workload distribution within the Army maintenance system and the force structure required to maintain the end item or weapon system. It is largely based on the Organization and Operation Plan and is an integral portion of the logistics section of the requirement document.
+maintenance operations
+The management and physical performance of those actions and tasks involved in servicing, repairing, testing, overhauling, modifying, calibrating, modernizing, and inspecting materiel in the operational inventory and the provision of technical assistance to equipment users in support units of the Army Logistics System.
+maintenance significant item/materiel
+An end item, assemblage, component, or system intended for issue to the Army in the field that requires corrective maintenance services on a recurring basis.
+maintenance standard
+A measure that specifies the minimum condition to which materiel must be restored by repair, overhaul, or some other maintenance function to ensure its satisfactory performance for a specified period of service.
+maintenance support team
+A team formed from the resources of a maintenance activity, organization, or unit and specifically tailored to provide maintenance support to a designated unit or operation for specified tasks.
+maintenance technician
+Full-time technician normally having dual status as a member of a U.S. Army Reserve unit; military technician assigned to a U.S. Army Reserve TDA maintenance activity.
+major assembly
+Separately identified by type, model, and series and assigned item ID number (FED LOG). For example, receivers or receiver transmitters in radio sets and machine guns or other weapons in secondary armaments subsystems of combat vehicles.
+materiel change
+Configuration change involving substantial engineering and testing efforts on major end items to increase system/ combat effectiveness or extend the useful military life.
+materiel developer
+The principal Army MATDEVs are the Army program executive officer/program managers. For nonprogram executive officer/program managers managed systems, other materiel developers include the U.S. Army Materiel Command, U.S. Army Information Systems Command, U.S. Army Intelligence and Security Command, Chief of Engineers, The Surgeon General, and Strategic Defense Command.
+Materiel maintenance
+The function of sustaining materiel in an operational status, restoring it to a serviceable condition, or updating and upgrading its functional usefulness through modification or other alteration.
+Mission-essential materiel
+That materiel authorized and assigned to approved combat and combat support forces that should be immediately employed to: destroy the enemy or its capacity to continue war; provide battlefield protection of personnel; communicate under war conditions; detect, locate, or maintain surveillance over the enemy; and permit contiguous combat transportation and support of forces and materiel. Equipment assigned to training missions of the same type and configuration as that assigned to combat and combat support forces and designated to be immediately employed for the purposes enumerated above is also mission-essential materiel.
+Mobilization and training equipment site (MATES)
+An Army National Guard TDA maintenance facility which, when collocated with a combined support maintenance shop, provides full-time unit support to Army National Guard equipment assigned to the site. When not collocated, MATEs provide unit, DS, and GS support to equipment and units assigned.
+Module
+An assembly containing a complete self-contained circuit or sub circuit. It may consist of a single printed circuit board, in which case it is synonymous with a printed circuit board or may be comprised of two or more printed circuit boards mechanically attached to one another and removable from the next high assembly as a single unit.
+Nonavailable days
+The number of days the equipment was not able to do its mission; the time the equipment is NMC. This term is used on DA Form 2406 to rate equipment’s ability to do its combat or combat support job.
+Not mission capable (NMC)
+A materiel condition indicating that equipment cannot perform any one of its combat missions. NMC is divided into not mission capable maintenance (NMCM) or not mission capable supply (NMCS).
+Not mission capable maintenance
+Equipment that cannot perform its combat mission because of maintenance work underway or needed.
+not mission capable supply
+Equipment that cannot perform its combat mission because of maintenance work stoppage due to supply backorders.
+off-site maintenance
+Maintenance authorized to be performed by designated maintenance facilities not located where the equipment is operated.
+oil analysis
+A test or series of tests (spectrometric and physical property) that provide an indication of equipment component and oil condition by applying methods of quantitative measurement of wear metals and detection of contaminants in an oil sample.
+on-condition oil change
+An oil change directed by the AOAP laboratory as a result of findings relative to the condition of the oil and its lubricating capability.
+on-site maintenance
+Maintenance authorized to be performed where the equipment is operated.
+operational readiness float
+A quantity of selected end items or major components of equipment authorized for stockage at CONUS installations and overseas support maintenance activities to extend their capability to respond to the materiel readiness requirements of supported activities. This is accomplished by providing supported activities with serviceable replacements from ORF assets when like items of equipment of supported activities cannot be repaired or modified in time to meet operational requirements.
+pacing items
+Major weapons or equipment systems of such importance that they are subject to continuous monitoring and management at all levels of command. Pacing items are identified in AR 220–1. Pacing items are noted on DA Form 5990–E or DA Form 2407.
+part
+An item that cannot normally be disassembled or repaired or is of such a design that disassembly or repair is impractical (for example, bracket, gear, resistor, or toggle switch).
+physical property tests
+Analytical tests of used oil samples to detect oil property changes resulting from changing equipment conditions or maintenance practices.
+possible days
+The number of calendar days an item was on hand on the property book during the DA Form 2406 report. For an item received during the reporting period, count the first day it was on hand as a whole possible day. Do not count the last day an item is on hand (the day lost from the property book) as a possible day.
+precombat checks
+Essential functional and safety checks performed by the operator/crew per the system’s precombat checklist to ensure the system can perform its war-fighting mission. Faults that prevent the performance of the mission must be corrected prior to the start of the mission. All other faults are corrected or, if above operator/crew authorization to correct, reported during or after the mission.
+preventive maintenance
+All actions performed in an attempt to retain an item in a specified condition by providing systematic inspection, detection, and prevention of incipient failures.
+preventive maintenance checks and service (PMCS)
+Preventive maintenance checks and service is the care, servicing, inspection, detection, and correction of minor faults before these faults cause serious damage, failure, or injury. The procedures and the category of maintenance to perform PMCS are found in the 10 and 20 series equipment TMs and LOs or ETMs.
+quality deficiency report
+The authorized means for users of Army equipment to report, either by message or SF Form 368, equipment faults in design, operations, and manufacture.
+readiness
+The capability of a unit/formation, ship, weapon system, or equipment to perform the mission or functions for which it is organized or designed.
+repair
+Restoration or replacement of parts and/or units to maintain efficient operating conditions.
+repairable item
+An item that can be restored to perform all of its required functions by corrective maintenance.
+reparable
+Class IX secondary items that carry an MRC of D, F, H, or L.
+restriction
+An order placing special working limits on materiel. The limits are set for safety or because of degraded performance.
+scheduled PMCS services
+Checks and services performed by unit maintenance personnel with assistance from the operation/crew per the TM/ ETM 10 and 20 series PMCS tables and lube orders. Some equipment also requires scheduled PMCS tasks to be performed by DS personnel per the equipment TM/ETM 30 series. All equipment faults are corrected or, if above the unit maintenance level authorization (per the maintenance allocation chart) to correct, job ordered to DS maintenance. Deferred maintenance is completed during the scheduled service. Upon conclusion of the service, equipment should meet the TM/ETM 10 and 20 series maintenance standards.
+serious defect (applies to ammunition)
+Defect resulting from bad design, manufacturing, handling, or storage that may cause malfunctions when ammunition is handled or fired.
+service life surveillance
+Postproduction inspection, test, and analysis activity that verifies the actual condition of items after periods of use or storage.
+shop replacement unit
+A component/module installed in an end item of equipment, system, or LRU that is replaceable only in a repair facility (shop environment) designated in the applicable maintenance allocation chart.
+shortcoming
+A fault that requires maintenance or supply action on a piece of equipment but does not render equipment NMC.
+spectrometric analysis
+A method to determine the concentration of various chemical elements in an oil sample by means of spectroscopy, primarily to detect the presence of abnormal amounts of wear metal that may indicate the potential failure of a component.
+substitute item
+An item authorized issue instead of, or in place of, an authorized standard item of like nature and quality. The FED LOG identifies items and procedures for making substitutions.
+subsystem
+A separately authorized item issued or intended to work with other items to form an operational unit/system.
+support equipment
+All ancillary and associated equipment (mobile or fixed) required to separate and support a materiel system. This includes ASIOE such as trucks, air conditioners, generators, ground handling and maintenance equipment, tools metrology, calibration and communications equipment, test equipment, and automatic test equipment with diagnostic software for both on and off equipment maintenance.
+support system
+Collectively, those tangible logistic support resources required to maintain a materiel system in an operationally ready condition. It is developed with the materiel system and merged with the ongoing logistic systems upon production and development. The following elements of integrated logistics support constitute the support system: support and test equipment, supply support, transportation and handling, technical data, facilities, and trained personnel. The other elements of integrated logistics support are the means by which the support system is developed and implemented.
+surge
+The act of expanding an existing depot maintenance repair capability to meet increased requirements by adjusting shifts; adding skilled personnel, equipment, spares, and repair parts to increase the flow of repaired or manufactured materiel to the using activity; or for serviceable storage.
+suspended munitions
+Munitions removed from issue, movement, test, and use with or without limitations. These are removed because of a suspected or known unsafe or defective condition.
+system
+A combination of equipment end items, assemblies, major components, components, modules, and parts assembled as a single functional unit to perform a task or mission.
+test, measurement, and diagnostic equipment (TMDE)
+Any system or device capable of being used to evaluate the operating condition of a system or equipment to identify and/or isolate any actual or potential malfunction. TMDE also includes automatic test equipment and test program sets.
+unit identification code
+A six-character code assigned to a specific unit. All units, organizations, and activities use their own UIC. Contractors, manufacturers, and commercial activities do not have UICs. They use the five-digit Commercial and Government Entity code prescribed by SB 708–43. Put the letter K in front of the Federal Stock/Supply Classification/Code for Manufacturers (FSCM). For example, General Motors FSCM 24617 is turned into a contractor UIC, K24617.
+unit maintenance shop
+Facility located in conjunction with a U.S. Army Reserve center; unit training and equipment site; a maintenance facility located in conjunction with a U.S. Army Reserve center.
+unsafe condition
+An occurrence of hazard severity category I or II or MIL–STD–882. This includes the conditions that cause loss or serious damage to the end item or major components, loss of control, death, serious injury, or illness.
+user representative
+The combat developer designated to represent the user in development and testing of new or improved systems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEXAS MILITARY DEPARTMENT
+176th ENGINEER BRIGADE
+4601 FAIRVIEW DRIVE, BLDG 1001A
+AUSTIN, TEXAS 78731
+       
+
+NGTX-ID-LG                                                                                                              10 December 2023 
+
+
+MEMORANDUM FOR RECORD
+
+SUBJECT:  176th ENGINEER BRIGADE MAINTENANCE STANDARD OPERATING PROCEDURES
+
+
+1.  COMMANDER’S GUIDANCE
+
+    a. According to AR 750-1, the Army has one maintenance standard.  It is based on the technical manuals of the operator’s -10 manual and the unit level maintenance -20 manuals.  The unit level maintenance programs provide the cornerstone that will sustain our equipment readiness level at a go to war posture.  Maintenance requires continuous emphasis by all leaders and maintenance managers.
+
+    b. Deviations from this SOP is not authorized unless approved by the Brigade Commander.  However, sections may amplify applicable portions of the SOP which require modification or clarification.  This SOP will be reviewed and updated semiannually and when needed due to changes in policies and procedures.  Additional changes will be made when a Software Change Package (SCP) or Interim Change Package occurs (ICP) within the Global Combat Support System-Army (GCSS_A).
+
+    c. All Officers and Non-Commissioned Officers are required to read this SOP and will ensure compliance with all provisions.  Subordinate Commander’s will ensure this SOP is readily available down to section level at all times.
+
+    d. There are constant changes in policies and procedures throughout the Army that may require changes to this SOP.  As maintenance experience is gained throughout the command there may also be occasions where this SOP may and will require revisions. Therefore, written recommendations for changes that occur may be submitted through the Brigade Commander.  
+
+    e. This SOP supersedes all previous Maintenance SOPs. 
+
+2. PURPOSE – This SOP is designed to standardize field maintenance policies, training procedures, and operations. It intends to provide the necessary guidance for GCSS-Army maintenance operations to all subordinate Companies with the goal of achieving and maintaining maximum material readiness and mission capability of all equipment assigned. 
+
+
+
+
+
+3.  POLICY.
+
+	a. Maintenance is a continuous process that must be supervised and evaluated in both field and garrison environments.  Maintenance periods, scheduled services, command maintenance and PMCS days will be scheduled on the Soldier’s training schedule.  The BDE’s short range and long-range calendars will also reflect maintenance requirements IAW FM 25-101.  When scheduled, these periods will be conducted in a manner that will provide the most benefit from a maintenance and training standpoints.  The leadership will be present during services along with the assigned driver to each vehicle. 
+
+	b. Battalion Commander’s will designate an officer who will perform the duties of Battalion Maintenance officer.
+
+4. SCOPE – This SOP applies to all personnel assigned or attached to the 176th EN BDE.
+
+5.  OBJECTIVES:
+
+    a. Maintain equipment at -10/-20 standards.
+
+    b. Obtain maximum operational readiness of equipment.
+
+    c. Enhance the unit's material readiness program by identifying areas requiring special attention.
+
+    d. Meet the Brigade’s maintenance goals and objectives.
+
+        (1)  Operational Readiness of all fleets > 90%
+        (2)  Class IX Recoverable Item Match Rate 100%
+        (3)  AOAP and Calibration: 100% enrolled and 0% delinquent
+
+    e. Clarify maintenance policies and procedures as they pertain to this Brigade.
+
+    f. Ensure the maximum service life of all equipment.
+
+    g. FIX ON-SITE and FORWARD during field operations.
+
+6.  MAINTENANCE PRIORITIES:  The BDE’s and Battalion's maintenance efforts will be directed according to the following order of priorities:
+	
+           a. Safety, Safety, Safety is the most critical task to be always accomplished.
+
+	b. Deadline Deficiencies: Identify, repair, or order part within 24-hours.  Equipment requiring DS maintenance support will be job-ordered within 48 hours.  Non-Mission Capable repair parts 02 priorities will be placed on equipment within 24 hours from received date. 
+
+	c. Schedule Services:  Service will be accomplished within 10% tolerance from due date.
+
+	d. Non-Deadline Deficiencies: These deficiencies can wait for scheduled services or repaired once the required parts are on hand once received from the SSA. Or directed as otherwise by the Commanders or Battalion Executive Officer (XO) if mission dictated.
+
+7. This SOP sets, describes and provides sustainment for unit level maintenance policies and procedures. It also addresses the command and staff responsibilities as they pertain to maintenance operations. It will also allow the subordinate commander, platoon leaders, and leaders at all levels the flexibility they need in designing and implementing an effective maintenance operational plan that will ensure maximum equipment operational readiness.
+
+
+COL, EN, TXARNG 
+COMMANDING
+DISTRIBUTION: 
+111th EN BN
+386th EN BN 
+HHC, 176TH EN

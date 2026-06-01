@@ -1,0 +1,377 @@
+# DRIVER TRAINING STANDARD OPERATING PROCEDURE
+176th EN BDE Driver Training SOP
+CMDP Reference 10(10)-1
+
+---
+
+# COVER PAGE
+
+Texas Military Department Header
+
+TXARNG Header
+
+Address Block
+
+Date Block
+
+Title Block
+
+Approval Block
+
+Official Signature Block
+
+Summary
+
+Commanders Review
+
+Applicability
+
+Supplementation
+
+Suggested Improvements
+
+Distribution
+
+Summary of Change
+
+---
+
+# Chapter 1 – General
+
+## 1-1. Purpose
+
+## 1-2. Scope
+
+## 1-3. Objective
+
+## 1-4. References
+
+### Regulatory References
+
+### Technical References
+
+### Forms
+
+## 1-5. Proponent and Exception Authority
+
+## 1-6. Suggested Improvements
+
+## 1-7. Revisions
+
+## 1-8. Unit Driver Training SOP Requirement
+
+---
+
+# Chapter 2 – Organization for Driver Training and Licensing Operations
+
+## 2-1. General
+
+## 2-2. Driver Training Structure
+
+## 2-3. Driver Training Operations Framework
+
+## 2-4. Driver Training Support Relationships
+
+## 2-5. Driver Training Planning and Integration
+
+## 2-6. Driver Training Responsibility and Accountability
+
+---
+
+# Chapter 3 – Driver and Operator Standardization Program
+
+## 3-1. General
+
+## 3-2. Program Requirements
+
+## 3-3. Operator Qualification Requirements
+
+## 3-4. Equipment Qualification and Variant Requirements
+
+## 3-5. Learner Permit Program
+
+## 3-6. Licensing Program
+
+## 3-7. Sustainment Training Program
+
+## 3-8. Remedial Training Program
+
+## 3-9. NVD Qualification Program
+
+## 3-10. Driver Packet Requirements
+
+## 3-11. Licensing Validation and CMDP Integration
+
+---
+
+# Chapter 4 – Responsibilities
+
+## 4-1. Brigade Commander
+
+## 4-2. Battalion Commanders
+
+## 4-3. Company Commanders
+
+## 4-4. Executive Officers
+
+## 4-5. Master Drivers
+
+## 4-6. Maintenance Leaders
+
+## 4-7. First-Line Leaders
+
+## 4-8. License Instructors
+
+## 4-9. License Examiners
+
+## 4-10. Vehicle Commanders
+
+## 4-11. Senior Occupants
+
+## 4-12. Operators
+
+## 4-13. Assistant Drivers / Co-Drivers
+
+## 4-14. Dispatch Personnel
+
+## 4-15. Safety Personnel
+
+---
+
+# Chapter 5 – Driver Selection and Enrollment
+
+## 5-1. General
+
+## 5-2. Operator Screening Requirements
+
+## 5-3. Medical Qualification Requirements
+
+## 5-4. Civilian License Requirements
+
+## 5-5. Enrollment Procedures
+
+## 5-6. Disqualifying Conditions
+
+## 5-7. Command Review and Approval
+
+---
+
+# Chapter 6 – Driver Training Program
+
+## 6-1. General
+
+## 6-2. Driver Training Phases
+
+### Phase I – Initial Training
+
+### Phase II – Equipment Qualification
+
+### Phase III – Validation and Licensing
+
+## 6-3. Classroom Training
+
+## 6-4. Hands-On Training
+
+## 6-5. PMCS Training
+
+## 6-6. Ground Guide Training
+
+## 6-7. Road Training
+
+## 6-8. Field Training
+
+## 6-9. Convoy Training
+
+## 6-10. Recovery Awareness Training
+
+## 6-11. Environmental and Terrain Training
+
+## 6-12. Learner Permit Operations
+
+## 6-13. Risk Management Requirements
+
+## 6-14. Operator Safety During Training
+
+## 6-15. Training Documentation Requirements
+
+---
+
+# Chapter 7 – Testing and Licensing
+
+## 7-1. General
+
+## 7-2. Written Examinations
+
+## 7-3. Hands-On Evaluation
+
+## 7-4. PMCS Evaluation
+
+## 7-5. Road Test Requirements
+
+## 7-6. Field Evaluation Requirements
+
+## 7-7. Minimum Passing Standards
+
+## 7-8. License Issuance Procedures
+
+## 7-9. OF 346 Requirements
+
+## 7-10. DA Form 5984-E Requirements
+
+## 7-11. Licensing Restrictions
+
+## 7-12. Variant Qualification Requirements
+
+## 7-13. License Suspension Procedures
+
+## 7-14. License Revocation Procedures
+
+## 7-15. Reinstatement Procedures
+
+---
+
+# Chapter 8 – Sustainment and Remedial Training
+
+## 8-1. General
+
+## 8-2. Sustainment Training Requirements
+
+## 8-3. Annual Refresher Requirements
+
+## 8-4. PMCS Sustainment
+
+## 8-5. Seasonal and Environmental Training
+
+## 8-6. Accident Prevention Training
+
+## 8-7. Remedial Training Triggers
+
+## 8-8. Retraining Procedures
+
+## 8-9. Retesting Requirements
+
+## 8-10. Driver Improvement Measures
+
+---
+
+# Chapter 9 – Night Vision Device (NVD) Training
+
+## 9-1. General
+
+## 9-2. NVD Qualification Requirements
+
+## 9-3. NVD Instructor Requirements
+
+## 9-4. NVD Sustainment Requirements
+
+## 9-5. NVD Safety Requirements
+
+## 9-6. NVD Documentation Requirements
+
+## 9-7. Annual NVD Recertification
+
+---
+
+# Chapter 10 – Records Management
+
+## 10-1. General
+
+## 10-2. DA Form 348 Requirements
+
+## 10-3. Driver Packet Requirements
+
+## 10-4. Learner Permit Records
+
+## 10-5. Testing Documentation
+
+## 10-6. Sustainment Training Records
+
+## 10-7. Accident and Violation Documentation
+
+## 10-8. Licensing Status Reports
+
+## 10-9. Records Retention Requirements
+
+## 10-10. CMDP Inspection Requirements
+
+---
+
+# Chapter 11 – Safety
+
+## 11-1. General
+
+## 11-2. Operator Safety Requirements
+
+## 11-3. PMCS Safety Requirements
+
+## 11-4. Ground Guide Safety
+
+## 11-5. Seat Belt and Occupant Protection Requirements
+
+## 11-6. Fatigue Management
+
+## 11-7. Assistant Driver Requirements
+
+## 11-8. Environmental Hazard Considerations
+
+## 11-9. Fueling Safety
+
+## 11-10. Carbon Monoxide Hazard Awareness
+
+## 11-11. Night Operations Safety
+
+## 11-12. NVD Safety
+
+## 11-13. Accident Reporting Requirements
+
+## 11-14. Stop-Work Authority
+
+---
+
+# Chapter 12 – Inspections and Program Oversight
+
+## 12-1. General
+
+## 12-2. CMDP Inspection Requirements
+
+## 12-3. Driver Packet Inspections
+
+## 12-4. Licensing Validation Inspections
+
+## 12-5. Sustainment Training Inspections
+
+## 12-6. Corrective Action Requirements
+
+## 12-7. Program Evaluation Requirements
+
+## 12-8. Annual Program Review
+
+---
+
+# Appendices
+
+## Appendix A – Required Forms
+
+## Appendix B – Sample Driver Packet Checklist
+
+## Appendix C – Sample Learner Permit Checklist
+
+## Appendix D – Sample Sustainment Training Checklist
+
+## Appendix E – Sample Road Test Checklist
+
+## Appendix F – Sample NVD Qualification Checklist
+
+## Appendix G – Acronyms
+
+## Appendix H – Definitions
+
+---
+
+# Approval Block
+
+Commander Signature Block
+
+CMDP Reference Footer
+
+Navigation Footer
