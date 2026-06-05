@@ -138,6 +138,19 @@ body {
   padding: clamp(0.55rem, 1.6vw, 1.1rem) clamp(4.5rem, 6vw, 5.5rem);
 }
 
+/* Slide 5 (Reading the ESR): larger image column, narrower narrative */
+.slide-card--image-plus-20 {
+  grid-template-columns: minmax(0, 2.4fr) minmax(220px, 0.8fr);
+}
+
+.slide-card--image-plus-20 .slide-figure {
+  --slide-image-max-height: clamp(12rem, calc((100dvh - 11rem) * 1.2), 888px);
+}
+
+.slide-card--image-plus-20 .slide-copy {
+  font-size: clamp(0.94rem, 1.25vw, 1.05rem);
+}
+
 .slide-page-footer {
   max-width: 1440px;
   margin: 0 auto;
@@ -199,9 +212,9 @@ h1 {
   position: relative;
   display: block;
   justify-self: center;
-  aspect-ratio: 2056 / 1015;
+  aspect-ratio: 2000 / 1600;
   width: 100%;
-  max-width: calc(var(--slide-image-max-height) * 2056 / 1015);
+  max-width: calc(var(--slide-image-max-height) * 2000 / 1600);
   min-width: 0;
 }
 
@@ -295,6 +308,45 @@ h1 {
 .slide-arrow-right::before {
   margin-left: 0.14rem;
   border-left: 0.72rem solid #ffffff;
+}
+
+.slide-nav-cta {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 999px;
+  background: rgba(18, 53, 91, 0.86);
+  box-shadow: 0 10px 24px rgba(18, 53, 91, 0.26);
+  color: #ffffff;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.05;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.45rem 0.7rem;
+  transform: translateY(-50%);
+  transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
+  max-width: 9.5rem;
+}
+
+.slide-nav-cta span {
+  display: block;
+}
+
+.slide-nav-cta:hover,
+.slide-nav-cta:focus {
+  background: #ffffff;
+  color: var(--color-primary);
+  outline: none;
+  transform: translateY(-50%) scale(1.02);
+}
+
+.slide-nav-cta--next {
+  right: calc(-1 * (var(--slide-content-gap) + 50% + 5.75rem));
 }
 
 .fullscreen-toggle {
@@ -604,7 +656,8 @@ h1 {
     max-width: 100%;
   }
 
-  .slide-arrow-right {
+  .slide-arrow-right,
+  .slide-nav-cta--next {
     right: 0.5rem;
   }
 }
@@ -793,8 +846,15 @@ h1 {
     left: 0.5rem;
   }
 
-  .slide-arrow-right {
+  .slide-arrow-right,
+  .slide-nav-cta--next {
     right: 0.5rem;
+  }
+
+  .slide-nav-cta {
+    font-size: 0.66rem;
+    max-width: 7.5rem;
+    padding: 0.38rem 0.55rem;
   }
 
   .fullscreen-toggle {

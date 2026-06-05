@@ -194,7 +194,9 @@ if (slideAudioSrc && slideCopy) {
 
 if (slideFigure && slideImage) {
   const previousPage = slideFigure.querySelector(".slide-arrow-left");
-  const nextPage = slideFigure.querySelector(".slide-arrow-right");
+  const nextPage =
+    slideFigure.querySelector(".slide-arrow-right") ||
+    slideFigure.querySelector(".slide-nav-cta--next");
 
   const fullscreenButton = document.createElement("button");
   fullscreenButton.className = "fullscreen-toggle";
