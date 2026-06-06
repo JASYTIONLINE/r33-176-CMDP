@@ -267,7 +267,8 @@ if (slideFigure && slideImage) {
 
   const refreshFullscreenCopy = () => {
     copyPane.innerHTML = getNarrativeHtml();
-    mountNarrativeAudioControls(copyPane);
+    imagePane.querySelector(".slide-audio-controls")?.remove();
+    mountNarrativeAudioControls(imagePane);
   };
 
   refreshFullscreenCopy();
@@ -296,6 +297,7 @@ if (slideFigure && slideImage) {
     fullImage.src = slideImage.currentSrc || slideImage.src;
     refreshFullscreenCopy();
     overlay.hidden = false;
+    overlay.scrollTop = 0;
     document.body.classList.add("is-fullscreen-open");
     requestAnimationFrame(() => closeButton.focus());
   };
