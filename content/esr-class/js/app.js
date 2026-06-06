@@ -67,11 +67,11 @@ const syncAllAudioToggleButtons = () => {
     button.classList.toggle("is-playing", isPlaying);
     button.setAttribute(
       "aria-label",
-      isPlaying ? "Pause narration" : "Play narration"
+      isPlaying ? "Pause audio" : "Play audio"
     );
     const label = button.querySelector(".slide-audio-toggle__label");
     if (label) {
-      label.textContent = isPlaying ? "Pause" : "Play";
+      label.textContent = isPlaying ? "Pause Audio" : "Play Audio";
     }
   });
 };
@@ -161,17 +161,13 @@ const mountNarrativeAudioControls = (container) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "slide-audio-toggle";
-    button.setAttribute("aria-label", "Play narration");
-
-    const icon = document.createElement("span");
-    icon.className = "slide-audio-toggle__icon";
-    icon.setAttribute("aria-hidden", "true");
+    button.setAttribute("aria-label", "Play audio");
 
     const label = document.createElement("span");
     label.className = "slide-audio-toggle__label";
-    label.textContent = "Play";
+    label.textContent = "Play Audio";
 
-    button.append(icon, label);
+    button.appendChild(label);
     controls.appendChild(button);
     container.insertBefore(controls, container.firstChild);
   }
@@ -188,8 +184,32 @@ const getNarrativeHtml = () => {
   return clone.innerHTML;
 };
 
-if (slideAudioSrc && slideCopy) {
-  mountNarrativeAudioControls(slideCopy);
+const resolveAudioMountContainer = () => {
+  if (!slideFigure) {
+    return null;
+  }
+  const imageWrap = slideFigure.querySelector(".slide-image-wrap");
+  if (imageWrap) {
+    return imageWrap;
+  }
+  if (!slideImage) {
+    return null;
+  }
+  const existingMount = slideImage.closest(".slide-image-mount");
+  if (existingMount) {
+    return existingMount;
+  }
+  const mount = document.createElement("div");
+  mount.className = "slide-image-mount";
+  slideImage.replaceWith(mount);
+  mount.appendChild(slideImage);
+  return mount;
+};
+
+const audioMountContainer = resolveAudioMountContainer();
+
+if (slideAudioSrc && audioMountContainer) {
+  mountNarrativeAudioControls(audioMountContainer);
 }
 
 if (slideFigure && slideImage) {
@@ -260,15 +280,19 @@ if (slideFigure && slideImage) {
 
   const imagePane = document.createElement("div");
   imagePane.className = "fullscreen-image-pane";
-  imagePane.appendChild(fullImage);
+
+  const fullscreenImageMount = document.createElement("div");
+  fullscreenImageMount.className = "slide-image-mount";
+  fullscreenImageMount.appendChild(fullImage);
+  imagePane.appendChild(fullscreenImageMount);
 
   const copyPane = document.createElement("div");
   copyPane.className = "fullscreen-copy";
 
   const refreshFullscreenCopy = () => {
     copyPane.innerHTML = getNarrativeHtml();
-    imagePane.querySelector(".slide-audio-controls")?.remove();
-    mountNarrativeAudioControls(imagePane);
+    fullscreenImageMount.querySelector(".slide-audio-controls")?.remove();
+    mountNarrativeAudioControls(fullscreenImageMount);
   };
 
   refreshFullscreenCopy();
