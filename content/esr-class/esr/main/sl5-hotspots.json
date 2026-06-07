@@ -33,7 +33,7 @@
     "y": 37.88,
     "w": 13.15,
     "h": 4.06,
-    "body": "The administrative number is the unit's identifier for a specific piece of equipment in the motor pool or property book. Match this number to the physical item and to work orders when driving maintenance follow-up."
+    "body": "The administrative number (Bumbper Number) is the unit's identifier for a specific piece of equipment in the motor pool or property book. Match this number to the physical item and to work orders when driving maintenance follow-up."
   },
   {
     "title": "SERIAL NO.",
@@ -42,7 +42,7 @@
     "y": 37.88,
     "w": 13.15,
     "h": 4.06,
-    "body": "The serial number uniquely identifies the individual item of equipment. Use it when multiple similar models exist in the unit and when coordinating with maintenance, supply, or higher headquarters on a specific asset."
+    "body": "The serial number uniquely identifies the individual item of equipment. Use it when multiple similar models exist in the unit and when coordinating with maintenance, supply, or higher headquarters on a specific asset. Parts variations are often tied to serial numbers. Always include the serial number when looking for parts"
   },
   {
     "title": "OPST",
@@ -51,7 +51,7 @@
     "y": 38.5,
     "w": 4.1,
     "h": 2.88,
-    "body": "Operational status shows the equipment's mission capability condition, such as NMCS or NMCM. It tells leaders whether the primary delay is maintenance execution, parts, or another factor driving non-mission-ready status."
+    "body": "Operational status shows the equipment's mission capability condition, such as FMC, NMCS, or NMCM. It tells leaders whether the primary delay is maintenance execution, parts, or another factor driving non-mission-ready status."
   },
   {
     "title": "EQ DESCRIPTION",
@@ -78,7 +78,7 @@
     "y": 38.00,
     "w": 5.70,
     "h": 3.41,
-    "body": "Days deadlined quantifies how long the equipment has been in a deadlined status on this entry. It is a primary field for leader prioritization because long durations often signal stalled maintenance, parts, or follow-up problems."
+    "body": "Days deadlined quantifies how long the equipment has been in a deadlined status on this entry. It is a primary field for leader prioritization because long durations often signal stalled maintenance, parts, or follow-up problems. It is possible for a piece of equipment to have more than on DL Fault and therefore more than one Days DL."
   },
   {
     "title": "UIC",
@@ -123,7 +123,7 @@
     "y": 54.12,
     "w": 20,
     "h": 3.19,
-    "body": "On the work order line, description states the fault or repair requirement driving the maintenance action. Leaders use it to understand the operational problem behind the status and to judge urgency and resource needs."
+    "body": "On the work order line, Description states the fault or repair requirement driving the maintenance action. Leaders use it to understand the operational problem behind the status and to judge urgency and resource needs. There are two types of descriptions: a short description and a long description. The short description is the first 15 characters of the long description."
   },
   {
     "title": "SC-DATE",
@@ -132,7 +132,7 @@
     "y": 54.25,
     "w": 8.1,
     "h": 3.06,
-    "body": "Status change date shows when the work order or line last changed system condition. Leaders compare SC-DATE with other dates to see whether the repair is progressing or stagnating in a given stage."
+    "body": "Status change date shows when the work order or line last changed system condition (when the shop code changed last). Leaders compare SC-DATE with other dates to see whether the repair is progressing or stagnating in a given stage."
   },
   {
     "title": "STAT",
@@ -141,7 +141,7 @@
     "y": 65.44,
     "w": 4.45,
     "h": 10.31,
-    "body": "The status field captures the current condition narrative or status text for the work order or requirement line. It supplements coded fields and helps explain what the system shows is happening with the repair or part."
+    "body": "The STAT(status) field captures the current condition narrative or status text for the work order or requirement line using visual symbols (X = repair; Stop Sign = Admin Deadline). It is a quick visual reference to help understand the current status of the repair."
   },
   {
     "title": "PRT-ORD-DT",
@@ -159,7 +159,7 @@
     "y": 59.62,
     "w": 5.20,
     "h": 3.0,
-    "body": "National Item Identification Number uniquely identifies the part or material in the supply system. It is the key reference for ordering, tracking, and discussing requisitions and issues with supply personnel."
+    "body": "National Item Identification Number uniquely identifies the part or material in the supply system. It is the key reference for ordering, tracking, and discussing requisitions and issues with supply personnel. Use this number to search for the part in the supply system."
   },
   {
     "title": "DESCRIPTION",
@@ -177,7 +177,7 @@
     "y": 60.62,
     "w": 4.00,
     "h": 5.25,
-    "body": "Equipment Readiness Code classifies the readiness or priority category associated with the equipment or requirement on the line. Leaders use it with operational status to understand how the system is classifying repair priority."
+    "body": "Equipment Readiness Code classifies the readiness or priority category associated with the equipment or requirement on the line. Leaders use it to determine priority of the repair or sourcing of a part."
   },
   {
     "title": "SC",
@@ -186,7 +186,7 @@
     "y": 68.5,
     "w": 2.0,
     "h": 6.0,
-    "body": "System condition code shows the work order's stage in the maintenance workflow, such as awaiting parts or in shop. Read SC together with SC-DATE and WO WORK CENTER to know where to apply leader pressure."
+    "body": "System condition (aka Shop Code or opertional code) shows the work order's stage in the maintenance workflow, such as awaiting parts or in shop. Read SC together with SC-DATE and WO WORK CENTER to know where to apply leader pressure."
   },
   {
     "title": "WO WORK CENTER",
@@ -195,7 +195,7 @@
     "y": 68.5,
     "w": 12.5,
     "h": 6.0,
-    "body": "Work order work center identifies the maintenance activity or shop responsible for the repair action. It tells leaders which maintenance organization owns execution on the work order."
+    "body": "Work order work center identifies the maintenance activity or shop responsible for the repair action. It tells leaders which maintenance organization owns execution on the work order. It is the most likely place to find the physical location of the equipment or part."
   },
   {
     "title": "Q-ORD",
@@ -213,7 +213,7 @@
     "y": 81.19,
     "w": 5.10,
     "h": 4.40,
-    "body": "Quantity issued shows how much material has been issued against the requirement. A mismatch between ordered and issued quantities often explains why a repair cannot move forward."
+    "body": "Quantity issued shows how much material has been issued against the requirement. A mismatch between ordered and issued quantities often explains why a repair cannot move forward. When Q-ORD = Q-ISS, then the part has been issued to the shop, and its time to follow up with the shop."
   },
   {
     "title": "SOS",
@@ -231,7 +231,7 @@
     "y": 78.44,
     "w": 7.95,
     "h": 5.81,
-    "body": "Reference document ties the requirement to a purchase order, delivery document, or other supply reference. Values such as a document number—or text like PR REJECTED—show whether supply action is moving or blocked."
+    "body": "Reference document ties the requirement to a purchase order, delivery document, or other supply reference. Values such as a document number—or text like PR REJECTED—show whether supply action is moving or blocked. This is a great place to start when looking for equipment that can benefit from a leader's attention."
   },
   {
     "title": "ST",
@@ -267,6 +267,6 @@
     "y": 86.38,
     "w": 4.9,
     "h": 4.56,
-    "body": "Quantity at next level indicates material positioned or expected at the next supply echelon. Use it when local on-hand is zero but higher-level supply may still support the repair."
+    "body": "Quantity at next level indicates material positioned or expected at the next supply echelon. Use it when local on-hand is zero but higher-level supply may still support the repair. This is a good time to ppick up the phone and call the supply officer to see if they can help."
   }
 ]
