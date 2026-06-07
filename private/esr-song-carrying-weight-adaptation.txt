@@ -1,0 +1,156 @@
+ESR SONG ADAPTATION BRIEF
+=========================
+Source song: "Carrying Weight" (personal fire/debt metaphor)
+Target song: Carrying deadlined equipment — ignoring the ESR until readiness collapses
+Purpose: Background for songwriter adapting lyrics to the ESR maintenance/readiness story
+
+
+THE PROBLEM
+-----------
+
+The old song is about ignoring warning signs until a personal crisis becomes unstoppable —
+smoke becomes flame, buried truth comes back, and a freight train of consequences arrives.
+The ESR version tells the same story through equipment readiness: a leader or unit that
+treats maintenance like somebody else's job, skips the Equipment Situation Report, and
+carries deadlined gear like dead weight.
+
+At first it feels manageable — one truck down, one work order open, one part on order,
+"we'll get to it Friday." But ignoring the ESR means ignoring the common operating picture.
+Small problems stay on the shelf. Days deadlined stack up. NMCS lines multiply. Parts age
+on order. Status codes sit unchanged. What started as one deadlined admin number becomes
+a formation-wide readiness fire — and by then the "freight train" isn't coming down the
+track, it's already in the motor pool: reportable deadlined equipment, stalled repairs,
+angry commanders, and a mission that can't roll.
+
+
+THE SOLUTION
+------------
+
+The fix isn't heroics at the last minute — it's early ownership through the ESR. The
+report is the key that turns reactive scrambling into proactive maintenance. Leaders
+read it, share the same facts with operators, shops, and supply, and act while the
+problem is still a spark: confirm filters, check OPST, read the fault description,
+track order numbers, watch SC-DATE and part order dates, and prioritize by DAYS DL
+before a line goes from days to months to years.
+
+The ESR drives the right conversation with the right people — not pressure on supply
+for parts that don't exist, but follow-up where follow-through actually moves the
+repair. Deal with it when it starts to glow. Stamp out the sparks. Face the demons
+on the report. That's how you shut the fire down before it burns the unit's readiness
+to the ground.
+
+
+METAPHOR MAPPING (OLD SONG -> ESR VERSION)
+------------------------------------------
+
+Old image                          | ESR / maintenance image
+-----------------------------------|--------------------------------------------------
+"Smoke but ignored the heat"       | One line on the ESR — one truck NMCS, days DL still low
+"Lied to myself, hid on the shelf" | "FMS got a work order — I'm good" / never opened the report
+"Freight train bringin' debts"     | Backlog of deadlined equipment rolling into inspection/mob
+"Raging fire / funeral pyre"       | Reportable DL EQ count lighting up the briefing slide
+"Buried truth knockin' at the door"| Aging parts, old SC-DATE, status unchanged for months
+"Need help to shut it down"        | XO/leader calls shop, supply, owning section — ESR in hand
+"Deal with it early when it glows" | Catch it at 3 days DL, not 300
+Intro/outro: "carryin' this weight"| "Carryin' deadlined iron way too long"
+
+
+EXAMPLES FOR THE SONGWRITER
+---------------------------
+
+Concrete swap-ins — singable and true to the ESR class:
+
+- Early warning: one admin number deadlined, low DAYS DL, part on order but not chased
+- Denial: leader assumes shop/FMS has it; report never opened in staff meeting
+- Escalation: OPST shows NMCS/NMCM; REPORTABLE DL EQ climbs; parts aging on order
+- Crisis: long-deadlined line (months/years); mission asset unavailable; briefing pain
+- Turn: leader opens ESR, drives conversation with right agency (parts vs manpower vs follow-up)
+- Resolution: daily ESR review, prioritize by days deadlined, follow up until status changes
+
+
+SAMPLE LYRIC SEEDS (ADAPT FREELY)
+---------------------------------
+
+(INTRO)
+(I been carryin' deadlined iron way too long)
+
+[VERSE 1]
+I saw one down — but ignored the read
+ESR sittin' there with everything I need
+Told myself the shop would handle that line
+Lied to my readiness and walked away fine
+
+[VERSE 2]
+Before I knew it — one down turned to ten
+I saw the signs, closed my eyes and walked again
+But I saw somethin' comin' on briefing day
+Like a freight train of deadlined iron in the way
+
+[REFRAIN]
+Now I need eyes on that report tonight
+Before deadlined iron kills the fight
+
+[VERSE 3]
+Where once was one line… now the whole row's red
+Lightin' up the brief like a readiness threat
+Can't outrun all the faults I ignore
+Every buried work order's knockin' at the door
+
+[CHORUS]
+The backlog inside — now burns out of control
+NMCS spreadin' through body and soul
+That train keeps a-comin', I can't outrun
+Should've read the ESR before the damage was done
+
+[REFRAIN]
+I need help takin' deadlined trash out fast
+Can't let it turn the whole motor pool to ash
+
+[VERSE 5]
+Now this readiness wildfire's breakin' through the line
+Burnin' through all the plans I thought were mine
+That train keeps a-comin', comin' down the track
+What once was buried in the ESR is all comin' back
+
+[BRIDGE]
+Now I need help just to shut it down
+Before it burns the unit's readiness to the ground
+Gotta face it now — bring it all to light
+Open the ESR, can't keep marchin' blind through the night
+No time for pride when readiness falls
+Sometimes it takes guts just to make that call
+
+[VERSE 6]
+Deal with it early when the days DL show
+Chase the right part, make the right convo
+Face every line item, pay what we owe
+Take back readiness, slow that train crushin' our soul
+
+[OUTRO]
+(I been carryin' deadlined iron way too long)
+
+
+TONE NOTE
+---------
+
+Keep the emotional arc of the original: denial, escalation, crisis, then a disciplined
+turn toward action. The villain isn't the equipment — it's avoidance of the ESR and the
+false comfort of "maintenance is someone else's problem." The hero moment is a leader
+who stops carrying the weight alone and uses the report to rally the team before the
+whole formation pays the price.
+
+
+KEY ESR TERMS (OPTIONAL LYRICS / BACKGROUND)
+--------------------------------------------
+
+- ESR (Equipment Situation Report)
+- NMCS / NMCM (operational status — non-mission capable)
+- DAYS DL (days deadlined)
+- OPST (operational status field)
+- REPORTABLE DL EQ (count of deadlined equipment)
+- Admin number / work order / order number
+- SC-DATE (status change date)
+- Part order date / aging parts
+- Common operating picture
+- Proactive vs reactive maintenance
+- Readiness belongs to leadership

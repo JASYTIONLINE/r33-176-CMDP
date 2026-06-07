@@ -184,32 +184,10 @@ const getNarrativeHtml = () => {
   return clone.innerHTML;
 };
 
-const resolveAudioMountContainer = () => {
-  if (!slideFigure) {
-    return null;
-  }
-  const imageWrap = slideFigure.querySelector(".slide-image-wrap");
-  if (imageWrap) {
-    return imageWrap;
-  }
-  if (!slideImage) {
-    return null;
-  }
-  const existingMount = slideImage.closest(".slide-image-mount");
-  if (existingMount) {
-    return existingMount;
-  }
-  const mount = document.createElement("div");
-  mount.className = "slide-image-mount";
-  slideImage.replaceWith(mount);
-  mount.appendChild(slideImage);
-  return mount;
-};
+const slideCard = document.querySelector(".slide-card");
 
-const audioMountContainer = resolveAudioMountContainer();
-
-if (slideAudioSrc && audioMountContainer) {
-  mountNarrativeAudioControls(audioMountContainer);
+if (slideAudioSrc && slideCard) {
+  mountNarrativeAudioControls(slideCard);
 }
 
 if (slideFigure && slideImage) {
@@ -280,19 +258,13 @@ if (slideFigure && slideImage) {
 
   const imagePane = document.createElement("div");
   imagePane.className = "fullscreen-image-pane";
-
-  const fullscreenImageMount = document.createElement("div");
-  fullscreenImageMount.className = "slide-image-mount";
-  fullscreenImageMount.appendChild(fullImage);
-  imagePane.appendChild(fullscreenImageMount);
+  imagePane.appendChild(fullImage);
 
   const copyPane = document.createElement("div");
   copyPane.className = "fullscreen-copy";
 
   const refreshFullscreenCopy = () => {
     copyPane.innerHTML = getNarrativeHtml();
-    fullscreenImageMount.querySelector(".slide-audio-controls")?.remove();
-    mountNarrativeAudioControls(fullscreenImageMount);
   };
 
   refreshFullscreenCopy();
