@@ -1,0 +1,1 @@
+The best official source I found is the Army's Leader's Guide to Maintenance and Services, which specifically identifies the ESR as the Z_EQUST report in GCSS-Army.
