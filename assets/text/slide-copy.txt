@@ -1,0 +1,70 @@
+s1
+Maintenance is training. It is as important as the mission objective because the act of conducting maintenance builds operator familiarity, increases proficiency, identifies small problems before they become major failures, and strengthens foundational skill across the formation.
+
+Maintenance cannot be treated as somebody else's responsibility. A work order with the FMS does not remove unit ownership, leader involvement, or the requirement to understand what is happening with the equipment.
+
+The Equipment Status Report, or ESR, is the key to driving maintenance from a proactive stance instead of a reactive one. Understanding how to read the ESR empowers leaders to analyze equipment status, set priorities, follow up on problem areas, and increase readiness.
+
+S2
+Maintenance depends on a common operating picture. The ESR gives leaders, operators, maintenance personnel, and support agencies the same facts about equipment status, repair progress, priorities, and readiness risk.
+
+That shared picture improves the quality of every conversation. Instead of guessing or waiting for someone else to explain the problem, the team can discuss what is down, why it is down, and what needs attention next.
+
+Used consistently, the ESR moves the formation from reactive updates to proactive maintenance. It helps leaders ask better questions, set priorities, follow up with the right people, and keep readiness moving forward.
+
+s3
+The maintenance cycle often begins with the right actions. Operators identify faults, leaders report issues, maintainers open work orders, and support agencies begin moving the repair process forward.
+
+Unfortunately, steps one through four are not enough. A fault that is identified, reported, and placed on work order may look like progress, but it does not restore capability by itself.
+
+The unit closes the cycle through follow-up, communication, and ESR-driven priorities. Without that discipline, the formation can complete most of the process and still fail to improve readiness.
+
+s4
+The ESR is a powerful tool for understanding the current readiness picture. It shows leaders which assets are down, what faults are driving the status, and how each issue affects the unit's ability to support the mission.
+
+It also shows whether the problem is tied to repair parts, manpower, or lack of follow-through. This distinction matters, because each problem requires a different action, or a different conversation with different members of the maintenance team.
+
+Applying pressure to a situation only works when it is applied to the right place. Pushing a support agency to fix equipment without available parts wastes effort, but taking action to independently source parts, reallocate manpower assets, or readjust priorities can move the repair process forward.
+
+s5
+This is the practical layout for reading an ESR. The yellow boxes on the sample report mark the fields leaders need most: equipment identity, operational status, work order details, repair status, parts movement, and time in deadline status.
+
+Interactive: Click inside any yellow box on the image for a full explanation of what that ESR header means and how to use it in readiness decisions.
+
+S6
+Operational codes, also known as "shop codes," or "service codes" are the key to understanding what kind of issue is delaying a repair. They help differentiate between equipment that needs maintenance action, equipment waiting on parts, and equipment waiting on external support, or any of the many other conditions that may prevent a piece of equipment from returning to service.
+
+To shift from a reactive to a proactive stance, leadership should study these codes closely. Understanding shop codes is the key to determining where pressure can be effectively applied across the maintenance cycle.
+
+Pressure applied in the right place, whether toward sourcing parts, reallocating manpower, conducting periodic follow-up, or coordinating support assets—turns ESR data into effective action and facilitates a faster return to mission readiness.
+
+It is essential to learn the acronym RUSTYZ: shop codes R, U, S, T, Y, and Z. These codes tell the unit the ball is in their court and it is time to act. When a work order is sitting in one of these codes, maintenance or supply has usually done its part, and the delay is unit action. Push these work orders to the production controller or supply sergeant the same day. Letting them age here is preventable readiness loss.
+
+S7
+A parts delay should not automatically become a waiting game. When the ESR shows a pacing item has been held for too long, leaders should recognize that the normal supply path may not be enough to protect readiness.
+
+The ESR helps the maintenance team see when it is time to look for solutions that are not immediately apparent. Searching other SLOCs, escalating the requirement, or validating alternate sourcing options may move the repair faster than simply waiting for parts to arrive.
+
+Controlled exchange may be an option only as a last resort for the highest-priority equipment. The larger lesson is that aged ESR entries demand active problem solving, not acceptance that the answer is only to wait.
+
+S8
+This entry tells a readiness story that cannot be ignored. The equipment has been non-mission capable, or deadlined, for almost four years, and for most of that time the repair could not move because the required parts were not available.
+
+Now the condition has changed. Once the ESR shows the item is no longer waiting on parts and is ready for shop action, the problem shifts from supply to execution, manpower, and prioritization.
+
+This is the keystone argument for leadership reviewing the ESR. A proactive XO sees the day that status changes, recognizes the new opportunity, and moves the equipment to the top of the maintenance priority list.
+
+S9
+Communication is the key to moving maintenance forward. Support agencies are often overwhelmed and undermanned, so the units that clearly identify priorities, follow up, and stay engaged are the ones most likely to get traction.
+
+The squeaky wheel gets the oil, but complaining does not solve the problem. Leaders become part of the solution by using the ESR to source options, clarify priorities, and bring useful information to the support agencies that can help.
+
+Effective maintenance requires the whole team to work the problem together. Traditional solutions, creative options, and timely follow-up all depend on communication, not waiting for someone else to solve the issue.
+
+S10
+Equipment readiness belongs to leadership. Support, supply, and logistics all play critical roles, but no outside agency owns the unit's ability to understand the problem, set priorities, and drive the maintenance cycle forward.
+
+Every maintenance problem has a path to resolution. That path always depends on communication and problem solving between the unit, field maintenance, and sustainment partners working from the same picture.
+
+An ineffective maintenance cycle is rarely the fault of one entity. Breakdowns usually come from missed communication, unclear priorities, weak follow-up, or assumptions that someone else is already solving the problem.
+
